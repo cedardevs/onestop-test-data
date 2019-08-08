@@ -7,6 +7,14 @@ The included utility script, `upload.sh`, provides a simple way to recursively c
 
 [DEM](/DEM) - source: https://data.noaa.gov/waf/NOAA/NESDIS/NGDC/MGG/DEM/iso/xml/
 
+[DSCOVR](/DSCOVR) 
+
 [GHRSST](/GHRSST)
+
+[HazardImages](/HazardImages)
+
+[OERVideos](/OERVideos)
+
+[PaleoRecords](/PaleoRecords)  - source : https://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/
 
 [EdgeCases](/EdgeCases) - Various edge cases described by their titles.  
