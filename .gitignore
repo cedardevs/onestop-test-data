@@ -1,0 +1,9 @@
+### IntelliJ
+.idea/
+.idea_modules/
+/out/
+*.iws
+*.iml
+
+### General editor/IDE files
+.vscode/
