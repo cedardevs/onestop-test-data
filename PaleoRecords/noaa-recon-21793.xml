@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gmi:MI_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://data.noaa.gov/resources/iso19139/schema.xsd">
+ <gmd:fileIdentifier>
+  <gco:CharacterString>noaa-recon-21793</gco:CharacterString>
+ </gmd:fileIdentifier>
+ <gmd:language>
+  <gco:CharacterString>eng; USA</gco:CharacterString>
+ </gmd:language>
+ <gmd:characterSet>
+  <gmd:MD_CharacterSetCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+ </gmd:characterSet>
+ <gmd:hierarchyLevel>
+  <gmd:MD_ScopeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+ </gmd:hierarchyLevel>
+ <gmd:contact>
+  <gmd:CI_ResponsibleParty>
+   <gmd:individualName>
+    <gco:CharacterString>Bauer, Bruce</gco:CharacterString>
+   </gmd:individualName>
+   <gmd:organisationName>
+    <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+   </gmd:organisationName>
+   <gmd:contactInfo>
+    <gmd:CI_Contact>
+     <gmd:phone>
+      <gmd:CI_Telephone>
+       <gmd:voice>
+        <gco:CharacterString>+1 303-497-6280</gco:CharacterString>
+       </gmd:voice>
+       <gmd:facsimile>
+        <gco:CharacterString>+1 303-497-6513</gco:CharacterString>
+       </gmd:facsimile>
+      </gmd:CI_Telephone>
+     </gmd:phone>
+     <gmd:address>
+      <gmd:CI_Address>
+       <gmd:deliveryPoint>
+        <gco:CharacterString>325 Broadway, E/CC23</gco:CharacterString>
+       </gmd:deliveryPoint>
+       <gmd:city>
+        <gco:CharacterString>Boulder</gco:CharacterString>
+       </gmd:city>
+       <gmd:administrativeArea>
+        <gco:CharacterString>CO</gco:CharacterString>
+       </gmd:administrativeArea>
+       <gmd:postalCode>
+        <gco:CharacterString>80305-3328</gco:CharacterString>
+       </gmd:postalCode>
+       <gmd:country>
+        <gco:CharacterString>USA</gco:CharacterString>
+       </gmd:country>
+       <gmd:electronicMailAddress>
+        <gco:CharacterString>paleo@noaa.gov</gco:CharacterString>
+       </gmd:electronicMailAddress>
+      </gmd:CI_Address>
+     </gmd:address>
+    </gmd:CI_Contact>
+   </gmd:contactInfo>
+   <gmd:role>
+    <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+   </gmd:role>
+  </gmd:CI_ResponsibleParty>
+ </gmd:contact>
+ <gmd:dateStamp>
+  <gco:Date>2018-12-11</gco:Date>
+ </gmd:dateStamp>
+ <gmd:metadataStandardName>
+  <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+ </gmd:metadataStandardName>
+ <gmd:metadataStandardVersion>
+  <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+ </gmd:metadataStandardVersion>
+ <gmd:identificationInfo>
+  <gmd:MD_DataIdentification>
+   <gmd:citation>
+    <gmd:CI_Citation>
+     <gmd:title>
+      <gco:CharacterString>NOAA/WDS Paleoclimatology - Wahl, et al., 2017, precipitation reconstruction for California</gco:CharacterString>
+     </gmd:title>
+     <gmd:date>
+      <gmd:CI_Date>
+       <gmd:date>
+        <gco:Date>2017-04-10</gco:Date>
+       </gmd:date>
+       <gmd:dateType>
+        <gmd:CI_DateTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+       </gmd:dateType>
+      </gmd:CI_Date>
+     </gmd:date>
+     <gmd:edition gco:nilReason="missing"></gmd:edition>
+     <gmd:identifier>
+      <gmd:MD_Identifier>
+       <gmd:code>
+        <gco:CharacterString>noaa-recon-21793</gco:CharacterString>
+       </gmd:code>
+      </gmd:MD_Identifier>
+     </gmd:identifier>
+     <gmd:identifier>
+      <gmd:MD_Identifier>
+       <gmd:code>
+        <gco:CharacterString>NCEI DSI 1200_01</gco:CharacterString>
+       </gmd:code>
+      </gmd:MD_Identifier>
+     </gmd:identifier>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Wahl, E.R.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Wahl, E.R.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Diaz, H.F.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Diaz, H.F.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Vose, R.S.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Vose, R.S.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Gross, W.S.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Gross, W.S.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:organisationName>
+        <gco:CharacterString>NOAA National Centers for Environmental Information</gco:CharacterString>
+       </gmd:organisationName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:presentationForm>
+      <gmd:CI_PresentationFormCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="tableDigital">tableDigital</gmd:CI_PresentationFormCode>
+     </gmd:presentationForm>
+    </gmd:CI_Citation>
+   </gmd:citation>
+   <gmd:abstract>
+    <gco:CharacterString>This archived Paleoclimatology Study is available from the NOAA National Centers for Environmental Information (NCEI), under the World Data Service (WDS) for Paleoclimatology. The associated NCEI study type is Climate Reconstruction. The data include parameters of climate reconstructions|tree ring with a geographic location of California, United States Of America. The time period coverage is from 379 to -27 in calendar years before present (BP). See metadata information for parameter and study location details. Please cite this study when using the data.</gco:CharacterString>
+   </gmd:abstract>
+   <gmd:purpose>
+    <gco:CharacterString>Records of past temperature, precipitation, and other climate variables derived from paleoclimate proxies. Parameter keywords describe what was measured in this data set. Additional summary information can be found in the abstracts of papers listed in the data set citations.</gco:CharacterString>
+   </gmd:purpose>
+   <gmd:status>
+    <gmd:MD_ProgressCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+   </gmd:status>
+   <gmd:pointOfContact>
+    <gmd:CI_ResponsibleParty>
+     <gmd:individualName>
+      <gco:CharacterString>Bauer, Bruce</gco:CharacterString>
+     </gmd:individualName>
+     <gmd:organisationName>
+      <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+     </gmd:organisationName>
+     <gmd:contactInfo>
+      <gmd:CI_Contact>
+       <gmd:phone>
+        <gmd:CI_Telephone>
+         <gmd:voice>
+          <gco:CharacterString>+1 303-497-6280</gco:CharacterString>
+         </gmd:voice>
+         <gmd:facsimile>
+          <gco:CharacterString>+1 303-497-6513</gco:CharacterString>
+         </gmd:facsimile>
+        </gmd:CI_Telephone>
+       </gmd:phone>
+       <gmd:address>
+        <gmd:CI_Address>
+         <gmd:deliveryPoint>
+          <gco:CharacterString>325 Broadway, E/CC23</gco:CharacterString>
+         </gmd:deliveryPoint>
+         <gmd:city>
+          <gco:CharacterString>Boulder</gco:CharacterString>
+         </gmd:city>
+         <gmd:administrativeArea>
+          <gco:CharacterString>CO</gco:CharacterString>
+         </gmd:administrativeArea>
+         <gmd:postalCode>
+          <gco:CharacterString>80305-3328</gco:CharacterString>
+         </gmd:postalCode>
+         <gmd:country>
+          <gco:CharacterString>USA</gco:CharacterString>
+         </gmd:country>
+         <gmd:electronicMailAddress>
+          <gco:CharacterString>paleo@noaa.gov</gco:CharacterString>
+         </gmd:electronicMailAddress>
+        </gmd:CI_Address>
+       </gmd:address>
+      </gmd:CI_Contact>
+     </gmd:contactInfo>
+     <gmd:role>
+      <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+     </gmd:role>
+    </gmd:CI_ResponsibleParty>
+   </gmd:pointOfContact>
+   <gmd:graphicOverview>
+    <gmd:MD_BrowseGraphic>
+     <gmd:fileName>
+      <gco:CharacterString>https://www.ncdc.noaa.gov/c/images/pc-default-recon.png</gco:CharacterString>
+     </gmd:fileName>
+     <gmd:fileDescription>
+      <gco:CharacterString>Paleoclimatology - Climate Reconstruction</gco:CharacterString>
+     </gmd:fileDescription>
+     <gmd:fileType>
+      <gco:CharacterString>PNG</gco:CharacterString>
+     </gmd:fileType>
+    </gmd:MD_BrowseGraphic>
+   </gmd:graphicOverview>
+   <gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+     <gmd:keyword>
+      <gco:CharacterString>Earth Science &gt; Climate Indicators &gt; Paleoclimate Indicators &gt; Paleoclimate Reconstructions</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+     </gmd:type>
+     <gmd:thesaurusName>
+      <gmd:CI_Citation>
+       <gmd:title>
+        <gco:CharacterString>Global Change Master Directory (GCMD) Science Keywords</gco:CharacterString>
+       </gmd:title>
+       <gmd:date>
+        <gmd:CI_Date>
+         <gmd:date>
+          <gco:Date>2018</gco:Date>
+         </gmd:date>
+         <gmd:dateType>
+          <gmd:CI_DateTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+         </gmd:dateType>
+        </gmd:CI_Date>
+       </gmd:date>
+       <gmd:edition>
+        <gco:CharacterString>Version 8.6</gco:CharacterString>
+       </gmd:edition>
+       <gmd:citedResponsibleParty>
+        <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+          <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+          <gmd:CI_Contact>
+           <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+             <gmd:linkage>
+              <gmd:URL>https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords</gmd:URL>
+             </gmd:linkage>
+             <gmd:protocol>
+              <gco:CharacterString>HTTPS</gco:CharacterString>
+             </gmd:protocol>
+             <gmd:applicationProfile>
+              <gco:CharacterString>Web Browser</gco:CharacterString>
+             </gmd:applicationProfile>
+             <gmd:name>
+              <gco:CharacterString>Global Change Master Directory (GCMD) Keywords</gco:CharacterString>
+             </gmd:name>
+             <gmd:description>
+              <gco:CharacterString>The information provided on this page seeks to define how the GCMD Keywords are structured, used and accessed. It also provides information on how users can participate in the further development of the keywords.</gco:CharacterString>
+             </gmd:description>
+             <gmd:function>
+              <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+             </gmd:function>
+            </gmd:CI_OnlineResource>
+           </gmd:onlineResource>
+          </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+          <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+         </gmd:role>
+        </gmd:CI_ResponsibleParty>
+       </gmd:citedResponsibleParty>
+      </gmd:CI_Citation>
+     </gmd:thesaurusName>
+    </gmd:MD_Keywords>
+   </gmd:descriptiveKeywords>
+   <gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+     <gmd:keyword>
+      <gco:CharacterString>earth science &gt; paleoclimate &gt; climate reconstructions|tree ring</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>earth science &gt; paleoclimate &gt; climate reconstructions|tree ring</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>earth science &gt; paleoclimate &gt; climate reconstructions|tree ring</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>earth science &gt; paleoclimate &gt; climate reconstructions|tree ring</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>earth science &gt; paleoclimate &gt; climate reconstructions|tree ring</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>earth science &gt; paleoclimate &gt; reconstructions &gt; precipitation</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+     </gmd:type>
+     <gmd:thesaurusName>
+      <gmd:CI_Citation>
+       <gmd:title>
+        <gco:CharacterString>Global Change Master Directory (GCMD) Science Keywords</gco:CharacterString>
+       </gmd:title>
+       <gmd:date>
+        <gmd:CI_Date>
+         <gmd:date>
+          <gco:Date>2018</gco:Date>
+         </gmd:date>
+         <gmd:dateType>
+          <gmd:CI_DateTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+         </gmd:dateType>
+        </gmd:CI_Date>
+       </gmd:date>
+       <gmd:edition>
+        <gco:CharacterString>Version 8.6</gco:CharacterString>
+       </gmd:edition>
+       <gmd:citedResponsibleParty>
+        <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+          <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+          <gmd:CI_Contact>
+           <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+             <gmd:linkage>
+              <gmd:URL>https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords</gmd:URL>
+             </gmd:linkage>
+             <gmd:protocol>
+              <gco:CharacterString>HTTPS</gco:CharacterString>
+             </gmd:protocol>
+             <gmd:applicationProfile>
+              <gco:CharacterString>Web Browser</gco:CharacterString>
+             </gmd:applicationProfile>
+             <gmd:name>
+              <gco:CharacterString>Global Change Master Directory (GCMD) Keywords</gco:CharacterString>
+             </gmd:name>
+             <gmd:description>
+              <gco:CharacterString>The information provided on this page seeks to define how the GCMD Keywords are structured, used and accessed. It also provides information on how users can participate in the further development of the keywords.</gco:CharacterString>
+             </gmd:description>
+             <gmd:function>
+              <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+             </gmd:function>
+            </gmd:CI_OnlineResource>
+           </gmd:onlineResource>
+          </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+          <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+         </gmd:role>
+        </gmd:CI_ResponsibleParty>
+       </gmd:citedResponsibleParty>
+      </gmd:CI_Citation>
+     </gmd:thesaurusName>
+    </gmd:MD_Keywords>
+   </gmd:descriptiveKeywords>
+   <gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+     <gmd:keyword>
+      <gco:CharacterString>Precipitation Reconstruction</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+     </gmd:type>
+     <gmd:thesaurusName gco:nilReason="missing"></gmd:thesaurusName>
+    </gmd:MD_Keywords>
+   </gmd:descriptiveKeywords>
+   <gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+     <gmd:keyword>
+      <gco:CharacterString>Continent &gt; North America &gt; United States Of America &gt; California&gt; CA Climate Division 404 &gt; LATITUDE 36.5 &gt; LONGITUDE -121.5</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>Continent &gt; North America &gt; United States Of America &gt; California&gt; CA Climate Division 406 &gt; LATITUDE 33.75 &gt; LONGITUDE -117.75</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>Continent &gt; North America &gt; United States Of America &gt; California&gt; CA 0.5x0.5 degree grid &gt; LATITUDE  &gt; LONGITUDE</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>Continent &gt; North America &gt; United States Of America &gt; California&gt; CA Climate Division 403 &gt; LATITUDE 40.5 &gt; LONGITUDE -120.5</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>Continent &gt; North America &gt; United States Of America &gt; California&gt; CA Climate Division 407 &gt; LATITUDE 35.25 &gt; LONGITUDE -116.5</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>Continent &gt; North America &gt; United States Of America &gt; California&gt; CA Climate Division 401 &gt; LATITUDE 40 &gt; LONGITUDE -123.5</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>Continent &gt; North America &gt; United States Of America &gt; California&gt; CA Climate Division 405 &gt; LATITUDE 36.75 &gt; LONGITUDE -119.75</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>Continent &gt; North America &gt; United States Of America &gt; California&gt; CA Climate Division 402 &gt; LATITUDE 40 &gt; LONGITUDE -121.5</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+     </gmd:type>
+     <gmd:thesaurusName gco:nilReason="missing"></gmd:thesaurusName>
+    </gmd:MD_Keywords>
+   </gmd:descriptiveKeywords>
+   <gmd:resourceConstraints>
+    <gmd:MD_LegalConstraints>
+     <gmd:useConstraints>
+      <gmd:MD_RestrictionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+     </gmd:useConstraints>
+     <gmd:otherConstraints>
+      <gco:CharacterString>Cite as: Wahl, E.R.; Diaz, H.F.; Vose, R.S.; Gross, W.S. (2017-04-10): NOAA/WDS Paleoclimatology - Wahl, et al., 2017, precipitation reconstruction for California. [indicate subset used]. NOAA National Centers for Environmental Information. https://www.ncdc.noaa.gov/paleo/study/21793. Accessed [date].</gco:CharacterString>
+     </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+   </gmd:resourceConstraints>
+   <gmd:resourceConstraints xlink:title="Distribution Liability">
+    <gmd:MD_LegalConstraints xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://data.noaa.gov/resources/iso19139/schema.xsd" uuid="dadd4ac3-2b9f-4db5-8603-71285b94c3d7">
+     <gmd:accessConstraints>
+      <gmd:MD_RestrictionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+     </gmd:accessConstraints>
+     <gmd:otherConstraints>
+      <gco:CharacterString>Distribution liability: NOAA and NCEI make no warranty, expressed or implied, regarding these data, nor does the fact of distribution constitute such a warranty. NOAA and NCEI cannot assume liability for any damages caused by any errors or omissions in these data. If appropriate, NCEI can only certify that the data it distributes are an authentic copy of the records that were accepted for inclusion in the NCEI archives.</gco:CharacterString>
+     </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+   </gmd:resourceConstraints>
+   <gmd:resourceConstraints xlink:title="Use Liability">
+    <gmd:MD_LegalConstraints xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://data.noaa.gov/resources/iso19139/schema.xsd" uuid="e8163b1b-fb5a-4f4e-8d5c-ed06da10e21b">
+     <gmd:useConstraints>
+      <gmd:MD_RestrictionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+     </gmd:useConstraints>
+     <gmd:otherConstraints>
+      <gco:CharacterString>Use liability: NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.</gco:CharacterString>
+     </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+   </gmd:resourceConstraints>
+   <gmd:resourceConstraints>
+    <gmd:MD_LegalConstraints>
+     <gmd:accessConstraints>
+      <gmd:MD_RestrictionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+     </gmd:accessConstraints>
+     <gmd:otherConstraints>
+      <gco:CharacterString>None</gco:CharacterString>
+     </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+   </gmd:resourceConstraints>
+   <gmd:resourceConstraints>
+    <gmd:MD_LegalConstraints>
+     <gmd:useConstraints>
+      <gmd:MD_RestrictionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+     </gmd:useConstraints>
+     <gmd:otherConstraints>
+      <gco:CharacterString>Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site.</gco:CharacterString>
+     </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+   </gmd:resourceConstraints>
+   <gmd:aggregationInfo>
+    <gmd:MD_AggregateInformation>
+     <gmd:aggregateDataSetName>
+      <gmd:CI_Citation>
+       <gmd:title>
+        <gco:CharacterString>Multicentury Evaluation of Recovery from Strong Precipitation Deficits</gco:CharacterString>
+       </gmd:title>
+       <gmd:date>
+        <gmd:CI_Date>
+         <gmd:date>
+          <gco:Date>2017</gco:Date>
+         </gmd:date>
+         <gmd:dateType>
+          <gmd:CI_DateTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+         </gmd:dateType>
+        </gmd:CI_Date>
+       </gmd:date>
+       <gmd:citedResponsibleParty>
+        <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+          <gco:CharacterString>Eugene. R. Wahl, Henry F. Diaz, Russell S. Vose, Wendy S. Gross</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:role>
+          <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+         </gmd:role>
+        </gmd:CI_ResponsibleParty>
+       </gmd:citedResponsibleParty>
+       <gmd:citedResponsibleParty>
+        <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+          <gco:CharacterString>Journal of Climate</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:role>
+          <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+         </gmd:role>
+        </gmd:CI_ResponsibleParty>
+       </gmd:citedResponsibleParty>
+       <gmd:citedResponsibleParty>
+        <gmd:CI_ResponsibleParty>
+         <gmd:organisationName gco:nilReason="missing"></gmd:organisationName>
+         <gmd:contactInfo>
+          <gmd:CI_Contact>
+           <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+             <gmd:linkage>
+              <gmd:URL>https://doi.org/10.1175/JCLI-D-16-0423.1</gmd:URL>
+             </gmd:linkage>
+             <gmd:protocol>
+              <gco:CharacterString>HTTPS</gco:CharacterString>
+             </gmd:protocol>
+             <gmd:applicationProfile>
+              <gco:CharacterString>Web Browser</gco:CharacterString>
+             </gmd:applicationProfile>
+             <gmd:name>
+              <gco:CharacterString>Associated Reference published 2017</gco:CharacterString>
+             </gmd:name>
+             <gmd:description>
+              <gco:CharacterString>Eugene. R. Wahl, Henry F. Diaz, Russell S. Vose, Wendy S. Gross, 2017: Multicentury Evaluation of Recovery from Strong Precipitation Deficits. Journal of Climate, 39, 6053-6063, 10.1175/JCLI-D-16-0423.1</gco:CharacterString>
+             </gmd:description>
+             <gmd:function>
+              <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+             </gmd:function>
+            </gmd:CI_OnlineResource>
+           </gmd:onlineResource>
+          </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role gco:nilReason="missing"></gmd:role>
+        </gmd:CI_ResponsibleParty>
+       </gmd:citedResponsibleParty>
+      </gmd:CI_Citation>
+     </gmd:aggregateDataSetName>
+     <gmd:associationType>
+      <gmd:DS_AssociationTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+     </gmd:associationType>
+     <gmd:initiativeType>
+      <gmd:DS_InitiativeTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="sciencePaper">sciencePaper</gmd:DS_InitiativeTypeCode>
+     </gmd:initiativeType>
+    </gmd:MD_AggregateInformation>
+   </gmd:aggregationInfo>
+   <gmd:language>
+    <gco:CharacterString>eng; USA</gco:CharacterString>
+   </gmd:language>
+   <gmd:topicCategory>
+    <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+   </gmd:topicCategory>
+   <gmd:extent>
+    <gmd:EX_Extent id="boundingExtent">
+     <gmd:description>
+      <gco:CharacterString>Date Range: 1571 AD to 1977 AD; Date Range: 379 cal yr BP to -27 cal yr BP; </gco:CharacterString>
+     </gmd:description>
+     <gmd:geographicElement>
+      <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+       <gmd:westBoundLongitude>
+        <gco:Decimal>-124.5</gco:Decimal>
+       </gmd:westBoundLongitude>
+       <gmd:eastBoundLongitude>
+        <gco:Decimal>-114</gco:Decimal>
+       </gmd:eastBoundLongitude>
+       <gmd:southBoundLatitude>
+        <gco:Decimal>32.5</gco:Decimal>
+       </gmd:southBoundLatitude>
+       <gmd:northBoundLatitude>
+        <gco:Decimal>42</gco:Decimal>
+       </gmd:northBoundLatitude>
+      </gmd:EX_GeographicBoundingBox>
+     </gmd:geographicElement>
+     <gmd:temporalElement>
+      <gmd:EX_TemporalExtent id="boundingTemporalExtent">
+       <gmd:extent>
+        <gml:TimePeriod gml:id="K1">
+         <gml:beginPosition>1571</gml:beginPosition>
+         <gml:endPosition>1977</gml:endPosition>
+        </gml:TimePeriod>
+       </gmd:extent>
+      </gmd:EX_TemporalExtent>
+     </gmd:temporalElement>
+    </gmd:EX_Extent>
+   </gmd:extent>
+   <gmd:supplementalInformation>
+    <gco:CharacterString>STUDY NOTES: The reconstructions are derived from streamflow reconstructions in western United States, which are based on tree rings. See article for details. Note: The data products set was updated on September 13, 2018, to include the &quot;wahl-2017-ca-all-uncert-climate-div-means-text.zip&quot; archive, described below. Dataset Product Contents: Section 1: Dataset product folder contents overview Section 2: Details of the content the six ZIP archive files Section 1: Dataset product folder contents overview URL of folder: https://www1.ncdc.noaa.gov/pub/data/paleo/reconstructions/wahl2017 Item 1. readme-wahl-2017.txt - this file Item 2. Six ZIP archive files which contain the actual data: I. wahl-2017-ca-all-uncert-nc3.zip II. wahl-2017-ca-all-uncert-medians-nc3.zip III. wahl-2017-ca-all-uncert-medians-annual-maps.zip IV. wahl-2017-ca-climate-divs-all-uncert-nc3.zip V. wahl-2017-ca-climate-divs-all-uncert-medians-nc3.zip VI. wahl-2017-ca-all-uncert-climate-div-means-text.zip The first five ZIP archive files, listed above (I...IV), have the same structure. Each contains a folder, with the same filename as the ZIP file from which it was extracted (excluding the &quot;.zip&quot; extension), which contains: A. One folder: data which contains the actual data B. One file: manifest-md5.txt which contains the md5 checksum values of the file(s) in the &quot;data&quot; directory The sixth ZIP archive file, &quot;wahl-2017-ca-all-uncert-climate-div-means-text.zip&quot; contains a folder named &quot;wahl-2017-ca-all-uncert-climate-div-means-text&quot; which contains: A. One folder: data which contains the actual data. The data being seven text-based data sets (one for each climate division) which have the form of flat matrices, with 407 rows (years) and 1001 columns (first column has the year values, columns 2-1001 have the ensemble member precipitation values). The files are named &quot;wahl-2017-ca-all-uncert-text-div1-means.txt&quot; ... &quot;wahl-2017-ca-all-uncert-text-div7-means.txt&quot; B. One file: manifest-md5.txt which contains the md5 checksum values of the file(s) in the &quot;data&quot; directory. Note: this ZIP archive was added to this dataset on September 13, 2018 Section 2: Details of the content of the ZIP archive files I. through VI. I. wahl-2017-ca-all-uncert-nc3.zip This ZIP archive contains one folder: wahl-2017-ca-all-uncert-nc3, which contains: A. One folder: data which contains: One file: wahl-2017-ca-all-uncert-nc3.nc which is a NetCDF file, which contains 1000 ensemble members, each containing 407 years from 1571-1977 AD. Each year contains: a grid of 19 latitude X 21 longitude 0.5 x 0.5 degree grid cells 32.5 to 42.0 decimal degrees latitude North -124.5 to -114.5 decimal degrees latitude East EACH GRID CELL VALUE REPRESENTS THE PRECIPITATION AS MILLIMETERS. Format: NetCDF version 3 NetCDF Header Information: dimensions: Ensemble = 1000 ; Year = 407 ; Latitude = 19 ; Longitude = 21 ; variables: int Ensemble(Ensemble) ; Ensemble:units = &quot;count&quot; ; int Year(Year) ; Year:units = &quot;calendar_years&quot; ; double Latitude(Latitude) ; Latitude:units = &quot;degreesN&quot; ; double Longitude(Longitude) ; Longitude:units = &quot;degreesE&quot; ; double precipitation_amount(Longitude, Latitude, Year, Ensemble); precipitation_amount:units = &quot;Ensemble,Year,Latitude, Longitude&quot;; precipitation_amount:missing_value = -999. ; B. One file: manifest-md5.txt which contains the md5 checksum values and names of the NetCDF file in the &quot;data&quot; folder, described above in A. II. wahl-2017-ca-all-uncert-medians-nc3.zip This ZIP archive contains one folder: wahl-2017-ca-all-uncert-medians-nc3, which contains: A. One folder: data which contains: One file: wahl-2017-ca-all-uncert-medians-nc3.nc which is a NetCDF file, which contains the medians across the 1000 ensemble members, each containing 407 years from 1571-1977 AD. Each year contains: 407 years from 1571-1977 AD. Each year contains: a grid of 19 latitude X 21 longitude 0.5 x 0.5 degree grid cells 32.5 to 42.0 decimal degrees latitude North -124.5 to -114.5 decimal degrees latitude East EACH GRID CELL VALUE REPRESENTS THE PRECIPITATION AS MILLIMETERS. Format: NetCDF version 3 NetCDF Header Information: dimensions: Year = 407 ; Latitude = 19 ; Longitude = 21 ; variables: int Year(Year) ; Year:units = &quot;calendar_years&quot; ; double Latitude(Latitude) ; Latitude:units = &quot;degreesN&quot; ; double Longitude(Longitude) ; Longitude:units = &quot;degreesE&quot; ; double precipitation_amount(Longitude, Latitude, Year); precipitation_amount:units = &quot;Year,Latitude,Longitude&quot;; precipitation_amount:missing_value = -999. ; B. One file: manifest-md5.txt which contains the md5 checksum values and names of the NetCDF file in the &quot;data&quot; folder, described above in A. III. wahl-2017-ca-all-uncert-medians-annual-maps.zip ZIP archive wahl-2017-ca-all-uncert-medians-annual-maps.zip contains One folder: wahl-2017-ca-all-uncert-medians-annual-maps, which contains: A. One folder: data Description of the information in folder &quot;data&quot;: 1221 Files, in three folders representing 407 Annual Maps for years 1571-1977 AD. anomalies. EACH MAP DEPICTS THE MEDIAN PRECIPITATION FOR CALIFORNIA AS STANDARDIZED ANOMALIES (calculated wrt the full reconstruction period). As detailed below, each map is stored in PDF and PNG formats in the &quot;pdf&quot; and &quot;png&quot; folders respectively. The data corresponding to each map is stored in a tab separated file in the &quot;tsv&quot; folder. Contents of folder &quot;data&quot;: One ZIP archive: wahl-2017-annual-maps-pdf-png-tsv.zip, which contains: One folder: wahl-2017-annual-maps-pdf-png-tsv which contains three folders: 1. folder: tsv - contains the data corresponding to each map, in 407 tab separated value (TSV) format files Each TSV file contains: 21 columns, each spanning 0.5 degrees of longitude. The center longitude coordinate for the column 1, east-most, cells through the column 21, west-most, cells, are listed here: -124.25,-123.75,-123.25,-122.75,-122.25, -121.75,-121.25,-120.75,-120.25,-119.75, -119.25,-118.75,-118.25,-117.75,-117.25, -116.75,-116.25,-115.75,-115.25,-114.75, -114.25 19 rows, each spanning 0.5 degrees of latitude. The center latitude coordinate for the row 1, south-most cells, through the row 19 north-most cells, are listed here: 32.5,33.25,33.75,34.25,34.75, 35.25,35.75,36.25,36.75,37.25, 37.75,38.25,38.75,39.25,39.75, 40.25,40.75,41.25,41.75 2. folder: pdf - contains the 407 annual maps in PDF format 3. folder: png - contains the 407 annual maps in PNG format B. One file: manifest-md5.txt which contains the md5 checksum value for the wahl-2017-annual-maps-pdf-png-tsv.zip ZIP archive described above in A. IV. wahl-2017-ca-climate-divs-all-uncert-nc3.zip This ZIP archive contains one folder: wahl-2017-ca-climate-divs-all-uncert-nc3, which contains: A. One folder: data which contains: seven files: wahl-2017-ca-div1-all-uncert-nc3.nc ... wahl-2017-ca-div7-all-uncert-nc3.nc which are NetCDF files each representing one of the seven California climate divisions, 401 ... 407 respectively. Each NetCDF file contains 1000 ensemble members, each containing 407 years from 1571-1977 AD. Each year contains: a grid of 19 latitude X 21 longitude 0.5 x 0.5 degree grid cells 32.5 to 42.0 decimal degrees latitude North -124.5 to -114.5 decimal degrees latitude East EACH GRID CELL VALUE REPRESENTS THE PRECIPITATION AS MILLIMETERS. Format: NetCDF version 3 NetCDF Header Information for each file: dimensions: Ensemble = 1000 ; Year = 407 ; Latitude = 19 ; Longitude = 21 ; variables: int Ensemble(Ensemble) ; Ensemble:units = &quot;count&quot; ; int Year(Year) ; Year:units = &quot;calendar_years&quot; ; double Latitude(Latitude) ; Latitude:units = &quot;degreesN&quot; ; double Longitude(Longitude) ; Longitude:units = &quot;degreesE&quot; ; double precipitation_amount(Longitude, Latitude, Year, Ensemble); precipitation_amount:units = &quot;Ensemble,Year,Latitude, Longitude&quot;; precipitation_amount:missing_value = -999. ; B. One file: manifest-md5.txt which contains the md5 checksum values and names of the sevem NetCDF files in the &quot;data&quot; folder, described above in A. V. wahl-2017-ca-climate-divs-all-uncert-nc3-medians.zip This ZIP archive contains one folder: wahl-2017-ca-climate-divs-all-uncert-medians-nc3, which contains: A. One folder: data which contains: seven files: wahl-2017-ca-div1-all-uncert-medians-nc3.nc ... wahl-2017-ca-div7-all-uncert-medians-nc3.nc which are NetCDF files, each representing one of the seven California climate divisions, 401 ... 407 respectively. Each file contains the medians across the 1000 ensemble members, each containing 407 years from 1571-1977 AD. Each year contains: a grid of 19 latitude X 21 longitude 0.5 x 0.5 degree grid cells 32.5 to 42.0 decimal degrees latitude North -124.5 to -114.5 decimal degrees latitude East EACH GRID CELL VALUE REPRESENTS THE PRECIPITATION AS MILLIMETERS. Format: NetCDF version 3 NetCDF Header Information for each file: dimensions: Year = 407 ; Latitude = 19 ; Longitude = 21 ; variables: int Year(Year) ; Year:units = &quot;calendar_years&quot; ; double Latitude(Latitude) ; Latitude:units = &quot;degreesN&quot; ; double Longitude(Longitude) ; Longitude:units = &quot;degreesE&quot; ; double precipitation_amount(Longitude, Latitude, Year); precipitation_amount:units = &quot;Year,Latitude,Longitude&quot;; precipitation_amount:missing_value = -999. ; B. One file: manifest-md5.txt which contains the md5 checksum values and names of the NetCDF files in the &quot;data&quot; folder, described above in A. VI. wahl-2017-ca-all-uncert-climate-div-means-text.zip This ZIP archive contains one folder: wahl-2017-ca-all-uncert-climate-div-means-text, which contains: A. One folder: data which contains: seven files: wahl-2017-ca-all-uncert-text-div1-means.txt ... wahl-2017-ca-all-uncert-text-div7-means.txt, which are seven text-based data sets (providing the annual mean value for each climate division for each of the 1000 ensemble members) which have the form of flat matrices, with 407 rows (years) and 1001 columns (first column has the year values, columns 2-1001 have the ensemble member precipitation values). B. One file: manifest-md5.txt which contains the md5 checksum values and names of the .txt files in the &quot;data&quot; folder, described above in A. 
+ABSTRACT SUPPLIED BY ORIGINATOR: The recent dryness in California was unprecedented in the instrumental record. This article employs spatially explicit precipitation reconstructions for California in combination with instrumental data to provide perspective on this event since 1571. The period 2012–15 stands out as particularly extreme in the southern Central Valley and South Coast regions. which likely experienced unprecedented precipitation deficits over this time, apart from considerations of increasing temperatures and drought metrics that combine temperature and moisture information. Some areas lost more than two years’ average moisture delivery during these four years, and full recovery to long-term average moisture delivery could typically take up to several decades in the hardest-hit areas. These results highlight the value of the additional centuries of information provided by the paleo record, which indicates the shorter instrumental record may underestimate the statewide recovery time by over 30%. The extreme El Niño that occurred in 2015–16 ameliorated recovery in much of the northern half of the state, and since 1571 very-strong-to-extreme El Niño’s during the first year after a 2012–15-type event reduce statewide recovery times by approximately half. The southern part of California did not experience the high precipitation anticipated, and the multicentury analysis suggests the north-wet–south-dry pattern for such an El Niño was a low-likelihood anomaly. Recent wetness in California motivated evaluation of recovery times when the first two years are relatively wet, suggesting the state is benefiting from a one-infive (or lower) likelihood situation: the likelihood of full recovery within two years is ~1% in the instrumental data and even lower in the reconstruction data.</gco:CharacterString>
+   </gmd:supplementalInformation>
+  </gmd:MD_DataIdentification>
+ </gmd:identificationInfo>
+ <gmd:distributionInfo>
+  <gmd:MD_Distribution>
+   <gmd:distributor>
+    <gmd:MD_Distributor>
+     <gmd:distributorContact>
+      <gmd:CI_ResponsibleParty>
+       <gmd:organisationName>
+        <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+       </gmd:organisationName>
+       <gmd:positionName>
+        <gco:CharacterString>Customer Engagement Branch</gco:CharacterString>
+       </gmd:positionName>
+       <gmd:contactInfo>
+        <gmd:CI_Contact>
+         <gmd:phone>
+          <gmd:CI_Telephone>
+           <gmd:voice>
+            <gco:CharacterString>1-828-271-4800</gco:CharacterString>
+           </gmd:voice>
+           <gmd:facsimile>
+            <gco:CharacterString>1-828-271-4876</gco:CharacterString>
+           </gmd:facsimile>
+          </gmd:CI_Telephone>
+         </gmd:phone>
+         <gmd:address>
+          <gmd:CI_Address>
+           <gmd:deliveryPoint>
+            <gco:CharacterString>151 Patton Avenue</gco:CharacterString>
+           </gmd:deliveryPoint>
+           <gmd:deliveryPoint>
+            <gco:CharacterString>Veach-Baley Federal Building, Room 468</gco:CharacterString>
+           </gmd:deliveryPoint>
+           <gmd:city>
+            <gco:CharacterString>Asheville</gco:CharacterString>
+           </gmd:city>
+           <gmd:administrativeArea>
+            <gco:CharacterString>NC</gco:CharacterString>
+           </gmd:administrativeArea>
+           <gmd:postalCode>
+            <gco:CharacterString>28801-5001</gco:CharacterString>
+           </gmd:postalCode>
+           <gmd:country>
+            <gco:CharacterString>USA</gco:CharacterString>
+           </gmd:country>
+           <gmd:electronicMailAddress>
+            <gco:CharacterString>ncei.orders@noaa.gov</gco:CharacterString>
+           </gmd:electronicMailAddress>
+          </gmd:CI_Address>
+         </gmd:address>
+         <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+           <gmd:linkage>
+            <gmd:URL>https://www.ncei.noaa.gov</gmd:URL>
+           </gmd:linkage>
+           <gmd:protocol>
+            <gco:CharacterString>HTTPS</gco:CharacterString>
+           </gmd:protocol>
+           <gmd:applicationProfile>
+            <gco:CharacterString>Web Browser</gco:CharacterString>
+           </gmd:applicationProfile>
+           <gmd:name>
+            <gco:CharacterString>NOAA National Centers for Environmental Information (NCEI)</gco:CharacterString>
+           </gmd:name>
+           <gmd:description>
+            <gco:CharacterString>NCEI home page with information, data access and contact information.</gco:CharacterString>
+           </gmd:description>
+           <gmd:function>
+            <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+           </gmd:function>
+          </gmd:CI_OnlineResource>
+         </gmd:onlineResource>
+         <gmd:hoursOfService>
+          <gco:CharacterString>8:00 - 6:00 Eastern</gco:CharacterString>
+         </gmd:hoursOfService>
+        </gmd:CI_Contact>
+       </gmd:contactInfo>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:distributorContact>
+     <gmd:distributionOrderProcess>
+      <gmd:MD_StandardOrderProcess>
+       <gmd:fees>
+        <gco:CharacterString>In most cases, electronic downloads of the data are free, however fees may apply for data certifications, copies of analog materials, and data distribution on physical media.</gco:CharacterString>
+       </gmd:fees>
+      </gmd:MD_StandardOrderProcess>
+     </gmd:distributionOrderProcess>
+     <gmd:distributorFormat>
+      <gmd:MD_Format>
+       <gmd:name>
+        <gco:CharacterString>Native Format(s)</gco:CharacterString>
+       </gmd:name>
+       <gmd:version gco:nilReason="missing"></gmd:version>
+      </gmd:MD_Format>
+     </gmd:distributorFormat>
+     <gmd:distributorTransferOptions>
+      <gmd:MD_DigitalTransferOptions>
+       <gmd:onLine>
+        <gmd:CI_OnlineResource>
+         <gmd:linkage>
+          <gmd:URL>https://data.nodc.noaa.gov/cgi-bin/iso?id=noaa-recon-21793</gmd:URL>
+         </gmd:linkage>
+         <gmd:protocol>
+          <gco:CharacterString>HTTPS</gco:CharacterString>
+         </gmd:protocol>
+         <gmd:applicationProfile>
+          <gco:CharacterString>Landing Page</gco:CharacterString>
+         </gmd:applicationProfile>
+         <gmd:name>
+          <gco:CharacterString>NCEI landing page for this dataset</gco:CharacterString>
+         </gmd:name>
+         <gmd:description>
+          <gco:CharacterString>Dataset landing page with general information and links to access the data.</gco:CharacterString>
+         </gmd:description>
+         <gmd:function>
+          <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+         </gmd:function>
+        </gmd:CI_OnlineResource>
+       </gmd:onLine>
+       <gmd:onLine>
+        <gmd:CI_OnlineResource>
+         <gmd:linkage>
+          <gmd:URL>https://www.ncdc.noaa.gov/paleo/study/21793</gmd:URL>
+         </gmd:linkage>
+         <gmd:protocol>
+          <gco:CharacterString>HTTPS</gco:CharacterString>
+         </gmd:protocol>
+         <gmd:applicationProfile>
+          <gco:CharacterString>Web Browser</gco:CharacterString>
+         </gmd:applicationProfile>
+         <gmd:name>
+          <gco:CharacterString>NCEI Study Page</gco:CharacterString>
+         </gmd:name>
+         <gmd:description>
+          <gco:CharacterString>Study page with dataset access information.</gco:CharacterString>
+         </gmd:description>
+         <gmd:function>
+          <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search">search</gmd:CI_OnLineFunctionCode>
+         </gmd:function>
+        </gmd:CI_OnlineResource>
+       </gmd:onLine>
+       <gmd:onLine>
+        <gmd:CI_OnlineResource>
+         <gmd:linkage>
+          <gmd:URL>https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/climate-reconstruction</gmd:URL>
+         </gmd:linkage>
+         <gmd:protocol>
+          <gco:CharacterString>HTTPS</gco:CharacterString>
+         </gmd:protocol>
+         <gmd:applicationProfile>
+          <gco:CharacterString>Information</gco:CharacterString>
+         </gmd:applicationProfile>
+         <gmd:name>
+          <gco:CharacterString>NCEI Climate Reconstruction Page</gco:CharacterString>
+         </gmd:name>
+         <gmd:description>
+          <gco:CharacterString>General information for this data type.</gco:CharacterString>
+         </gmd:description>
+         <gmd:function>
+          <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+         </gmd:function>
+        </gmd:CI_OnlineResource>
+       </gmd:onLine>
+       <gmd:onLine>
+        <gmd:CI_OnlineResource>
+         <gmd:linkage>
+          <gmd:URL>https://www1.ncdc.noaa.gov/pub/data/paleo/reconstructions/wahl2017/</gmd:URL>
+         </gmd:linkage>
+         <gmd:protocol>
+          <gco:CharacterString>HTTPS</gco:CharacterString>
+         </gmd:protocol>
+         <gmd:applicationProfile>
+          <gco:CharacterString>Download</gco:CharacterString>
+         </gmd:applicationProfile>
+         <gmd:name>
+          <gco:CharacterString>/reconstructions/wahl2017/</gco:CharacterString>
+         </gmd:name>
+         <gmd:description>
+          <gco:CharacterString>Data Folder</gco:CharacterString>
+         </gmd:description>
+         <gmd:function>
+          <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+         </gmd:function>
+        </gmd:CI_OnlineResource>
+       </gmd:onLine>
+       <gmd:onLine>
+        <gmd:CI_OnlineResource>
+         <gmd:linkage>
+          <gmd:URL>https://www1.ncdc.noaa.gov/pub/data/paleo/reconstructions/wahl2017/readme-wahl-2017.txt</gmd:URL>
+         </gmd:linkage>
+         <gmd:protocol>
+          <gco:CharacterString>HTTPS</gco:CharacterString>
+         </gmd:protocol>
+         <gmd:applicationProfile>
+          <gco:CharacterString>Download</gco:CharacterString>
+         </gmd:applicationProfile>
+         <gmd:name>
+          <gco:CharacterString>/reconstructions/wahl2017/readme-wahl-2017.txt</gco:CharacterString>
+         </gmd:name>
+         <gmd:description>
+          <gco:CharacterString>Readme</gco:CharacterString>
+         </gmd:description>
+         <gmd:function>
+          <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+         </gmd:function>
+        </gmd:CI_OnlineResource>
+       </gmd:onLine>
+      </gmd:MD_DigitalTransferOptions>
+     </gmd:distributorTransferOptions>
+    </gmd:MD_Distributor>
+   </gmd:distributor>
+  </gmd:MD_Distribution>
+ </gmd:distributionInfo>
+ <gmd:metadataMaintenance>
+  <gmd:MD_MaintenanceInformation>
+   <gmd:maintenanceAndUpdateFrequency>
+    <gmd:MD_MaintenanceFrequencyCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+   </gmd:maintenanceAndUpdateFrequency>
+   <gmd:maintenanceNote>
+    <gco:CharacterString>This metadata record was translated from DIF using dif-9x-to-iso-19115-2.xsl Version: 2018-10-25</gco:CharacterString>
+   </gmd:maintenanceNote>
+  </gmd:MD_MaintenanceInformation>
+ </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

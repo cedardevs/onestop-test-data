@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gmi:MI_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://data.noaa.gov/resources/iso19139/schema.xsd">
+ <gmd:fileIdentifier>
+  <gco:CharacterString>noaa-tree-16645</gco:CharacterString>
+ </gmd:fileIdentifier>
+ <gmd:language>
+  <gco:CharacterString>eng; USA</gco:CharacterString>
+ </gmd:language>
+ <gmd:characterSet>
+  <gmd:MD_CharacterSetCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+ </gmd:characterSet>
+ <gmd:hierarchyLevel>
+  <gmd:MD_ScopeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+ </gmd:hierarchyLevel>
+ <gmd:contact>
+  <gmd:CI_ResponsibleParty>
+   <gmd:individualName>
+    <gco:CharacterString>Bauer, Bruce</gco:CharacterString>
+   </gmd:individualName>
+   <gmd:organisationName>
+    <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+   </gmd:organisationName>
+   <gmd:contactInfo>
+    <gmd:CI_Contact>
+     <gmd:phone>
+      <gmd:CI_Telephone>
+       <gmd:voice>
+        <gco:CharacterString>+1 303-497-6280</gco:CharacterString>
+       </gmd:voice>
+       <gmd:facsimile>
+        <gco:CharacterString>+1 303-497-6513</gco:CharacterString>
+       </gmd:facsimile>
+      </gmd:CI_Telephone>
+     </gmd:phone>
+     <gmd:address>
+      <gmd:CI_Address>
+       <gmd:deliveryPoint>
+        <gco:CharacterString>325 Broadway, E/CC23</gco:CharacterString>
+       </gmd:deliveryPoint>
+       <gmd:city>
+        <gco:CharacterString>Boulder</gco:CharacterString>
+       </gmd:city>
+       <gmd:administrativeArea>
+        <gco:CharacterString>CO</gco:CharacterString>
+       </gmd:administrativeArea>
+       <gmd:postalCode>
+        <gco:CharacterString>80305-3328</gco:CharacterString>
+       </gmd:postalCode>
+       <gmd:country>
+        <gco:CharacterString>USA</gco:CharacterString>
+       </gmd:country>
+       <gmd:electronicMailAddress>
+        <gco:CharacterString>paleo@noaa.gov</gco:CharacterString>
+       </gmd:electronicMailAddress>
+      </gmd:CI_Address>
+     </gmd:address>
+    </gmd:CI_Contact>
+   </gmd:contactInfo>
+   <gmd:role>
+    <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+   </gmd:role>
+  </gmd:CI_ResponsibleParty>
+ </gmd:contact>
+ <gmd:dateStamp>
+  <gco:Date>2018-12-11</gco:Date>
+ </gmd:dateStamp>
+ <gmd:metadataStandardName>
+  <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+ </gmd:metadataStandardName>
+ <gmd:metadataStandardVersion>
+  <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+ </gmd:metadataStandardVersion>
+ <gmd:identificationInfo>
+  <gmd:MD_DataIdentification>
+   <gmd:citation>
+    <gmd:CI_Citation>
+     <gmd:title>
+      <gco:CharacterString>NOAA/WDS Paleoclimatology - Yang - Delingha - JUPR - ITRDB CHIN067</gco:CharacterString>
+     </gmd:title>
+     <gmd:date>
+      <gmd:CI_Date>
+       <gmd:date>
+        <gco:Date>2014-02-10</gco:Date>
+       </gmd:date>
+       <gmd:dateType>
+        <gmd:CI_DateTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+       </gmd:dateType>
+      </gmd:CI_Date>
+     </gmd:date>
+     <gmd:edition gco:nilReason="missing"></gmd:edition>
+     <gmd:identifier>
+      <gmd:MD_Identifier>
+       <gmd:code>
+        <gmx:Anchor xlink:href="https://doi.org/10.25921/w18b-y480" xlink:title="DOI" xlink:actuate="onRequest">doi:10.25921/w18b-y480</gmx:Anchor>
+       </gmd:code>
+      </gmd:MD_Identifier>
+     </gmd:identifier>
+     <gmd:identifier>
+      <gmd:MD_Identifier>
+       <gmd:code>
+        <gco:CharacterString>noaa-tree-16645</gco:CharacterString>
+       </gmd:code>
+      </gmd:MD_Identifier>
+     </gmd:identifier>
+     <gmd:identifier>
+      <gmd:MD_Identifier>
+       <gmd:code>
+        <gco:CharacterString>NCEI DSI 1200_01</gco:CharacterString>
+       </gmd:code>
+      </gmd:MD_Identifier>
+     </gmd:identifier>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Yang, B.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Yang, B.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Qin, C.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Qin, C.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Wang, J.L.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Wang, J.L.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>He, M.H.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>He, M.H.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Melvin, T.M.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Melvin, T.M.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Osborn, T.J.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Osborn, T.J.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Briffa, K.R.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:individualName>
+        <gco:CharacterString>Briffa, K.R.</gco:CharacterString>
+       </gmd:individualName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:citedResponsibleParty>
+      <gmd:CI_ResponsibleParty>
+       <gmd:organisationName>
+        <gco:CharacterString>NOAA National Centers for Environmental Information</gco:CharacterString>
+       </gmd:organisationName>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:citedResponsibleParty>
+     <gmd:presentationForm>
+      <gmd:CI_PresentationFormCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="tableDigital">tableDigital</gmd:CI_PresentationFormCode>
+     </gmd:presentationForm>
+    </gmd:CI_Citation>
+   </gmd:citation>
+   <gmd:abstract>
+    <gco:CharacterString>This archived Paleoclimatology Study is available from the NOAA National Centers for Environmental Information (NCEI), under the World Data Service (WDS) for Paleoclimatology. The associated NCEI study type is Tree Ring. The data include parameters of tree ring with a geographic location of China, Eastern Asia. The time period coverage is from 4587 to -61 in calendar years before present (BP). See metadata information for parameter and study location details. Please cite this study when using the data.</gco:CharacterString>
+   </gmd:abstract>
+   <gmd:purpose>
+    <gco:CharacterString>Tree ring data from the International Tree Ring Data Bank and World Data Center for Paleoclimatology archives. Most data sets include raw treering measurements (most are annual ring width, with some collections of earlywood or latewood width or wood density), plus chronologies (standardized growth indices for a site compiled from multiple treering samples). Reconstructions of climate variables are included with some of these data sets.  Each data type is stored in a separate data file; the data type is coded into the file name. For details please see: http://www.ncdc.noaa.gov/paleo/treeinfo.html</gco:CharacterString>
+   </gmd:purpose>
+   <gmd:status>
+    <gmd:MD_ProgressCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+   </gmd:status>
+   <gmd:pointOfContact>
+    <gmd:CI_ResponsibleParty>
+     <gmd:individualName>
+      <gco:CharacterString>Bauer, Bruce</gco:CharacterString>
+     </gmd:individualName>
+     <gmd:organisationName>
+      <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+     </gmd:organisationName>
+     <gmd:contactInfo>
+      <gmd:CI_Contact>
+       <gmd:phone>
+        <gmd:CI_Telephone>
+         <gmd:voice>
+          <gco:CharacterString>+1 303-497-6280</gco:CharacterString>
+         </gmd:voice>
+         <gmd:facsimile>
+          <gco:CharacterString>+1 303-497-6513</gco:CharacterString>
+         </gmd:facsimile>
+        </gmd:CI_Telephone>
+       </gmd:phone>
+       <gmd:address>
+        <gmd:CI_Address>
+         <gmd:deliveryPoint>
+          <gco:CharacterString>325 Broadway, E/CC23</gco:CharacterString>
+         </gmd:deliveryPoint>
+         <gmd:city>
+          <gco:CharacterString>Boulder</gco:CharacterString>
+         </gmd:city>
+         <gmd:administrativeArea>
+          <gco:CharacterString>CO</gco:CharacterString>
+         </gmd:administrativeArea>
+         <gmd:postalCode>
+          <gco:CharacterString>80305-3328</gco:CharacterString>
+         </gmd:postalCode>
+         <gmd:country>
+          <gco:CharacterString>USA</gco:CharacterString>
+         </gmd:country>
+         <gmd:electronicMailAddress>
+          <gco:CharacterString>paleo@noaa.gov</gco:CharacterString>
+         </gmd:electronicMailAddress>
+        </gmd:CI_Address>
+       </gmd:address>
+      </gmd:CI_Contact>
+     </gmd:contactInfo>
+     <gmd:role>
+      <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+     </gmd:role>
+    </gmd:CI_ResponsibleParty>
+   </gmd:pointOfContact>
+   <gmd:graphicOverview>
+    <gmd:MD_BrowseGraphic>
+     <gmd:fileName>
+      <gco:CharacterString>https://www.ncdc.noaa.gov/c/images/pc-default-tree.png</gco:CharacterString>
+     </gmd:fileName>
+     <gmd:fileDescription>
+      <gco:CharacterString>Paleoclimatology - Tree Ring</gco:CharacterString>
+     </gmd:fileDescription>
+     <gmd:fileType>
+      <gco:CharacterString>PNG</gco:CharacterString>
+     </gmd:fileType>
+    </gmd:MD_BrowseGraphic>
+   </gmd:graphicOverview>
+   <gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+     <gmd:keyword>
+      <gco:CharacterString>Earth Science &gt; Climate Indicators &gt; Paleoclimate Indicators &gt; Biological Records &gt; Tree Rings</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>Earth Science &gt; Paleoclimate &gt; Land Records &gt; Tree Rings</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+     </gmd:type>
+     <gmd:thesaurusName>
+      <gmd:CI_Citation>
+       <gmd:title>
+        <gco:CharacterString>Global Change Master Directory (GCMD) Science Keywords</gco:CharacterString>
+       </gmd:title>
+       <gmd:date>
+        <gmd:CI_Date>
+         <gmd:date>
+          <gco:Date>2018</gco:Date>
+         </gmd:date>
+         <gmd:dateType>
+          <gmd:CI_DateTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+         </gmd:dateType>
+        </gmd:CI_Date>
+       </gmd:date>
+       <gmd:edition>
+        <gco:CharacterString>Version 8.6</gco:CharacterString>
+       </gmd:edition>
+       <gmd:citedResponsibleParty>
+        <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+          <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+          <gmd:CI_Contact>
+           <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+             <gmd:linkage>
+              <gmd:URL>https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords</gmd:URL>
+             </gmd:linkage>
+             <gmd:protocol>
+              <gco:CharacterString>HTTPS</gco:CharacterString>
+             </gmd:protocol>
+             <gmd:applicationProfile>
+              <gco:CharacterString>Web Browser</gco:CharacterString>
+             </gmd:applicationProfile>
+             <gmd:name>
+              <gco:CharacterString>Global Change Master Directory (GCMD) Keywords</gco:CharacterString>
+             </gmd:name>
+             <gmd:description>
+              <gco:CharacterString>The information provided on this page seeks to define how the GCMD Keywords are structured, used and accessed. It also provides information on how users can participate in the further development of the keywords.</gco:CharacterString>
+             </gmd:description>
+             <gmd:function>
+              <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+             </gmd:function>
+            </gmd:CI_OnlineResource>
+           </gmd:onlineResource>
+          </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+          <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+         </gmd:role>
+        </gmd:CI_ResponsibleParty>
+       </gmd:citedResponsibleParty>
+      </gmd:CI_Citation>
+     </gmd:thesaurusName>
+    </gmd:MD_Keywords>
+   </gmd:descriptiveKeywords>
+   <gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+     <gmd:keyword>
+      <gco:CharacterString>earth science &gt; paleoclimate &gt; tree ring</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>earth science &gt; paleoclimate &gt; tree ring</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>earth science &gt; paleoclimate &gt; tree-ring &gt; width</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+     </gmd:type>
+     <gmd:thesaurusName>
+      <gmd:CI_Citation>
+       <gmd:title>
+        <gco:CharacterString>Global Change Master Directory (GCMD) Science Keywords</gco:CharacterString>
+       </gmd:title>
+       <gmd:date>
+        <gmd:CI_Date>
+         <gmd:date>
+          <gco:Date>2018</gco:Date>
+         </gmd:date>
+         <gmd:dateType>
+          <gmd:CI_DateTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+         </gmd:dateType>
+        </gmd:CI_Date>
+       </gmd:date>
+       <gmd:edition>
+        <gco:CharacterString>Version 8.6</gco:CharacterString>
+       </gmd:edition>
+       <gmd:citedResponsibleParty>
+        <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+          <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+          <gmd:CI_Contact>
+           <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+             <gmd:linkage>
+              <gmd:URL>https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords</gmd:URL>
+             </gmd:linkage>
+             <gmd:protocol>
+              <gco:CharacterString>HTTPS</gco:CharacterString>
+             </gmd:protocol>
+             <gmd:applicationProfile>
+              <gco:CharacterString>Web Browser</gco:CharacterString>
+             </gmd:applicationProfile>
+             <gmd:name>
+              <gco:CharacterString>Global Change Master Directory (GCMD) Keywords</gco:CharacterString>
+             </gmd:name>
+             <gmd:description>
+              <gco:CharacterString>The information provided on this page seeks to define how the GCMD Keywords are structured, used and accessed. It also provides information on how users can participate in the further development of the keywords.</gco:CharacterString>
+             </gmd:description>
+             <gmd:function>
+              <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+             </gmd:function>
+            </gmd:CI_OnlineResource>
+           </gmd:onlineResource>
+          </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+          <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+         </gmd:role>
+        </gmd:CI_ResponsibleParty>
+       </gmd:citedResponsibleParty>
+      </gmd:CI_Citation>
+     </gmd:thesaurusName>
+    </gmd:MD_Keywords>
+   </gmd:descriptiveKeywords>
+   <gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+     <gmd:keyword>
+      <gco:CharacterString>JUPR</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>Juniperus przewalskii Komarov = Sabina przewalskii Komarov</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:keyword>
+      <gco:CharacterString>Qilianshan juniper</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+     </gmd:type>
+     <gmd:thesaurusName gco:nilReason="missing"></gmd:thesaurusName>
+    </gmd:MD_Keywords>
+   </gmd:descriptiveKeywords>
+   <gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+     <gmd:keyword>
+      <gco:CharacterString>Continent &gt; Asia &gt; Eastern Asia &gt; China&gt; Delingha &gt; LATITUDE 37.25 &gt; LONGITUDE 97.75</gco:CharacterString>
+     </gmd:keyword>
+     <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+     </gmd:type>
+     <gmd:thesaurusName gco:nilReason="missing"></gmd:thesaurusName>
+    </gmd:MD_Keywords>
+   </gmd:descriptiveKeywords>
+   <gmd:resourceConstraints>
+    <gmd:MD_LegalConstraints>
+     <gmd:useConstraints>
+      <gmd:MD_RestrictionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+     </gmd:useConstraints>
+     <gmd:otherConstraints>
+      <gco:CharacterString>Cite as: Yang, B.; Qin, C.; Wang, J.L.; He, M.H.; Melvin, T.M.; Osborn, T.J.; Briffa, K.R. (2014-02-10): NOAA/WDS Paleoclimatology - Yang - Delingha - JUPR - ITRDB CHIN067. [indicate subset used]. NOAA National Centers for Environmental Information. https://doi.org/10.25921/w18b-y480. Accessed [date].</gco:CharacterString>
+     </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+   </gmd:resourceConstraints>
+   <gmd:resourceConstraints xlink:title="Distribution Liability">
+    <gmd:MD_LegalConstraints xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://data.noaa.gov/resources/iso19139/schema.xsd" uuid="dadd4ac3-2b9f-4db5-8603-71285b94c3d7">
+     <gmd:accessConstraints>
+      <gmd:MD_RestrictionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+     </gmd:accessConstraints>
+     <gmd:otherConstraints>
+      <gco:CharacterString>Distribution liability: NOAA and NCEI make no warranty, expressed or implied, regarding these data, nor does the fact of distribution constitute such a warranty. NOAA and NCEI cannot assume liability for any damages caused by any errors or omissions in these data. If appropriate, NCEI can only certify that the data it distributes are an authentic copy of the records that were accepted for inclusion in the NCEI archives.</gco:CharacterString>
+     </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+   </gmd:resourceConstraints>
+   <gmd:resourceConstraints xlink:title="Use Liability">
+    <gmd:MD_LegalConstraints xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://data.noaa.gov/resources/iso19139/schema.xsd" uuid="e8163b1b-fb5a-4f4e-8d5c-ed06da10e21b">
+     <gmd:useConstraints>
+      <gmd:MD_RestrictionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+     </gmd:useConstraints>
+     <gmd:otherConstraints>
+      <gco:CharacterString>Use liability: NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.</gco:CharacterString>
+     </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+   </gmd:resourceConstraints>
+   <gmd:resourceConstraints>
+    <gmd:MD_LegalConstraints>
+     <gmd:accessConstraints>
+      <gmd:MD_RestrictionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+     </gmd:accessConstraints>
+     <gmd:otherConstraints>
+      <gco:CharacterString>None</gco:CharacterString>
+     </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+   </gmd:resourceConstraints>
+   <gmd:resourceConstraints>
+    <gmd:MD_LegalConstraints>
+     <gmd:useConstraints>
+      <gmd:MD_RestrictionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+     </gmd:useConstraints>
+     <gmd:otherConstraints>
+      <gco:CharacterString>Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site.</gco:CharacterString>
+     </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+   </gmd:resourceConstraints>
+   <gmd:aggregationInfo>
+    <gmd:MD_AggregateInformation>
+     <gmd:aggregateDataSetName>
+      <gmd:CI_Citation>
+       <gmd:title>
+        <gco:CharacterString>A 3500-year tree-ring record of annual precipitation on the northeastern Tibetan Plateau</gco:CharacterString>
+       </gmd:title>
+       <gmd:date>
+        <gmd:CI_Date>
+         <gmd:date>
+          <gco:Date>2014</gco:Date>
+         </gmd:date>
+         <gmd:dateType>
+          <gmd:CI_DateTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+         </gmd:dateType>
+        </gmd:CI_Date>
+       </gmd:date>
+       <gmd:citedResponsibleParty>
+        <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+          <gco:CharacterString>Bao Yang, Chun Qin, Jianglin Wang, Minhui He, Thomas M. Melvin, Timothy J. Osborn and Keith R. Briffa</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:role>
+          <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+         </gmd:role>
+        </gmd:CI_ResponsibleParty>
+       </gmd:citedResponsibleParty>
+       <gmd:citedResponsibleParty>
+        <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+          <gco:CharacterString>Proceedings of the National Academy of Sciences</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:role>
+          <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+         </gmd:role>
+        </gmd:CI_ResponsibleParty>
+       </gmd:citedResponsibleParty>
+       <gmd:citedResponsibleParty>
+        <gmd:CI_ResponsibleParty>
+         <gmd:organisationName gco:nilReason="missing"></gmd:organisationName>
+         <gmd:contactInfo>
+          <gmd:CI_Contact>
+           <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+             <gmd:linkage>
+              <gmd:URL>https://doi.org/10.1073/pnas.1319238111</gmd:URL>
+             </gmd:linkage>
+             <gmd:protocol>
+              <gco:CharacterString>HTTPS</gco:CharacterString>
+             </gmd:protocol>
+             <gmd:applicationProfile>
+              <gco:CharacterString>Web Browser</gco:CharacterString>
+             </gmd:applicationProfile>
+             <gmd:name>
+              <gco:CharacterString>Associated Reference published 2014</gco:CharacterString>
+             </gmd:name>
+             <gmd:description>
+              <gco:CharacterString>Bao Yang, Chun Qin, Jianglin Wang, Minhui He, Thomas M. Melvin, Timothy J. Osborn and Keith R. Briffa, 2014: A 3500-year tree-ring record of annual precipitation on the northeastern Tibetan Plateau. Proceedings of the National Academy of Sciences, 111, 2903-2908, 10.1073/pnas.1319238111</gco:CharacterString>
+             </gmd:description>
+             <gmd:function>
+              <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+             </gmd:function>
+            </gmd:CI_OnlineResource>
+           </gmd:onlineResource>
+          </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role gco:nilReason="missing"></gmd:role>
+        </gmd:CI_ResponsibleParty>
+       </gmd:citedResponsibleParty>
+      </gmd:CI_Citation>
+     </gmd:aggregateDataSetName>
+     <gmd:associationType>
+      <gmd:DS_AssociationTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+     </gmd:associationType>
+     <gmd:initiativeType>
+      <gmd:DS_InitiativeTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="sciencePaper">sciencePaper</gmd:DS_InitiativeTypeCode>
+     </gmd:initiativeType>
+    </gmd:MD_AggregateInformation>
+   </gmd:aggregationInfo>
+   <gmd:language>
+    <gco:CharacterString>eng; USA</gco:CharacterString>
+   </gmd:language>
+   <gmd:topicCategory>
+    <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+   </gmd:topicCategory>
+   <gmd:extent>
+    <gmd:EX_Extent id="boundingExtent">
+     <gmd:description>
+      <gco:CharacterString>Date Range: -2637 AD to 2011 AD; Date Range: 4587 cal yr BP to -61 cal yr BP; </gco:CharacterString>
+     </gmd:description>
+     <gmd:geographicElement>
+      <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+       <gmd:westBoundLongitude>
+        <gco:Decimal>97.75</gco:Decimal>
+       </gmd:westBoundLongitude>
+       <gmd:eastBoundLongitude>
+        <gco:Decimal>97.75</gco:Decimal>
+       </gmd:eastBoundLongitude>
+       <gmd:southBoundLatitude>
+        <gco:Decimal>37.25</gco:Decimal>
+       </gmd:southBoundLatitude>
+       <gmd:northBoundLatitude>
+        <gco:Decimal>37.25</gco:Decimal>
+       </gmd:northBoundLatitude>
+      </gmd:EX_GeographicBoundingBox>
+     </gmd:geographicElement>
+     <gmd:geographicElement>
+      <gmd:EX_BoundingPolygon id="boundingGeographicPolygon">
+       <gmd:polygon>
+        <gml:Point gml:id="stationLocation" srsName="urn:ogc:def:crs:EPSG::4326" uomLabels="deg deg" axisLabels="Latitude Longitude">
+         <gml:description>Study Coordinates</gml:description>
+         <gml:pos>37.25 97.75</gml:pos>
+        </gml:Point>
+       </gmd:polygon>
+      </gmd:EX_BoundingPolygon>
+     </gmd:geographicElement>
+     <gmd:temporalElement>
+      <gmd:EX_TemporalExtent id="boundingTemporalExtent">
+       <gmd:extent>
+        <gml:TimePeriod gml:id="K1">
+         <gml:beginPosition>-2637</gml:beginPosition>
+         <gml:endPosition>2011</gml:endPosition>
+        </gml:TimePeriod>
+       </gmd:extent>
+      </gmd:EX_TemporalExtent>
+     </gmd:temporalElement>
+    </gmd:EX_Extent>
+   </gmd:extent>
+   <gmd:supplementalInformation>
+    <gco:CharacterString>STUDY NOTES: Purpose of Collection: Climatology - precipitation 
+ABSTRACT SUPPLIED BY ORIGINATOR: An annually resolved and absolutely dated ring-width chronology spanning 4,500 y has been constructed using subfossil, archaeological, and living-tree juniper samples from the northeastern Tibetan Plateau. The chronology represents changing mean annual precipitation and is most reliable after 1500 B.C. Reconstructed precipitation for this period displays a trend toward more moist conditions: the last 10-, 25-, and 50-y periods all appear to be the wettest in at least three and a half millennia. Notable historical dry periods occurred in the 4th century BCE and in the second half of the 15th century CE. The driest individual year reconstructed (since 1500 B.C.) is 1048 B.C., whereas the wettest is 2010. Precipitation variability in this region appears not to be associated with inferred changes in Asian monsoon intensity during recent millennia. The chronology displays a statistical association with the multidecadal and longer-term variability of reconstructed mean Northern Hemisphere temperatures over the last two millennia. This suggests that any further large-scale warming might be associated with even greater moisture supply in this region.</gco:CharacterString>
+   </gmd:supplementalInformation>
+  </gmd:MD_DataIdentification>
+ </gmd:identificationInfo>
+ <gmd:distributionInfo>
+  <gmd:MD_Distribution>
+   <gmd:distributor>
+    <gmd:MD_Distributor>
+     <gmd:distributorContact>
+      <gmd:CI_ResponsibleParty>
+       <gmd:organisationName>
+        <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+       </gmd:organisationName>
+       <gmd:positionName>
+        <gco:CharacterString>Customer Engagement Branch</gco:CharacterString>
+       </gmd:positionName>
+       <gmd:contactInfo>
+        <gmd:CI_Contact>
+         <gmd:phone>
+          <gmd:CI_Telephone>
+           <gmd:voice>
+            <gco:CharacterString>1-828-271-4800</gco:CharacterString>
+           </gmd:voice>
+           <gmd:facsimile>
+            <gco:CharacterString>1-828-271-4876</gco:CharacterString>
+           </gmd:facsimile>
+          </gmd:CI_Telephone>
+         </gmd:phone>
+         <gmd:address>
+          <gmd:CI_Address>
+           <gmd:deliveryPoint>
+            <gco:CharacterString>151 Patton Avenue</gco:CharacterString>
+           </gmd:deliveryPoint>
+           <gmd:deliveryPoint>
+            <gco:CharacterString>Veach-Baley Federal Building, Room 468</gco:CharacterString>
+           </gmd:deliveryPoint>
+           <gmd:city>
+            <gco:CharacterString>Asheville</gco:CharacterString>
+           </gmd:city>
+           <gmd:administrativeArea>
+            <gco:CharacterString>NC</gco:CharacterString>
+           </gmd:administrativeArea>
+           <gmd:postalCode>
+            <gco:CharacterString>28801-5001</gco:CharacterString>
+           </gmd:postalCode>
+           <gmd:country>
+            <gco:CharacterString>USA</gco:CharacterString>
+           </gmd:country>
+           <gmd:electronicMailAddress>
+            <gco:CharacterString>ncei.orders@noaa.gov</gco:CharacterString>
+           </gmd:electronicMailAddress>
+          </gmd:CI_Address>
+         </gmd:address>
+         <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+           <gmd:linkage>
+            <gmd:URL>https://www.ncei.noaa.gov</gmd:URL>
+           </gmd:linkage>
+           <gmd:protocol>
+            <gco:CharacterString>HTTPS</gco:CharacterString>
+           </gmd:protocol>
+           <gmd:applicationProfile>
+            <gco:CharacterString>Web Browser</gco:CharacterString>
+           </gmd:applicationProfile>
+           <gmd:name>
+            <gco:CharacterString>NOAA National Centers for Environmental Information (NCEI)</gco:CharacterString>
+           </gmd:name>
+           <gmd:description>
+            <gco:CharacterString>NCEI home page with information, data access and contact information.</gco:CharacterString>
+           </gmd:description>
+           <gmd:function>
+            <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+           </gmd:function>
+          </gmd:CI_OnlineResource>
+         </gmd:onlineResource>
+         <gmd:hoursOfService>
+          <gco:CharacterString>8:00 - 6:00 Eastern</gco:CharacterString>
+         </gmd:hoursOfService>
+        </gmd:CI_Contact>
+       </gmd:contactInfo>
+       <gmd:role>
+        <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+       </gmd:role>
+      </gmd:CI_ResponsibleParty>
+     </gmd:distributorContact>
+     <gmd:distributionOrderProcess>
+      <gmd:MD_StandardOrderProcess>
+       <gmd:fees>
+        <gco:CharacterString>In most cases, electronic downloads of the data are free, however fees may apply for data certifications, copies of analog materials, and data distribution on physical media.</gco:CharacterString>
+       </gmd:fees>
+      </gmd:MD_StandardOrderProcess>
+     </gmd:distributionOrderProcess>
+     <gmd:distributorFormat>
+      <gmd:MD_Format>
+       <gmd:name>
+        <gco:CharacterString>Native Format(s)</gco:CharacterString>
+       </gmd:name>
+       <gmd:version gco:nilReason="missing"></gmd:version>
+      </gmd:MD_Format>
+     </gmd:distributorFormat>
+     <gmd:distributorTransferOptions>
+      <gmd:MD_DigitalTransferOptions>
+       <gmd:onLine>
+        <gmd:CI_OnlineResource>
+         <gmd:linkage>
+          <gmd:URL>https://doi.org/10.25921/w18b-y480</gmd:URL>
+         </gmd:linkage>
+         <gmd:protocol>
+          <gco:CharacterString>HTTPS</gco:CharacterString>
+         </gmd:protocol>
+         <gmd:applicationProfile>
+          <gco:CharacterString>Landing Page</gco:CharacterString>
+         </gmd:applicationProfile>
+         <gmd:name>
+          <gco:CharacterString>NCEI landing page for this dataset</gco:CharacterString>
+         </gmd:name>
+         <gmd:description>
+          <gco:CharacterString>Dataset landing page with general information and links to access the data.</gco:CharacterString>
+         </gmd:description>
+         <gmd:function>
+          <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+         </gmd:function>
+        </gmd:CI_OnlineResource>
+       </gmd:onLine>
+       <gmd:onLine>
+        <gmd:CI_OnlineResource>
+         <gmd:linkage>
+          <gmd:URL>https://www.ncdc.noaa.gov/paleo/study/16645</gmd:URL>
+         </gmd:linkage>
+         <gmd:protocol>
+          <gco:CharacterString>HTTPS</gco:CharacterString>
+         </gmd:protocol>
+         <gmd:applicationProfile>
+          <gco:CharacterString>Web Browser</gco:CharacterString>
+         </gmd:applicationProfile>
+         <gmd:name>
+          <gco:CharacterString>NCEI Study Page</gco:CharacterString>
+         </gmd:name>
+         <gmd:description>
+          <gco:CharacterString>Study page with dataset access information.</gco:CharacterString>
+         </gmd:description>
+         <gmd:function>
+          <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search">search</gmd:CI_OnLineFunctionCode>
+         </gmd:function>
+        </gmd:CI_OnlineResource>
+       </gmd:onLine>
+       <gmd:onLine>
+        <gmd:CI_OnlineResource>
+         <gmd:linkage>
+          <gmd:URL>https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/tree-ring</gmd:URL>
+         </gmd:linkage>
+         <gmd:protocol>
+          <gco:CharacterString>HTTPS</gco:CharacterString>
+         </gmd:protocol>
+         <gmd:applicationProfile>
+          <gco:CharacterString>Information</gco:CharacterString>
+         </gmd:applicationProfile>
+         <gmd:name>
+          <gco:CharacterString>NCEI Tree Ring Page</gco:CharacterString>
+         </gmd:name>
+         <gmd:description>
+          <gco:CharacterString>General information for this data type.</gco:CharacterString>
+         </gmd:description>
+         <gmd:function>
+          <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+         </gmd:function>
+        </gmd:CI_OnlineResource>
+       </gmd:onLine>
+       <gmd:onLine>
+        <gmd:CI_OnlineResource>
+         <gmd:linkage>
+          <gmd:URL>https://www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/asia/chin067.rwl</gmd:URL>
+         </gmd:linkage>
+         <gmd:protocol>
+          <gco:CharacterString>HTTPS</gco:CharacterString>
+         </gmd:protocol>
+         <gmd:applicationProfile>
+          <gco:CharacterString>Download</gco:CharacterString>
+         </gmd:applicationProfile>
+         <gmd:name>
+          <gco:CharacterString>/treering/measurements/asia/chin067.rwl</gco:CharacterString>
+         </gmd:name>
+         <gmd:description>
+          <gco:CharacterString>Raw Measurements</gco:CharacterString>
+         </gmd:description>
+         <gmd:function>
+          <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+         </gmd:function>
+        </gmd:CI_OnlineResource>
+       </gmd:onLine>
+       <gmd:onLine>
+        <gmd:CI_OnlineResource>
+         <gmd:linkage>
+          <gmd:URL>https://www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/correlation-stats/chin067.txt</gmd:URL>
+         </gmd:linkage>
+         <gmd:protocol>
+          <gco:CharacterString>HTTPS</gco:CharacterString>
+         </gmd:protocol>
+         <gmd:applicationProfile>
+          <gco:CharacterString>Download</gco:CharacterString>
+         </gmd:applicationProfile>
+         <gmd:name>
+          <gco:CharacterString>/treering/measurements/correlation-stats/chin067.txt</gco:CharacterString>
+         </gmd:name>
+         <gmd:description>
+          <gco:CharacterString>Correlation</gco:CharacterString>
+         </gmd:description>
+         <gmd:function>
+          <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+         </gmd:function>
+        </gmd:CI_OnlineResource>
+       </gmd:onLine>
+      </gmd:MD_DigitalTransferOptions>
+     </gmd:distributorTransferOptions>
+    </gmd:MD_Distributor>
+   </gmd:distributor>
+  </gmd:MD_Distribution>
+ </gmd:distributionInfo>
+ <gmd:metadataMaintenance>
+  <gmd:MD_MaintenanceInformation>
+   <gmd:maintenanceAndUpdateFrequency>
+    <gmd:MD_MaintenanceFrequencyCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+   </gmd:maintenanceAndUpdateFrequency>
+   <gmd:maintenanceNote>
+    <gco:CharacterString>This metadata record was translated from DIF using dif-9x-to-iso-19115-2.xsl Version: 2018-10-25</gco:CharacterString>
+   </gmd:maintenanceNote>
+  </gmd:MD_MaintenanceInformation>
+ </gmd:metadataMaintenance>
+</gmi:MI_Metadata>
