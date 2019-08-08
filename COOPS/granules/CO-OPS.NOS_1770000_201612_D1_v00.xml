@@ -1,0 +1,2735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmi:MI_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:str="http://exslt.org/strings" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>CO-OPS.NOS_1770000_201612_D1_v00</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng; USA</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:parentIdentifier>
+    <gmx:Anchor xlink:href="http://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.nodc:NDBC-COOPS" xlink:actuate="onRequest" xlink:title="Collection ID">gov.noaa.nodc:NDBC-COOPS</gmx:Anchor>
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>Granule</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty id="seriesMetadataContact">
+      <gmd:organisationName>
+        <gco:CharacterString>
+							DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce
+						</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Data Officer</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>301-713-3277</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>301-713-3300</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Federal Building 151 Patton Avenue</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Asheville</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>NC</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>28801-5001</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>USA</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>NODC.DataOfficer@noaa.gov</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.ncei.noaa.gov/</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:applicationProfile>
+                <gco:CharacterString>Standard Internet browser</gco:CharacterString>
+              </gmd:applicationProfile>
+              <gmd:name>
+                <gco:CharacterString>
+											NOAA National Centers for Environmental Information website
+										</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>
+											Main NCEI website providing links to access data and data services.
+										</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2017-03-03</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_GridSpatialRepresentation>
+      <gmd:numberOfDimensions>
+        <gco:Integer>1</gco:Integer>
+      </gmd:numberOfDimensions>
+      <gmd:axisDimensionProperties>
+        <gmd:MD_Dimension>
+          <gmd:dimensionName>
+            <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="$dimensionType">temporal</gmd:MD_DimensionNameTypeCode>
+          </gmd:dimensionName>
+          <gmd:dimensionSize>
+            <gco:Integer>7435</gco:Integer>
+          </gmd:dimensionSize>
+          <gmd:resolution gco:nilReason="missing"/>
+        </gmd:MD_Dimension>
+      </gmd:axisDimensionProperties>
+      <gmd:cellGeometry>
+        <gmd:MD_CellGeometryCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode" codeListValue="area">area</gmd:MD_CellGeometryCode>
+      </gmd:cellGeometry>
+      <gmd:transformationParameterAvailability>
+        <gco:Boolean>true</gco:Boolean>
+      </gmd:transformationParameterAvailability>
+    </gmd:MD_GridSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification id="DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>NDBC-COOPS_1770000_201612_D1_v00 - CO-OPS buoy 1770000 for 201612, deployment 1</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2017-01-04</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="$dateType">creation</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2017-03-03</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="$dateType">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>NOAA Coastal Meteorological and Water Temperature data from the Center for Operational Oceanographic Products and Services for 1 March 2013 to the present.</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date gco:nilReason="inapplicable"/>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gco:CharacterString/>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>US DOC; NOAA; National Centers for Environmental Information</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>webmaster.ndbc@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="$roleCode">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>The National Water Level Observation Network (NWLON) is a network of long-term water level staions operated and maintained by CO-OPS. NWLON stations are located on shore-based platforms, and primarily collect real-time water level measurements.  As of January 2013, approximately 180 of 210 NWLON stations also collect real-time meteorological data. About 20 CO-OPS Physical Oceanographic Real-Time Systems (PORTS) comprise a group of water level stations, and 65 of these stations also collect real-time meteorological data. Data parameters include barometric pressure, wind direction, speed and gust, air temperature, and water temperature.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>US DOC; NOAA; National Centers for Environmental Information</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>webmaster.ndbc@noaa.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="$roleCode">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://maps.googleapis.com/maps/api/staticmap?center=-14.28,-170.688&amp;zoom=10&amp;scale=false&amp;size=600x600&amp;maptype=satellite&amp;format=png&amp;visual_refresh=true&amp;markers=color:red%7C-14.28,-170.688&amp;stream=true&amp;stream_ID=plot_image</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Preview graphic</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>PNG</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric Pressure</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString> Sea level Pressure</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString> Atmospheric Temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString> Surface Temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString> Dewpoint Temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString> Humidity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString> Surface Winds</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString> Ocean Winds</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString> Ocean Temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString> Sea Surface Temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GCMD Science Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>1770000</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC ENVIRONMENTAL BUOY THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>DOC/NOAA/NESDIS/NODC &gt; National Oceanographic Data Center, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>DOC/NOAA/NOS/CO-OPS &gt; Center for Operational Oceanographic Products and Services, National Ocean Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>DOC/NOAA/NWS/NDBC &gt; National Data Buoy Center, National Weather Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Data Center Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/obstype/details/12" xlink:actuate="onRequest">meteorological</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/obstype/details/14" xlink:actuate="onRequest">physical</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC OBSERVATION TYPES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/platform/details/2576" xlink:actuate="onRequest">FIXED PLATFORM</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC PLATFORM NAMES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/institution/details/1643" xlink:actuate="onRequest">US DOC; NOAA; NOS; Center for Operational Oceanographic Products and Services</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/institution/details/289" xlink:actuate="onRequest">US DOC; NOAA; NWS; National Data Buoy Center</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC COLLECTING INSTITUTION NAMES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/institution/details/1643" xlink:actuate="onRequest">US DOC; NOAA; NOS; Center for Operational Oceanographic Products and Services</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/institution/details/289" xlink:actuate="onRequest">US DOC; NOAA; NWS; National Data Buoy Center</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC SUBMITTING INSTITUTION NAMES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>oceanography</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>WMO_CategoryCode</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-09-15</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; DEW POINT TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; HUMIDITY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; SURFACE WINDS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; SURFACE WINDS &gt; WIND SPEED/WIND DIRECTION</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN OPTICS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN TEMPERATURE &gt; SEA SURFACE TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Science and Services Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2016</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.4</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>air_pressure_at_sea_level</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>air_temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>dew_point_temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>relative_humidity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>sea_surface_temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>time</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>visibility_in_air</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>wind_from_direction</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>wind_speed</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>wind_speed_of_gust</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NetCDF Climate and Forecast (CF) Metadata Convention Standard Name Table</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>ANEMOMETERS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>BAROMETERS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>THERMISTORS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="instrument">instrument</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Instrument Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2016</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.4</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>air_temperature_sensor</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>anemometer</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>barometer</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>ct_sensor</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>humidity_sensor</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>ocean_temperature_sensor</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>visibility_sensor</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="instrument">instrument</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NOS SENSOR THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>BUOYS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Platform Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2016</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.4</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>1611400 - NWWH1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>1612340 - OOUH1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>1612480 - MOKH1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>1615680 - KLIH1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>1617433 - KWHH1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>1617760 - ILOH1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>1619910 - SNDP5</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>1630000 - APRP7</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>1631428 - PGBP7</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>1770000 - NSTP6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>1820000 - KWJP8</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>1890000 - WAKP8</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>2695535 - FRCB6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>2695540 - BEPB6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8311030 - OBGN6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8311062 - ALXN6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8410140 - PSBM1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8411060 - CFWM1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8413320 - ATGM1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8418150 - CASM1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8419317 - WELM1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8443970 - BHBM3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8447386 - FRVM3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8447387 - BLTM3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8447412 - FRXM3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8447930 - BZBM3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8449130 - NTKM3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8452660 - NWPR1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8452944 - CPTR1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8452951 - PTCR1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8453662 - PVDR1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8454000 - FOXR1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8454049 - QPTR1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8461490 - NLNC3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8465705 - NWHC3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8467150 - BRHC3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8510560 - MTKN6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8516945 - KPTN6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8518750 - BATN6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8519483 - BGNN4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8519532 - MHRN6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8530973 - ROBN4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8531680 - SDHN4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8534720 - ACYN4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8536110 - CMAN4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8537121 - SJSN4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8538886 - TPBN4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8539094 - BDRN4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8540433 - MRCP1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8545240 - PHBP1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8546252 - BDSP1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8548989 - NBLP1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8551762 - DELD1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8551910 - RDYD1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8555889 - BRND1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8557380 - LWSD1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8570283 - OCIM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8571421 - BISM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8571892 - CAMM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8573364 - TCBM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8573927 - CHCM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8574680 - BLTM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8574728 - FSKM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8574729 - FSNM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8575512 - APAM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8577018 - COVM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8577330 - SLIM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8578240 - PPTM2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8594900 - WASD2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8631044 - WAHV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8632200 - KPTV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8632837 - RPLV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8635027 - NCDV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8635750 - LWTV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8637611 - YKRV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8637689 - YKTV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8638511 - DOMV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8638595 - CRYV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8638610 - SWPV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8638614 - WDSV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8638863 - CBBV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8638999 - CHYV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8639348 - MNPV2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8651370 - DUKN7</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8652587 - ORIN7</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8654467 - HCGN7</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8656483 - BFTN7</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8658120 - WLON7</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8658163 - JMPN7</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8661070 - MROS1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8665530 - CHTS1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8670870 - FPKG1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8720030 - FRDF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8720215 - NFDF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8720218 - MYPF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8720219 - DMSF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8720228 - LTJF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8720233 - BLIF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8720245 - JXUF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8720357 - BKBF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8720503 - GCVF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8720625 - RCYF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8721604 - TRDF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8722670 - LKWF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8723214 - VAKF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8723970 - VCAF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8724580 - KYWF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8725110 - NPSF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8725520 - FMRF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8726384 - PMAF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8726412 - MTBF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8726520 - SAPF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8726607 - OPTF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8726667 - MCYF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8726673 - SBLF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8726679 - TSHF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8726694 - TPAF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8726724 - CWBF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8727520 - CKYF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8728690 - APCF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8729108 - PACF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8729210 - PCBF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8729840 - PCLF1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8732828 - WBYA1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8734673 - FMOA1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8735180 - DILA1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8736163 - MBPA1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8736897 - MCGA1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8737005 - PTOA1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8737048 - OBLA1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8741003 - PTBM6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8741041 - ULAM6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8741094 - RARM6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8741501 - DKCM6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8741533 - PNLM6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8747437 - WYCM6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8760721 - PILL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8760922 - PSTL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8761305 - SHBL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8761724 - GISL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8761927 - NWCL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8761955 - CARL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8762482 - BYGL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8762484 - FREL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8764044 - TESL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8764227 - AMRL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8764314 - EINL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8766072 - FRWL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8767816 - LCLL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8767961 - BKTL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8768094 - CAPL1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8770570 - SBPT2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8770613 - MGPT2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8770822 - TXPT2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8771013 - EPTT2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8771341 - GNJT2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8771450 - GTOT2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8772447 - FCGT2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8773767 - MBET2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8774770 - RCPT2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8775870 - MQTT2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>8779770 - PTIT2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9014070 - AGCM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9014090 - MBRM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9014098 - FTGM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9052030 - OSGN6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9052058 - RCRN6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9063012 - NIAN6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9063020 - BUFN6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9063028 - PSTN6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9063038 - EREP1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9063053 - FAIO1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9063063 - CNDO1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9063079 - MRHO1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9063085 - THRO1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9075014 - HRBM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9075065 - LPNM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9075080 - MACM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9075099 - DTLM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9076024 - RCKM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9076027 - WNEM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9076033 - LTRM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9076070 - SWPM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9087023 - LDTM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9087031 - HLNM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9087044 - CMTI2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9087069 - KWNW3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9087088 - MNMM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9087096 - PNLM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9099004 - PTIM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9099018 - MCGM4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9099064 - DULM5</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9099090 - GDMM5</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410170 - SDBC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410172 - IIWC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410230 - LJAC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410647 - AGXC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410660 - OHBC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410665 - PRJC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410666 - PFDC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410670 - PFXC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410690 - PXAC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410691 - BAXC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410692 - PSXC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9410840 - ICAC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9411340 - NTBC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9411406 - HRVC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9412110 - PSLC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9413450 - MEYC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9413450 - MTYC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9414290 - FTPC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9414296 - PXSC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9414311 - PXOC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9414523 - RTYC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9414750 - AAMC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9414763 - LNDC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9414769 - OMHC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9414776 - OKXC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9414797 - OBXC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9414847 - PPXC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9414863 - RCMC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9415020 - PRYC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9415102 - MZXC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9415115 - PSBC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9415118 - UPBC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9415141 - DPXC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9415144 - PCOC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9416841 - ANVC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9418767 - HBYC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9419750 - CECC1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9431647 - PORO3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9432780 - CHAO3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9435380 - SBEO3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9437540 - TLBO3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9439040 - ASTO3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9440422 - LOPW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9440910 - TOKW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9441102 - WPTW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9442396 - LAPW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9443090 - NEAW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9444090 - PTAW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9444900 - PTWW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9446482 - TCMW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9446484 - TCNW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9447130 - EBSW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9449419 - CPMW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9449424 - CHYW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9449880 - FRDW1</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9450460 - KECA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9451054 - PLXA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9451600 - ITKA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9452210 - JNEA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9452400 - SKTA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9452634 - ELFA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9453220 - YATA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9454050 - CRVA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9454240 - VDZA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9455090 - SWLA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9455500 - OVIA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9455760 - NKTA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9455920 - ANTA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9457292 - KDAA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9457804 - ALIA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9459450 - SNDA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9459881 - KGCA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9461380 - ADKA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9461710 - ATKA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9462450 - OLSA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9462620 - UNLA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9463502 - PMOA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9464212 - VCVA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9468333 - ULRA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9468756 - NMTA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9491094 - RDDA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9497645 - PRDA2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9751364 - CHSV3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9751381 - LAMV3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9751401 - LTBV3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9751639 - CHAV3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9752235 - CLBP4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9752695 - ESPP4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9755371 - SJNP4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9759110 - MGIP4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9759394 - MGZP4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9759412 - AUDP4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9759938 - MISP4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>9761115 - BARA9</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NOS - NWSLI PLATFORM THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords><gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>CONTINENT &gt; NORTH AMERICA &gt; CANADA &gt; GREAT LAKES, CANADA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; GREAT LAKES</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; ARCTIC OCEAN &gt; BEAUFORT SEA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; NORTH ATLANTIC OCEAN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; NORTH ATLANTIC OCEAN &gt; BAY OF FUNDY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; NORTH ATLANTIC OCEAN &gt; CARIBBEAN SEA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; NORTH ATLANTIC OCEAN &gt; GULF OF MEXICO</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; CENTRAL PACIFIC OCEAN &gt; HAWAIIAN ISLANDS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; NORTH PACIFIC OCEAN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; NORTH PACIFIC OCEAN &gt; BERING SEA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; NORTH PACIFIC OCEAN &gt; GULF OF ALASKA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; SOUTH PACIFIC OCEAN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Location Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2016</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.4</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">other Restrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Use liability: NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">other Restrictions</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Distribution liability: NOAA and NCEI make no warranty, expressed or implied, regarding these data, nor does the fact of distribution constitute such a warranty. NOAA and NCEI cannot assume liability for any damages caused by any errors or omissions in these data. If appropriate, NCEI can only certify that the data it distributes are an authentic copy of the records that were accepted for inclusion in the NCEI archives.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent id="boundingExtent">
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+              <gmd:extentTypeCode>
+                <gco:Boolean>1</gco:Boolean>
+              </gmd:extentTypeCode>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-170.688</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-170.688</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-14.28</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>-14.28</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent id="boundingTemporalExtent">
+              <gmd:extent>
+                <gml:TimePeriod gml:id="idp0">
+                  <gml:description>1</gml:description>
+                  <gml:beginPosition>2016-12-01</gml:beginPosition>
+                  <gml:endPosition>2016-12-31</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:identificationInfo>
+    <srv:SV_ServiceIdentification id="OGC_WMS">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>NOAA Coastal Meteorological and Water Temperature data from the Center for Operational Oceanographic Products and Services for 1 March 2013 to the present.</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2017-01-04</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="$dateType">creation</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2017-03-03</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="$dateType">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>US DOC; NOAA; National Centers for Environmental Information</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>webmaster.ndbc@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="$roleCode">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>The National Water Level Observation Network (NWLON) is a network of long-term water level staions operated and maintained by CO-OPS. NWLON stations are located on shore-based platforms, and primarily collect real-time water level measurements.  As of January 2013, approximately 180 of 210 NWLON stations also collect real-time meteorological data. About 20 CO-OPS Physical Oceanographic Real-Time Systems (PORTS) comprise a group of water level stations, and 65 of these stations also collect real-time meteorological data. Data parameters include barometric pressure, wind direction, speed and gust, air temperature, and water temperature.</gco:CharacterString>
+      </gmd:abstract>
+      <srv:serviceType>
+        <gco:LocalName>Open Geospatial Consortium Web Map Service (WMS)</gco:LocalName>
+      </srv:serviceType>
+      <srv:couplingType>
+        <srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType" codeListValue="tight">tight</srv:SV_CouplingType>
+      </srv:couplingType>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP gco:nilReason="unknown"/>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://data.nodc.noaa.gov/thredds/wms/ndbc/co-ops/2016/12/NOS_1770000_201612_D1_v00.nc?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>OGC_WMS</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Open Geospatial Consortium Web Map Service (WMS)</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:operatesOn xlink:href="#DataIdentification"/>
+    </srv:SV_ServiceIdentification>
+  </gmd:identificationInfo>
+  <gmd:identificationInfo>
+    <srv:SV_ServiceIdentification id="OGC_WCS">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>NOAA Coastal Meteorological and Water Temperature data from the Center for Operational Oceanographic Products and Services for 1 March 2013 to the present.</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2017-01-04</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="$dateType">creation</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2017-03-03</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="$dateType">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>US DOC; NOAA; National Centers for Environmental Information</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>webmaster.ndbc@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="$roleCode">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>The National Water Level Observation Network (NWLON) is a network of long-term water level staions operated and maintained by CO-OPS. NWLON stations are located on shore-based platforms, and primarily collect real-time water level measurements.  As of January 2013, approximately 180 of 210 NWLON stations also collect real-time meteorological data. About 20 CO-OPS Physical Oceanographic Real-Time Systems (PORTS) comprise a group of water level stations, and 65 of these stations also collect real-time meteorological data. Data parameters include barometric pressure, wind direction, speed and gust, air temperature, and water temperature.</gco:CharacterString>
+      </gmd:abstract>
+      <srv:serviceType>
+        <gco:LocalName>Open Geospatial Consortium Web Content Service (WCS)</gco:LocalName>
+      </srv:serviceType>
+      <srv:couplingType>
+        <srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType" codeListValue="tight">tight</srv:SV_CouplingType>
+      </srv:couplingType>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP gco:nilReason="unknown"/>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://data.nodc.noaa.gov/thredds/wcs/ndbc/co-ops/2016/12/NOS_1770000_201612_D1_v00.nc?service=WCS&amp;version=1.0.0&amp;request=GetCapabilities</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>OGC_WCS</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Open Geospatial Consortium Web Content Service (WCS)</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:operatesOn xlink:href="#DataIdentification"/>
+    </srv:SV_ServiceIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <gmi:MI_CoverageDescription>
+      <gmd:attributeDescription gco:nilReason="unknown"/>
+      <gmd:contentType>
+        <gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="physicalMeasurement">physicalMeasurement</gmd:MD_CoverageContentTypeCode>
+      </gmd:contentType>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>air_temperature</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>air_temperature (air_temperature)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>air_temperature_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_direction</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>short</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>wind_from_direction (wind_from_direction)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#degrees clockwise from North"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_direction_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_gust</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>wind_speed_of_gust (wind_speed_of_gust)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#m/s"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_gust_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_speed</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>wind_speed (wind_speed)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#m/s"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_speed_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>air_pressure_at_sea_level</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>int</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>air_pressure_at_sea_level (air_pressure_at_sea_level)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#Pa"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>air_pressure_at_sea_level_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>sea_surface_temperature</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>sea_surface_temperature (sea_surface_temperature)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>sea_surface_temperature_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+    </gmi:MI_CoverageDescription>
+  </gmd:contentInfo>
+  <gmd:contentInfo>
+    <gmi:MI_CoverageDescription>
+      <gmd:attributeDescription gco:nilReason="unknown"/>
+      <gmd:contentType>
+        <gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="qualityInformation">qualityInformation</gmd:MD_CoverageContentTypeCode>
+      </gmd:contentType>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>air_temperature</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>air_temperature (air_temperature)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>air_temperature_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_direction</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>short</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>wind_from_direction (wind_from_direction)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#degrees clockwise from North"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_direction_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_gust</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>wind_speed_of_gust (wind_speed_of_gust)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#m/s"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_gust_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_speed</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>wind_speed (wind_speed)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#m/s"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>wind_speed_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>air_pressure_at_sea_level</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>int</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>air_pressure_at_sea_level (air_pressure_at_sea_level)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#Pa"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>air_pressure_at_sea_level_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>sea_surface_temperature</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>sea_surface_temperature (sea_surface_temperature)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>sea_surface_temperature_release</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>byte</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString/>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://someUnitsDictionary.xml#"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+    </gmi:MI_CoverageDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>National Centers for Environmental Information (NCEI)</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>NCEI.info@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="$roleCode">publisher</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributorFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>NetCDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:version gco:nilReason="unknown"/>
+            </gmd:MD_Format>
+          </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:transferSize>
+                <gco:Real>157</gco:Real>
+              </gmd:transferSize>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://data.nodc.noaa.gov/ndbc/co-ops/2016/12/NOS_1770000_201612_D1_v00.nc</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTP</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:name>
+                    <gco:CharacterString>HTTP</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>This URL provides a standard HTTP interface for selecting data from this dataset. The transfer size is in kb.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:transferSize>
+                <gco:Real>157</gco:Real>
+              </gmd:transferSize>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>ftp://ftp.nodc.noaa.gov/pub/data.nodc/ndbc/co-ops/2016/12/NOS_1770000_201612_D1_v00.nc</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>FTP</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:name>
+                    <gco:CharacterString>FTP</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>This URL provides a standard FTP interface for selecting data from this dataset. The transfer size is in kb.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:transferSize>
+                <gco:Real>157</gco:Real>
+              </gmd:transferSize>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://data.nodc.noaa.gov/thredds/catalog/ndbc/co-ops/2016/12/catalog.html?dataset=ndbc/co-ops/2016/12/NOS_1770000_201612_D1_v00.nc</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>UNIDATA:THREDDS</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:name>
+                    <gco:CharacterString>THREDDS(TDS)</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>This URL provides a standard HTTP interface for selecting data from this dataset. The transfer size is in kb.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:transferSize>
+                <gco:Real>157</gco:Real>
+              </gmd:transferSize>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://data.nodc.noaa.gov/thredds/dodsC/ndbc/co-ops/2016/12/NOS_1770000_201612_D1_v00.nc.html</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>OPeNDAP:Hyrax</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:name>
+                    <gco:CharacterString>THREDDS OPeNDAP</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>This URL provides a standard HTTP interface for selecting data from this dataset. The transfer size is in kb.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Fri Mar  3 21:28:21 2017: ncks -3 /nodc/web/data.nodc/htdocs/ndbc/co-ops/2016/12/NOS_1770000_201612_D1_v00.nc ./netcdf3/NOS_1770000_201612_D1_v00.nc
+NOS_1770000_201612_D1_history.txt</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmi:MI_Metadata>

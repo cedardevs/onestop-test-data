@@ -1,0 +1,2746 @@
+<gmi:MI_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>gov.noaa.ncdc:C00761</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng; USA</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Collection Metadata Record Manager</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>+1 828-271-4800</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>+1 828-271-4876</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Federal Building, Room 468</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>151 Patton Avenue</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Asheville</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>NC</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>28801-5001</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>USA</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>ncdc.metadata@noaa.gov</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:hoursOfService>
+            <gco:CharacterString>8:00 - 6:00 Eastern</gco:CharacterString>
+          </gmd:hoursOfService>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2017-03-28</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>NOAA Climate Data Record (CDR) of Upper Atmospheric Temperature 4 Layer Microwave, Version 3.3</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>Mean Layer Temperature - RSS</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2012-11-28</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString>Version 3.3</gco:CharacterString>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:actuate="onRequest" xlink:href="https://doi.org/10.7289/V5WQ01S4" xlink:title="DOI">doi:10.7289/V5WQ01S4</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>NCEI DSI 3655_01</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>gov.noaa.ncdc:C00761</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>NOAA Climate Data Record Program Office</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>+1 (828) 271-4800</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>+1 (828) 271-4328</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>151 Patton Avenue</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Veach-Baley Federal Building, Room 447</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Asheville</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>NC</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>28801-5001</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>cdr_program.ncdc@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.ncdc.noaa.gov/cdr</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>HTTP</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Information</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name>
+                        <gco:CharacterString>NOAA Climate Data Record Program</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Information on the NOAA CDR Program and data.</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 - 6:00 Eastern</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Mears, Carl A.</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>RSS &gt; Remote Sensing Systems</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Lead Scientist</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString/>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>mears@remss.com</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>by email</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Wentz, Frank J.</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>RSS &gt; Remote Sensing Systems</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Physical Scientist</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString/>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString/>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="collaborator">collaborator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>NOAA CDR Program</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="collaborator">collaborator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing"/>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://doi.org/10.7289/V5WQ01S4</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>HTTP</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Description</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name>
+                        <gco:CharacterString>Upper Atmospheric Temperature 4 Layer Microwave - NOAA Landing Page</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>This dataset provides advanced scientific researchers a high quality Climate Data Record (CDR) of Upper Atmospheric Temperature 4 Layer Microwave--a high quality Fundamental Climate Data Record of microwave brightness temperature for use in long-term climate analyses.</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role gco:nilReason="missing"/>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing"/>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.ncdc.noaa.gov/cdr/fundamental/mean-layer-temperature-rss</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>HTTP</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Information</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name>
+                        <gco:CharacterString>Operational Climate Data Records in the NOAA CDR Program</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Access to the published FCDR data, source code, and documentation.</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role gco:nilReason="missing"/>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>RSS &gt; Remote Sensing Systems</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>User Support</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>1-707-545-2904</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>1-707-545-2906</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>444 Tenth Street Suite 200</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Santa Rosa</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>CA</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>95401</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="imageDigital">imageDigital</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>The 4 Layer Upper Atmosphere Temperature (UAT) Climate Data Record (CDR) dataset is a monthly analysis of the tropospheric and stratospheric data using temperature sounding microwave radiometers flown on polar-orbiting weather satellites providing an important record of upper atmosphere temperatures by merging data from the older Microwave Sounding Unit (MSU) and the new Advanced Microwave Sounding Units (AMSUs). The instruments measure the brightness temperature (tb) for each channel and corresponds to an average temperature of the atmosphere averaged over that channel's weighting function. Global average and global anomaly maps on a 2.5 x 2.5 degree resolution are produced from each month's data from both the MSU and the AMSU for over a 31 year period (1978-2011) for each channel (layer); the Temperature Lower Troposphere (TLT); the Temperature Middle Troposphere (TMT); the Temperature Troposphere/Stratosphere (TTS) ; the Temperature Lower Stratosphere (TLS). UAT 4 Layer MW data is important to continue into the future to ensure the existence of a high-quality record of atmospheric temperatures for climate change detection and climate model verification activities. The data are available in netCDF-4 file format with variables containing standard deviation, quality flags, and projection information and will be updated monthly.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>This dataset provides advanced scientific researchers a high quality Climate Data Record (CDR) of Upper Atmospheric Layer Temperatures.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>NOAA Climate Data Record Program (CDRP)</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>rss_msu_contacts@noaa.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="monthly">monthly</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www1.ncdc.noaa.gov/pub/data/metadata/images/uat4_cdr_browseimg_ch_tlt_2012_06_v03_3.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>UAT 4 Layer Channel TLT Brightness Temperature browse image</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>PNG</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Earth Science &gt; Spectral/Engineering &gt;
+							Microwave &gt; Brightness Temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Earth Science &gt; Spectral/Engineering &gt;
+							Microwave &gt; Temperature Anomalies</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Science and Services Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015-08-04</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA/GSFC/SED/ESD/GCDC/GCMD &gt; Global Change Master Directory, Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA Climate Data Record (CDR) Program</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="project">project</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Keyword Thesaurus Title</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Keyword Thesaurus Edition</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Keyword Thesaurus Publisher</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://geo-ide.noaa.gov/wiki/index.php?title=MD_Keywords</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NOAA NOAA Environmental Data Management Wiki: MD Keywords</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Instructions and examples for ISO keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Satellite</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="product">product</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Keyword Thesaurus Title</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Keyword Thesaurus Edition</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Keyword Thesaurus Publisher</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://geo-ide.noaa.gov/wiki/index.php?title=MD_Keywords</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NOAA NOAA Environmental Data Management Wiki: MD Keywords</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Instructions and examples for ISO keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>ESSA &gt; Environmental Science Services
+							Administration</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA-2 &gt; National Oceanic &amp;
+							Atmospheric Administration-2</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA-3 &gt; National Oceanic &amp;
+							Atmospheric Administration-3</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA-4 &gt; National Oceanic &amp;
+							Atmospheric Administration-4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA-5 &gt; National Oceanic &amp;
+							Atmospheric Administration-5</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA-6 &gt; National Oceanic &amp;
+							Atmospheric Administration-6</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA-7 &gt; National Oceanic &amp;
+							Atmospheric Administration-7</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA-9 &gt; National Oceanic &amp;
+							Atmospheric Administration-9</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA-11 &gt; National Oceanic &amp;
+							Atmospheric Administration-11</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA-14 &gt; National Oceanic &amp;
+							Atmospheric Administration-14</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA-15 &gt; National Oceanic &amp;
+							Atmospheric Administration-15</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>SMS &gt; Synchronous Meteorological
+							Satellites</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>DMSP &gt; Defense Meteorological Satellite
+							Program</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>GOES &gt; NOAA Geostationary Operational
+							Environmental Satellites</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>GOES-7 &gt; Geostationary Operational
+							Environmental Satellite 7</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>GOES-8 &gt; Geostationary Operational
+							Environmental Satellite 8</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>GOES-9 &gt; Geostationary Operational
+							Environmental Satellite 9</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>TIROS-N &gt; Television Infrared Observation
+							Satellite-N</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>GMS &gt; Japan Geostationary Meteorological
+							Satellite</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>GMS-4 &gt; Geostationary Meteorological
+							Satellite-4</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>GMS-5 &gt; Geostationary Meteorological
+							Satellite-5</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>METEOSAT</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>METEOSAT-5 &gt; Meteosat Operational
+							Programme 2 (MOP-1)</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>METEOSAT-6 &gt; Meteosat Operational
+							Programme 3 (MOP-1)</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>TERRA &gt; Earth Observing System, TERRA
+							(AM-1)</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>METOP &gt; Meteorological Operational
+							Satellite</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>AQUA &gt; Earth Observing System, AQUA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Science and Services Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015-08-04</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA/GSFC/SED/ESD/GCDC/GCMD &gt; Global Change Master Directory, Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Vas &gt; VISSR Atmospheric Sounder</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>SSMI/S &gt; Special Sensor Microwave
+							Imager/Sounder</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>VHRR &gt; Very High Resolution Radiometer</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>VISSR &gt; Visible and Infrared Spin Scan
+							Radiometer</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>AVHRR &gt; Advanced Very High Resolution
+							Radiometer</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>SEVIRI &gt; Spinning Enhanced Visible and
+							Infrared Imager</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>MODIS &gt; Moderate-Resolution Imaging
+							Spectroradiometer</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>AMSR &gt; Advanced Microwave Scanning
+							Radiometer</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>AMSU-B &gt; Advanced Microwave Sounding Unit
+							B (AMSU-B)</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>ASCAT</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Science and Services Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015-08-04</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA/GSFC/SED/ESD/GCDC/GCMD &gt; Global Change Master Directory, Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>GEOGRAPHIC REGION &gt; GLOBAL</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Location Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015-04-07</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA/GSFC/SED/ESD/GCDC/GCMD &gt; Global Change Master Directory, Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>VERTICAL LOCATION &gt; STRATOSPHERE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>VERTICAL LOCATION &gt; TROPOSPHERE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="stratum">stratum</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Location Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015-04-07</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA/GSFC/SED/ESD/GCDC/GCMD &gt; Global Change Master Directory, Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA OneStop Project</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="project">project</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Project Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015-09-10</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA/GSFC/SED/ESD/GCDC/GCMD &gt; Global Change Master Directory, Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>DOC/NOAA/NESDIS/NCDC &gt; National Climatic
+							Data Center, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers
+							for Environmental Information, NESDIS, NOAA, U.S. Department of
+							Commerce</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Data Center Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015-10-02</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA/GSFC/SED/ESD/GCDC/GCMD &gt; Global Change Master Directory, Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>For a complete description of use limiataions for this FCDR, see the Assumptions and Limitations in the Algorithm Theoretical Basis Document.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Cite this dataset when used as a source: Mears, Carl A., F. J. Wentz, and NOAA CDR Program (2015):NOAA Climate Date Record (CDR) of Upper Atmospheric Temperature 4 Layer Microwave, Version 3.3. NOAA National Centers for Environmental Information (NCEI). doi:10.7289/V5WQ01S4 [access date].</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>NCEI cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NCEI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty. NCEI can only certify that the data it distributes are an authentic copy of the records that were accepted for inclusion in the NCEI archives.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Stewardship Maturity Matrix (SMM) for NOAA Climate Data Record (CDR) of Upper Atmospheric Temperature 4 Layer Microwave, Version 3.3</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2016-06-27</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>v01r00</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName gco:nilReason="missing"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage gco:nilReason="missing"/>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>Stewardship Maturity Matrix (SMM) for NOAA Climate Data Record (CDR) of Upper Atmospheric Temperature 4 Layer Microwave, Version 3.3</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>PDF of the Data Stewardship Maturity Matrix (SMM) for NOAA Climate Data Record (CDR) of Upper Atmospheric Temperature 4 Layer Microwave, Version 3.3</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="missing"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="sciencePaper">sciencePaper</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent id="boundingExtent">
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-180</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>180</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-90</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>90</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent id="boundingTemporalExtent">
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e114">
+                  <gml:beginPosition>1978-01-01</gml:beginPosition>
+                  <gml:endPosition indeterminatePosition="now"/>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <gmd:MD_ImageDescription>
+      <gmd:attributeDescription gco:nilReason="inapplicable"/>
+      <gmd:contentType gco:nilReason="inapplicable"/>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>longitude</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>longitude (longitude)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_east"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>latitude</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>latitude (latitude)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_north"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>time</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>time (time)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#days%20since%201978-1-1%2000%3A00%3A00"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>platform_name</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>String</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>platform_name</gco:CharacterString>
+          </gmd:descriptor>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_anomaly</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly anomaly for Lower Stratospheric microwave brightness temperature (brightness_temperature_anomaly)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_climatology</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly climatology for Lower Stratospheric microwave brightness temperature</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>target_factor_values</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>satellite calibration target factor for each satellite and latitude</gco:CharacterString>
+          </gmd:descriptor>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>tb_factor_values</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>satellite calibration tb factor for each satellite and latitude</gco:CharacterString>
+          </gmd:descriptor>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_anomaly</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly anomaly for Middle Tropospheric microwave brightness temperature (brightness_temperature_anomaly)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_climatology</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly climatology for Middle Tropospheric microwave brightness temperature</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_anomaly</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly anomaly for Lower Tropospheric microwave brightness temperature (brightness_temperature_anomaly)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_climatology</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly climatology for Lower Tropospheric microwave brightness temperature</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_anomaly</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly anomaly for Atmospheric microwave brightness temperature (brightness_temperature_anomaly)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_climatology</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly climatology for Atmospheric microwave brightness temperature</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly average for Lower Stratospheric microwave brightness temperature (brightness_temperature)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_climatology</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly climatology for Lower Stratospheric microwave brightness temperature</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly average for Lower Tropospheric microwave brightness temperature (brightness_temperature)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_climatology</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly climatology for Lower Tropospheric microwave brightness temperature</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly average for Middle Tropospheric microwave brightness temperature (brightness_temperature)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_climatology</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly climatology for Middle Tropospheric microwave brightness temperature</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly average for Atmospheric microwave brightness temperature (brightness_temperature)</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>brightness_temperature_climatology</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>NOAA Climate Data Record of monthly climatology for Atmospheric microwave brightness temperature</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#K"/>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:processingLevelCode>
+        <gmd:MD_Identifier>
+          <gmd:authority>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Content Standard for Digital Geospatial Metadata: Extensions for Remote Sensing Metadata - Appendix B, NOAA Data Product Levels</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2002-10-09</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>FGDC-STD-012-2002</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Federal Geographic Data Committee Secretariat c/o U.S. Geological Survey</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>590 National Center</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>Reston, VA 20192</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Standards Working Group, Federal Geographic Data Committee</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName gco:nilReason="missing"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>https://www.fgdc.gov/standards/projects/FGDC-standards-projects/csdgm_rs_ex/MetadataRemoteSensingExtens.pdf</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>PDF</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>Content Standard for Digital Geospatial Metadata: Extensions for Remote Sensing Metadata, FGDC-STD-012-2002</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>The purpose of this standard is to provide extensions to the Federal Geographic Data Committee (FGDC) Content Standard for Digital Geospatial Metadata (CSDGM) for describing geospatial data obtained from remote sensing.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="inapplicable"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:authority>
+          <gmd:code>
+            <gco:CharacterString>Level 3</gco:CharacterString>
+          </gmd:code>
+        </gmd:MD_Identifier>
+      </gmd:processingLevelCode>
+    </gmd:MD_ImageDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Customer Engagement Branch</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>1-828-271-4800</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>1-828-271-4876</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>151 Patton Avenue</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Veach-Baley Federal Building, Room 468</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Asheville</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>NC</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>28801-5001</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>ncei.orders@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.ncdc.noaa.gov</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>HTTP</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name>
+                        <gco:CharacterString>NOAA National Centers for Environmental Information (NCEI)</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>NCEI home page with information, data access, and customer support contacts.</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 - 6:00 Eastern</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Electronic downloads of the data are free, however fees may apply for data certifications and data distribution on physical media.</gco:CharacterString>
+              </gmd:fees>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>XML</gco:CharacterString>
+              </gmd:name>
+              <gmd:version gco:nilReason="missing"/>
+            </gmd:MD_Format>
+          </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:transferSize>
+                <gco:Real>1</gco:Real>
+              </gmd:transferSize>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00761</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTP</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Description</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>NOAA Climate Data Record (CDR) of Upper Atmospheric Temperature 4 Layer Microwave, Version 3.3 Landing Page</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Dataset landing page with general information and access links for the dataset.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Customer Engagement Branch</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>1-828-271-4800</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>1-828-271-4876</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>151 Patton Avenue</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Veach-Baley Federal Building, Room 468</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Asheville</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>NC</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>28801-5001</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>ncei.orders@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.ncei.noaa.gov</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>HTTP</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name>
+                        <gco:CharacterString>NOAA National Centers for Environmental Information (NCEI)</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>NCEI home page with information, data access and contact information.</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 - 6:00 Eastern</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>In most cases, electronic downloads of the data are free, however fees may apply for data certifications, copies of analog materials, and data distribution on physical media.</gco:CharacterString>
+              </gmd:fees>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>NetCDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:version>
+                <gco:CharacterString>4</gco:CharacterString>
+              </gmd:version>
+            </gmd:MD_Format>
+          </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:transferSize gco:nilReason="missing"/>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://www.ncei.noaa.gov/data/mean-layer-temperature-rss/access/</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>FTP</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Download</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>NOAA RSS UAT CDR Direct Download</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Direct Download for the CDR data files.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Customer Engagement Branch</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>1-828-271-4800</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>1-828-271-4876</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>151 Patton Avenue</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Veach-Baley Federal Building, Room 468</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Asheville</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>NC</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>28801-5001</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>ncei.orders@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.ncei.noaa.gov</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>HTTP</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name>
+                        <gco:CharacterString>NOAA National Centers for Environmental Information (NCEI)</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>NCEI home page with information, data access and contact information.</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 - 6:00 Eastern</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>In most cases, electronic downloads of the data are free, however fees may apply for data certifications, copies of analog materials, and data distribution on physical media.</gco:CharacterString>
+              </gmd:fees>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>NetCDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:version>
+                <gco:CharacterString>4</gco:CharacterString>
+              </gmd:version>
+            </gmd:MD_Format>
+          </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:transferSize gco:nilReason="missing"/>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://www.ncdc.noaa.gov/thredds/catalog/cdr/rss-msu-amsu/catalog.html</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTP</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>THREDDS</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>NCEI THREDDS Catalog for RSS UAT CDR</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Links to dataset on THREDDS server</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>The data were produced by Remote Sensing Systems (RSS) and are archived at the NOAA National Climatic Data Center (NCDC) through the NOAA Climate Data Record Program (CDRP) .</gco:CharacterString>
+          </gmd:statement>
+          <gmd:processStep>
+            <gmi:LE_ProcessStep id="ps001">
+              <gmd:description>
+                <gco:CharacterString>For a complete description of the processing steps, see the Algorithm Theoretical Basis Document and Data Flow Diagram.</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime gco:nilReason="missing"/>
+              <gmd:processor>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName gco:nilReason="missing"/>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:processor>
+              <gmi:processingInformation>
+                <gmi:LE_Processing>
+                  <gmi:identifier gco:nilReason="missing"/>
+                  <gmi:softwareReference>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Source Code Package for UAT MLT RSS CDR</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2013-08-22</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>Version 1.0</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA Climate Data Record Program Office</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName gco:nilReason="missing"/>
+                          <gmd:contactInfo>
+                            <gmd:CI_Contact>
+                              <gmd:onlineResource>
+                                <gmd:CI_OnlineResource>
+                                  <gmd:linkage>
+                                    <gmd:URL>https://www1.ncdc.noaa.gov/pub/data/sds/cdr/CDRs/Mean_Layer_Temperatures_RSS/</gmd:URL>
+                                  </gmd:linkage>
+                                  <gmd:protocol>
+                                    <gco:CharacterString>HTTP</gco:CharacterString>
+                                  </gmd:protocol>
+                                  <gmd:applicationProfile>
+                                    <gco:CharacterString>Web Browser</gco:CharacterString>
+                                  </gmd:applicationProfile>
+                                  <gmd:name>
+                                    <gco:CharacterString>Source Code Package for UAT 4Layers RSS CDR</gco:CharacterString>
+                                  </gmd:name>
+                                  <gmd:description>
+                                    <gco:CharacterString>The Source Code Package for UAT MLT CDR. This source code is for reference only. The source code is provided to maintain transparency of the algorithm and processes used in creating the Climate Data Record</gco:CharacterString>
+                                  </gmd:description>
+                                  <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                  </gmd:function>
+                                </gmd:CI_OnlineResource>
+                              </gmd:onlineResource>
+                            </gmd:CI_Contact>
+                          </gmd:contactInfo>
+                          <gmd:role gco:nilReason="missing"/>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gmi:softwareReference>
+                  <gmi:documentation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Data Flow Diagram for UAT MLT RSS CDR</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2012-12-21</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>Version 1.0</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:identifier>
+                        <gmd:MD_Identifier>
+                          <gmd:code>
+                            <gco:CharacterString>CDRP-DIA-0209</gco:CharacterString>
+                          </gmd:code>
+                        </gmd:MD_Identifier>
+                      </gmd:identifier>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName gco:nilReason="missing"/>
+                          <gmd:contactInfo>
+                            <gmd:CI_Contact>
+                              <gmd:onlineResource>
+                                <gmd:CI_OnlineResource>
+                                  <gmd:linkage>
+                                    <gmd:URL>https://www1.ncdc.noaa.gov/pub/data/sds/cdr/CDRs/Mean_Layer_Temperatures_RSS/</gmd:URL>
+                                  </gmd:linkage>
+                                  <gmd:protocol>
+                                    <gco:CharacterString>HTTP</gco:CharacterString>
+                                  </gmd:protocol>
+                                  <gmd:applicationProfile>
+                                    <gco:CharacterString>Web Browser</gco:CharacterString>
+                                  </gmd:applicationProfile>
+                                  <gmd:name>
+                                    <gco:CharacterString>Data Flow Diagram for UAT MLT RSS CDR</gco:CharacterString>
+                                  </gmd:name>
+                                  <gmd:description>
+                                    <gco:CharacterString>The Data Flow Diagram for UAT MLT RSS CDR shows an overview of the steps used to produce the dataset.</gco:CharacterString>
+                                  </gmd:description>
+                                  <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                  </gmd:function>
+                                </gmd:CI_OnlineResource>
+                              </gmd:onlineResource>
+                            </gmd:CI_Contact>
+                          </gmd:contactInfo>
+                          <gmd:role gco:nilReason="missing"/>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gmi:documentation>
+                  <gmi:algorithm>
+                    <gmi:LE_Algorithm>
+                      <gmi:citation>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>Climate Algorithm Theoretical Basis Document (C-ATBD) for UAT MLT RSS CDR</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date>
+                            <gmd:CI_Date>
+                              <gmd:date>
+                                <gco:Date>2013-08-22</gco:Date>
+                              </gmd:date>
+                              <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                              </gmd:dateType>
+                            </gmd:CI_Date>
+                          </gmd:date>
+                          <gmd:edition>
+                            <gco:CharacterString>Version 1.0</gco:CharacterString>
+                          </gmd:edition>
+                          <gmd:identifier>
+                            <gmd:MD_Identifier>
+                              <gmd:code>
+                                <gco:CharacterString>CDRP-ATBD-0201</gco:CharacterString>
+                              </gmd:code>
+                            </gmd:MD_Identifier>
+                          </gmd:identifier>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName gco:nilReason="missing"/>
+                              <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                  <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                      <gmd:linkage>
+                                        <gmd:URL>https://www1.ncdc.noaa.gov/pub/data/sds/cdr/CDRs/Mean_Layer_Temperatures_RSS/</gmd:URL>
+                                      </gmd:linkage>
+                                      <gmd:protocol>
+                                        <gco:CharacterString>HTTP</gco:CharacterString>
+                                      </gmd:protocol>
+                                      <gmd:applicationProfile>
+                                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                                      </gmd:applicationProfile>
+                                      <gmd:name>
+                                        <gco:CharacterString>Climate Algorithm Theoretical Basis Document (C-ATBD) for UAT MLT RSS CDR</gco:CharacterString>
+                                      </gmd:name>
+                                      <gmd:description>
+                                        <gco:CharacterString>Climate Algorithm Theoretical Basis Document (C-ATBD) for UAT MLT RSS CDR</gco:CharacterString>
+                                      </gmd:description>
+                                      <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                      </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                  </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                              </gmd:contactInfo>
+                              <gmd:role gco:nilReason="missing"/>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gmi:citation>
+                      <gmi:description>
+                        <gco:CharacterString>See Algorithm Citation</gco:CharacterString>
+                      </gmi:description>
+                    </gmi:LE_Algorithm>
+                  </gmi:algorithm>
+                </gmi:LE_Processing>
+              </gmi:processingInformation>
+            </gmi:LE_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="repository">repository</gmd:MD_ScopeCode>
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:other>
+                <gco:CharacterString>NOAA National Centers for Environmental Information</gco:CharacterString>
+              </gmd:other>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:processStep>
+            <gmi:LE_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>NOAA created the National Centers for Environmental Information (NCEI) by merging NOAA's National Climatic Data Center (NCDC), National Geophysical Data Center (NGDC), and National Oceanographic Data Center (NODC), including the National Coastal Data Development Center (NCDDC), per the Consolidated and Further Continuing Appropriations Act, 2015, Public Law 113-235. NCEI launched publicly on April 22, 2015.</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2015-04-22T00:00:00</gco:DateTime>
+              </gmd:dateTime>
+            </gmi:LE_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:other>
+                <gco:CharacterString>Data Stewardship</gco:CharacterString>
+              </gmd:other>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_ConceptualConsistency>
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Data Stewardship Maturity Assessment</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:measureIdentification>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>MM-Stew</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:measureIdentification>
+          <gmd:measureDescription>
+            <gco:CharacterString>The Data Stewardship Maturity Matrix (DSMM) is a unified framework that defines criteria for each of nine components based on measurable practices, which can be used to apply a progressive, 6-level rating to an individual dataset, representing stewardship maturity stages rated as Not Assessed or Not Available (Level 0), adHoc (Level 1), minimum (Level 2), intermediate (Level 3), advanced (Level 4), and optimal (Level 5).</gco:CharacterString>
+          </gmd:measureDescription>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>Data Stewardship Maturity Assessment was evaluated by the metadata content editor for the NOAA OneStop project using the Scientific Data Stewardship Maturity Assessment Model Template v4.0.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:evaluationProcedure>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>The Scientific Data Stewardship Maturity Assessment Model Template</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2016-06-27</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>NCDC-CICS-SMM_0001_Rev.1 v4.0 06/27/2016</gco:CharacterString>
+              </gmd:edition>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:actuate="onRequest" xlink:href="https://doi.org/10.6084/m9.figshare.1211954" xlink:title="DOI link">doi:10.10.6084/m9.figshare.1211954</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Peng, Ge</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>CICS-NC/NCEI</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName gco:nilReason="inapplicable"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>https://doi.org/10.6084/m9.figshare.1211954</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>The Scientific Data Stewardship Maturity Assessment Model Template</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Landing page for quality evaluation procedure.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="inapplicable"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:evaluationProcedure>
+          <gmd:dateTime>
+            <gco:DateTime>2016-06-27T00:00:00</gco:DateTime>
+          </gmd:dateTime>
+          <gmd:result>
+            <gmd:DQ_QuantitativeResult>
+              <gmd:valueUnit gco:nilReason="inapplicable"/>
+              <gmd:value>
+                <gco:Record>
+                  <gmd:CodeListValue codeListValue="intermediate" codelist="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#DataQualityAssessment">intermediate</gmd:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gmd:CodeListValue codeListValue="advanced" codelist="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#Accessibility">advanced</gmd:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gmd:CodeListValue codeListValue="intermediate" codelist="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#DataQualityControlMonitoring">intermediate</gmd:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gmd:CodeListValue codeListValue="advanced" codelist="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#ProductionSustainability">advanced</gmd:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gmd:CodeListValue codeListValue="intermediate" codelist="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#DataIntegrity">intermediate</gmd:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gmd:CodeListValue codeListValue="advanced" codelist="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#Preservability">advanced</gmd:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gmd:CodeListValue codeListValue="intermediate" codelist="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#TransparencyTraceability">intermediate</gmd:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gmd:CodeListValue codeListValue="advanced" codelist="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#Usability">advanced</gmd:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gmd:CodeListValue codeListValue="intermediate" codelist="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#DataQualityAssurance">intermediate</gmd:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+            </gmd:DQ_QuantitativeResult>
+          </gmd:result>
+        </gmd:DQ_ConceptualConsistency>
+      </gmd:report>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+      <gmd:maintenanceNote>
+        <gco:CharacterString>Bulk metadata change applied on 2016-05-05. See version control repository history for metadata change details.</gco:CharacterString>
+      </gmd:maintenanceNote>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+</gmi:MI_Metadata>
+

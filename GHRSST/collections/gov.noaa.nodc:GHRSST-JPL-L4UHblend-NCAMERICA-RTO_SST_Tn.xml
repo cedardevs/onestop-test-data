@@ -1,0 +1,3352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmi:MI_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>gov.noaa.nodc:GHRSST-JPL-L4UHblend-NCAMERICA-RTO_SST_Tn</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">eng</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Data Officer</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>301-713-3277</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>301-713-3300</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Federal Building 151 Patton Avenue</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Asheville</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>NC</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>28801-5001</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>USA</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>NODC.DataOfficer@noaa.gov</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://www.ncei.noaa.gov/</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTPS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:applicationProfile>
+                <gco:CharacterString>Web browser</gco:CharacterString>
+              </gmd:applicationProfile>
+              <gmd:name>
+                <gco:CharacterString>NOAA National Centers for Environmental Information website</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Main NCEI website providing links to access data and data services.</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty id="seriesMetadataContact">
+      <gmd:individualName>
+        <gco:CharacterString>Edward Armstrong</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NASA/JPL/PODAAC &gt; Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Technical Contact</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>818-393-6710</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>818-393-2718</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>edward.m.armstrong@jpl.nasa.gov</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:contactInstructions>
+            <gco:CharacterString>Phone/FAX/E-mail</gco:CharacterString>
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2017-07-12T21:13:33</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_GridSpatialRepresentation>
+      <gmd:numberOfDimensions>
+        <gco:Integer>2</gco:Integer>
+      </gmd:numberOfDimensions>
+      <gmd:axisDimensionProperties>
+        <gmd:MD_Dimension>
+          <gmd:dimensionName>
+            <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column">column</gmd:MD_DimensionNameTypeCode>
+          </gmd:dimensionName>
+          <gmd:dimensionSize gco:nilReason="unknown"/>
+          <gmd:resolution>
+            <gco:Measure uom="km">1</gco:Measure>
+          </gmd:resolution>
+        </gmd:MD_Dimension>
+      </gmd:axisDimensionProperties>
+      <gmd:axisDimensionProperties>
+        <gmd:MD_Dimension>
+          <gmd:dimensionName>
+            <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row">row</gmd:MD_DimensionNameTypeCode>
+          </gmd:dimensionName>
+          <gmd:dimensionSize gco:nilReason="unknown"/>
+          <gmd:resolution>
+            <gco:Measure uom="km">1</gco:Measure>
+          </gmd:resolution>
+        </gmd:MD_Dimension>
+      </gmd:axisDimensionProperties>
+      <gmd:cellGeometry>
+        <gmd:MD_CellGeometryCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode" codeListValue="area">area</gmd:MD_CellGeometryCode>
+      </gmd:cellGeometry>
+      <gmd:transformationParameterAvailability>
+        <gco:Boolean>true</gco:Boolean>
+      </gmd:transformationParameterAvailability>
+    </gmd:MD_GridSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>GHRSST Level 4 RTO Terra MODIS-AMSRE Night North America Regional Blended Sea Surface Temperature Analysis (GDS version 1)</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>GHRSST Level 4 RTO Terra MODIS-AMSRE Night Sea Surface Temperature analysis of North-Central Eastern Pacific and Western Atlantic, oceans around the North and Central America</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2011-11-04</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2012-10-31</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString>1</gco:CharacterString>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>NCEI Collection Identifier</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date gco:nilReason="inapplicable"/>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.nodc:GHRSST-JPL-L4UHblend-NCAMERICA-RTO_SST_Tn" xlink:actuate="onRequest" xlink:title="Collection ID">gov.noaa.nodc:GHRSST-JPL-L4UHblend-NCAMERICA-RTO_SST_Tn</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/institution/details/1730" xlink:actuate="onRequest">DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>301-713-3277</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>301-713-3300</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Federal Building 151 Patton Avenue</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Asheville</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>NC</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>28801-5001</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>NODC.DataOfficer@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.ncei.noaa.gov/</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>HTTPS</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Web browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name>
+                        <gco:CharacterString>NOAA National Centers for Environmental Information website</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Main NCEI website providing links to access data and data services.</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>DOC/NOAA/NESDIS/NODC &gt; National Oceanographic Data Center, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>301-713-3277</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>301-713-3302</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>1315 East-West Highway, SSMC3, 4th floor</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Silver Spring</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>MD</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>20910-3282</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>NODC.DataOfficer@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.nodc.noaa.gov/</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>HTTPS</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Web browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name>
+                        <gco:CharacterString>NOAA National Centers for Environmental Information website</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Website providing links to access data and data services.</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/person/details/2255" xlink:actuate="onRequest">Edward M. Armstrong</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/institution/details/207" xlink:actuate="onRequest">US NASA; Jet Propulsion Laboratory (JPL)</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(818) 393-6710</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>MS 300/320 4800 Oak Grove Drive</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Pasadena</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>CA</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>91109</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>edward.m.armstrong@jpl.nasa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/institution/details/1222" xlink:actuate="onRequest">US NASA; Jet Propulsion Laboratory; Physical Oceanography Distributed Active Archive Center (JPL PO.DAAC)</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>626-744-5508</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>4800 Oak Grove Drive</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Pasadena</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>CA</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>91109</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>podaac@podaac.jpl.nasa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://podaac.jpl.nasa.gov/index.html</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>HTTP</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Web browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name>
+                        <gco:CharacterString>NASA Jet Propulsion Laboratory PO DAAC website</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Institution web page</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/institution/details/1222" xlink:actuate="onRequest">US NASA; Jet Propulsion Laboratory; Physical Oceanography Distributed Active Archive Center (JPL PO.DAAC)</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>626-744-5508</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>4800 Oak Grove Drive</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Pasadena</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>CA</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>91109</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>podaac@podaac.jpl.nasa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://podaac.jpl.nasa.gov/index.html</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>HTTP</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Web browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name>
+                        <gco:CharacterString>NASA Jet Propulsion Laboratory PO DAAC website</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Institution web page</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="tableDigital">tableDigital</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>A Group for High Resolution Sea Surface Temperature (GHRSST) Level 4 sea surface temperature analysis produced daily on an operational basis at the JPL Physical Oceanography DAAC using weighted averages on a regional 0.011 degree grid over the oceans off North and Central America (62N- 20S, 165W - 30W).  This Research to Operations (RTO) analysis is based upon a composite of either nighttime or daytime GHRSST L2P skin SST from the Moderate Resolution Imaging Spectroradiometer (MODIS) on the NASA Aqua and Terra platforms, and subskin SST observations from the Advanced Microwave Scanning Radiometer-EOS (AMSRE). Four unique products (composites) are created: MODIS Terra/AMSRE day and night, and MODIS Aqua/AMSRE  day and night. This particular dataset represents a MODIS Terra and AMSRE composite using nighttime data.  The algorithm is based on a weighting scheme and compositing wherby MODIS data are used if they exist to preserve the highest resolution possible. The product is categorized as blended because no attempt is made to correct for foundation or skin temperature.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>Basic research</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:credit>
+        <gco:CharacterString/>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>301-713-3277</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>301-713-3300</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Federal Building 151 Patton Avenue</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Asheville</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>NC</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>28801-5001</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>NCEI.Info@noaa.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://www.ncei.noaa.gov/</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTPS</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Web browser</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>NOAA National Centers for Environmental Information website</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Main NCEI website providing links to access data and data services.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Edward Armstrong</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>NASA/JPL/PODAAC &gt; Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>818-393-6710</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>818-393-2718</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>edward.m.armstrong@jpl.nasa.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource gco:nilReason="missing"/>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://data.nodc.noaa.gov/cgi-bin/gfx?id=gov.noaa.nodc:GHRSST-JPL-L4UHblend-NCAMERICA-RTO_SST_Tn</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Preview graphic</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>PNG</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>DOC/NOAA/NESDIS/NODC &gt; National Oceanographic Data Center, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NASA/JPL/PODAAC &gt; Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Data Center Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079729" xlink:actuate="onRequest">0079729</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079734" xlink:actuate="onRequest">0079734</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079748" xlink:actuate="onRequest">0079748</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079754" xlink:actuate="onRequest">0079754</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079766" xlink:actuate="onRequest">0079766</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079772" xlink:actuate="onRequest">0079772</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079780" xlink:actuate="onRequest">0079780</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079786" xlink:actuate="onRequest">0079786</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079792" xlink:actuate="onRequest">0079792</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079798" xlink:actuate="onRequest">0079798</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079806" xlink:actuate="onRequest">0079806</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079812" xlink:actuate="onRequest">0079812</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079818" xlink:actuate="onRequest">0079818</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079824" xlink:actuate="onRequest">0079824</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079830" xlink:actuate="onRequest">0079830</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079836" xlink:actuate="onRequest">0079836</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079842" xlink:actuate="onRequest">0079842</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079850" xlink:actuate="onRequest">0079850</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079856" xlink:actuate="onRequest">0079856</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079862" xlink:actuate="onRequest">0079862</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079868" xlink:actuate="onRequest">0079868</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079874" xlink:actuate="onRequest">0079874</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079880" xlink:actuate="onRequest">0079880</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079886" xlink:actuate="onRequest">0079886</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079892" xlink:actuate="onRequest">0079892</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079898" xlink:actuate="onRequest">0079898</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079904" xlink:actuate="onRequest">0079904</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079910" xlink:actuate="onRequest">0079910</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079919" xlink:actuate="onRequest">0079919</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079929" xlink:actuate="onRequest">0079929</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079935" xlink:actuate="onRequest">0079935</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079942" xlink:actuate="onRequest">0079942</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079948" xlink:actuate="onRequest">0079948</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079954" xlink:actuate="onRequest">0079954</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079960" xlink:actuate="onRequest">0079960</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079966" xlink:actuate="onRequest">0079966</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079972" xlink:actuate="onRequest">0079972</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079978" xlink:actuate="onRequest">0079978</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079984" xlink:actuate="onRequest">0079984</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0079990" xlink:actuate="onRequest">0079990</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080000" xlink:actuate="onRequest">0080000</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080006" xlink:actuate="onRequest">0080006</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080014" xlink:actuate="onRequest">0080014</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080020" xlink:actuate="onRequest">0080020</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080026" xlink:actuate="onRequest">0080026</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080032" xlink:actuate="onRequest">0080032</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080038" xlink:actuate="onRequest">0080038</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080044" xlink:actuate="onRequest">0080044</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080050" xlink:actuate="onRequest">0080050</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080056" xlink:actuate="onRequest">0080056</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080062" xlink:actuate="onRequest">0080062</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080068" xlink:actuate="onRequest">0080068</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080074" xlink:actuate="onRequest">0080074</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080079" xlink:actuate="onRequest">0080079</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080084" xlink:actuate="onRequest">0080084</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080089" xlink:actuate="onRequest">0080089</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080095" xlink:actuate="onRequest">0080095</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080103" xlink:actuate="onRequest">0080103</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080109" xlink:actuate="onRequest">0080109</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080115" xlink:actuate="onRequest">0080115</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080121" xlink:actuate="onRequest">0080121</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080127" xlink:actuate="onRequest">0080127</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080133" xlink:actuate="onRequest">0080133</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080139" xlink:actuate="onRequest">0080139</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080145" xlink:actuate="onRequest">0080145</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080151" xlink:actuate="onRequest">0080151</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080157" xlink:actuate="onRequest">0080157</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080163" xlink:actuate="onRequest">0080163</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080171" xlink:actuate="onRequest">0080171</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080177" xlink:actuate="onRequest">0080177</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080183" xlink:actuate="onRequest">0080183</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080189" xlink:actuate="onRequest">0080189</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080195" xlink:actuate="onRequest">0080195</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080201" xlink:actuate="onRequest">0080201</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080207" xlink:actuate="onRequest">0080207</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080213" xlink:actuate="onRequest">0080213</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080219" xlink:actuate="onRequest">0080219</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080225" xlink:actuate="onRequest">0080225</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080231" xlink:actuate="onRequest">0080231</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080237" xlink:actuate="onRequest">0080237</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080243" xlink:actuate="onRequest">0080243</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080249" xlink:actuate="onRequest">0080249</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080255" xlink:actuate="onRequest">0080255</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080261" xlink:actuate="onRequest">0080261</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080273" xlink:actuate="onRequest">0080273</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080279" xlink:actuate="onRequest">0080279</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080299" xlink:actuate="onRequest">0080299</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080305" xlink:actuate="onRequest">0080305</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080312" xlink:actuate="onRequest">0080312</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080319" xlink:actuate="onRequest">0080319</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080326" xlink:actuate="onRequest">0080326</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080332" xlink:actuate="onRequest">0080332</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080338" xlink:actuate="onRequest">0080338</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080344" xlink:actuate="onRequest">0080344</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080350" xlink:actuate="onRequest">0080350</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080356" xlink:actuate="onRequest">0080356</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080362" xlink:actuate="onRequest">0080362</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080368" xlink:actuate="onRequest">0080368</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080374" xlink:actuate="onRequest">0080374</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080380" xlink:actuate="onRequest">0080380</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080386" xlink:actuate="onRequest">0080386</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080392" xlink:actuate="onRequest">0080392</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080398" xlink:actuate="onRequest">0080398</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080404" xlink:actuate="onRequest">0080404</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080410" xlink:actuate="onRequest">0080410</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080416" xlink:actuate="onRequest">0080416</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080422" xlink:actuate="onRequest">0080422</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080428" xlink:actuate="onRequest">0080428</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080436" xlink:actuate="onRequest">0080436</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080442" xlink:actuate="onRequest">0080442</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080448" xlink:actuate="onRequest">0080448</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080454" xlink:actuate="onRequest">0080454</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080460" xlink:actuate="onRequest">0080460</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080466" xlink:actuate="onRequest">0080466</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080472" xlink:actuate="onRequest">0080472</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080478" xlink:actuate="onRequest">0080478</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080486" xlink:actuate="onRequest">0080486</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080492" xlink:actuate="onRequest">0080492</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080498" xlink:actuate="onRequest">0080498</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080504" xlink:actuate="onRequest">0080504</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080510" xlink:actuate="onRequest">0080510</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080516" xlink:actuate="onRequest">0080516</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080543" xlink:actuate="onRequest">0080543</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080549" xlink:actuate="onRequest">0080549</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080555" xlink:actuate="onRequest">0080555</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080561" xlink:actuate="onRequest">0080561</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080567" xlink:actuate="onRequest">0080567</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080573" xlink:actuate="onRequest">0080573</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080579" xlink:actuate="onRequest">0080579</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080585" xlink:actuate="onRequest">0080585</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080591" xlink:actuate="onRequest">0080591</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080597" xlink:actuate="onRequest">0080597</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080603" xlink:actuate="onRequest">0080603</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080609" xlink:actuate="onRequest">0080609</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080613" xlink:actuate="onRequest">0080613</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080641" xlink:actuate="onRequest">0080641</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080647" xlink:actuate="onRequest">0080647</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080658" xlink:actuate="onRequest">0080658</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080664" xlink:actuate="onRequest">0080664</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080683" xlink:actuate="onRequest">0080683</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080689" xlink:actuate="onRequest">0080689</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080695" xlink:actuate="onRequest">0080695</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080709" xlink:actuate="onRequest">0080709</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080715" xlink:actuate="onRequest">0080715</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080721" xlink:actuate="onRequest">0080721</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080727" xlink:actuate="onRequest">0080727</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080733" xlink:actuate="onRequest">0080733</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080739" xlink:actuate="onRequest">0080739</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080745" xlink:actuate="onRequest">0080745</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080751" xlink:actuate="onRequest">0080751</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080757" xlink:actuate="onRequest">0080757</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080763" xlink:actuate="onRequest">0080763</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080769" xlink:actuate="onRequest">0080769</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080775" xlink:actuate="onRequest">0080775</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080781" xlink:actuate="onRequest">0080781</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080788" xlink:actuate="onRequest">0080788</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080794" xlink:actuate="onRequest">0080794</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080800" xlink:actuate="onRequest">0080800</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080806" xlink:actuate="onRequest">0080806</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080812" xlink:actuate="onRequest">0080812</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080818" xlink:actuate="onRequest">0080818</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080826" xlink:actuate="onRequest">0080826</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080832" xlink:actuate="onRequest">0080832</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080838" xlink:actuate="onRequest">0080838</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080844" xlink:actuate="onRequest">0080844</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080850" xlink:actuate="onRequest">0080850</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080856" xlink:actuate="onRequest">0080856</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080862" xlink:actuate="onRequest">0080862</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080868" xlink:actuate="onRequest">0080868</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080874" xlink:actuate="onRequest">0080874</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080880" xlink:actuate="onRequest">0080880</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080886" xlink:actuate="onRequest">0080886</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080893" xlink:actuate="onRequest">0080893</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080900" xlink:actuate="onRequest">0080900</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080907" xlink:actuate="onRequest">0080907</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080914" xlink:actuate="onRequest">0080914</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080921" xlink:actuate="onRequest">0080921</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080928" xlink:actuate="onRequest">0080928</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0080935" xlink:actuate="onRequest">0080935</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081813" xlink:actuate="onRequest">0081813</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081824" xlink:actuate="onRequest">0081824</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081836" xlink:actuate="onRequest">0081836</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081849" xlink:actuate="onRequest">0081849</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081862" xlink:actuate="onRequest">0081862</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081875" xlink:actuate="onRequest">0081875</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081888" xlink:actuate="onRequest">0081888</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081901" xlink:actuate="onRequest">0081901</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081914" xlink:actuate="onRequest">0081914</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081927" xlink:actuate="onRequest">0081927</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081940" xlink:actuate="onRequest">0081940</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081953" xlink:actuate="onRequest">0081953</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081966" xlink:actuate="onRequest">0081966</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081979" xlink:actuate="onRequest">0081979</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0081992" xlink:actuate="onRequest">0081992</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082004" xlink:actuate="onRequest">0082004</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082018" xlink:actuate="onRequest">0082018</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082032" xlink:actuate="onRequest">0082032</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082046" xlink:actuate="onRequest">0082046</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082060" xlink:actuate="onRequest">0082060</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082076" xlink:actuate="onRequest">0082076</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082089" xlink:actuate="onRequest">0082089</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082102" xlink:actuate="onRequest">0082102</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082110" xlink:actuate="onRequest">0082110</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082117" xlink:actuate="onRequest">0082117</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082124" xlink:actuate="onRequest">0082124</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082131" xlink:actuate="onRequest">0082131</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082138" xlink:actuate="onRequest">0082138</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0082145" xlink:actuate="onRequest">0082145</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084132" xlink:actuate="onRequest">0084132</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084159" xlink:actuate="onRequest">0084159</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084187" xlink:actuate="onRequest">0084187</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084216" xlink:actuate="onRequest">0084216</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084243" xlink:actuate="onRequest">0084243</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084271" xlink:actuate="onRequest">0084271</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084296" xlink:actuate="onRequest">0084296</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084316" xlink:actuate="onRequest">0084316</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084335" xlink:actuate="onRequest">0084335</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084352" xlink:actuate="onRequest">0084352</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084367" xlink:actuate="onRequest">0084367</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084382" xlink:actuate="onRequest">0084382</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084397" xlink:actuate="onRequest">0084397</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084410" xlink:actuate="onRequest">0084410</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0084423" xlink:actuate="onRequest">0084423</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0087588" xlink:actuate="onRequest">0087588</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0087592" xlink:actuate="onRequest">0087592</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0088190" xlink:actuate="onRequest">0088190</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0088193" xlink:actuate="onRequest">0088193</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0088195" xlink:actuate="onRequest">0088195</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0088918" xlink:actuate="onRequest">0088918</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089098" xlink:actuate="onRequest">0089098</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089138" xlink:actuate="onRequest">0089138</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089143" xlink:actuate="onRequest">0089143</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089680" xlink:actuate="onRequest">0089680</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089688" xlink:actuate="onRequest">0089688</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089697" xlink:actuate="onRequest">0089697</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089706" xlink:actuate="onRequest">0089706</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089716" xlink:actuate="onRequest">0089716</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089729" xlink:actuate="onRequest">0089729</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089747" xlink:actuate="onRequest">0089747</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089755" xlink:actuate="onRequest">0089755</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089759" xlink:actuate="onRequest">0089759</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089762" xlink:actuate="onRequest">0089762</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089765" xlink:actuate="onRequest">0089765</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089768" xlink:actuate="onRequest">0089768</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0089771" xlink:actuate="onRequest">0089771</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0090359" xlink:actuate="onRequest">0090359</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0090377" xlink:actuate="onRequest">0090377</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0090387" xlink:actuate="onRequest">0090387</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0090421" xlink:actuate="onRequest">0090421</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0090430" xlink:actuate="onRequest">0090430</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0090434" xlink:actuate="onRequest">0090434</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0090438" xlink:actuate="onRequest">0090438</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0090442" xlink:actuate="onRequest">0090442</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0090445" xlink:actuate="onRequest">0090445</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092560" xlink:actuate="onRequest">0092560</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092570" xlink:actuate="onRequest">0092570</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092581" xlink:actuate="onRequest">0092581</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092592" xlink:actuate="onRequest">0092592</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092604" xlink:actuate="onRequest">0092604</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092616" xlink:actuate="onRequest">0092616</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092628" xlink:actuate="onRequest">0092628</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092640" xlink:actuate="onRequest">0092640</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092682" xlink:actuate="onRequest">0092682</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092688" xlink:actuate="onRequest">0092688</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092693" xlink:actuate="onRequest">0092693</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092699" xlink:actuate="onRequest">0092699</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092704" xlink:actuate="onRequest">0092704</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092711" xlink:actuate="onRequest">0092711</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092716" xlink:actuate="onRequest">0092716</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0092722" xlink:actuate="onRequest">0092722</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093440" xlink:actuate="onRequest">0093440</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093484" xlink:actuate="onRequest">0093484</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093489" xlink:actuate="onRequest">0093489</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093494" xlink:actuate="onRequest">0093494</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093499" xlink:actuate="onRequest">0093499</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093504" xlink:actuate="onRequest">0093504</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093509" xlink:actuate="onRequest">0093509</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093514" xlink:actuate="onRequest">0093514</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093519" xlink:actuate="onRequest">0093519</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093682" xlink:actuate="onRequest">0093682</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093694" xlink:actuate="onRequest">0093694</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0093706" xlink:actuate="onRequest">0093706</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098608" xlink:actuate="onRequest">0098608</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098625" xlink:actuate="onRequest">0098625</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098644" xlink:actuate="onRequest">0098644</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098664" xlink:actuate="onRequest">0098664</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098681" xlink:actuate="onRequest">0098681</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098709" xlink:actuate="onRequest">0098709</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098726" xlink:actuate="onRequest">0098726</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098743" xlink:actuate="onRequest">0098743</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098800" xlink:actuate="onRequest">0098800</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098808" xlink:actuate="onRequest">0098808</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098816" xlink:actuate="onRequest">0098816</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098849" xlink:actuate="onRequest">0098849</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098863" xlink:actuate="onRequest">0098863</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098874" xlink:actuate="onRequest">0098874</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0098885" xlink:actuate="onRequest">0098885</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://accession.nodc.noaa.gov/0099148" xlink:actuate="onRequest">0099148</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NCEI ACCESSION NUMBER</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-10-31</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/datatype/details/319" xlink:actuate="onRequest">SEA SURFACE TEMPERATURE</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC DATA TYPES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/insttype/details/100" xlink:actuate="onRequest">AMSR-E</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/insttype/details/103" xlink:actuate="onRequest">MODIS</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="instrument">instrument</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC INSTRUMENT TYPES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/obstype/details/20" xlink:actuate="onRequest">satellite data</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC OBSERVATION TYPES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/platform/details/10617" xlink:actuate="onRequest">Aqua SATELLITE</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC PLATFORM NAMES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/institution/details/1222" xlink:actuate="onRequest">US NASA; Jet Propulsion Laboratory; Physical Oceanography Distributed Active Archive Center</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC COLLECTING INSTITUTION NAMES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/institution/details/1222" xlink:actuate="onRequest">US NASA; Jet Propulsion Laboratory; Physical Oceanography Distributed Active Archive Center</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC SUBMITTING INSTITUTION NAMES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/project/details/385" xlink:actuate="onRequest">Group for High Resolution Sea Surface Temperature (GHRSST)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="project">project</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC PROJECT NAMES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/seaname/details/50" xlink:actuate="onRequest">Caribbean Sea</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/seaname/details/145" xlink:actuate="onRequest">Great Lakes</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/seaname/details/15" xlink:actuate="onRequest">Gulf of Alaska</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/seaname/details/22" xlink:actuate="onRequest">Gulf of Mexico</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/seaname/details/68" xlink:actuate="onRequest">Gulf of St. Lawrence</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/seaname/details/80" xlink:actuate="onRequest">Labrador Sea</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/seaname/details/91" xlink:actuate="onRequest">North Atlantic Ocean</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/seaname/details/93" xlink:actuate="onRequest">North Pacific Ocean</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/seaname/details/105" xlink:actuate="onRequest">South Atlantic Ocean</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="https://www.nodc.noaa.gov/cgi-bin/OAS/prd/seaname/details/107" xlink:actuate="onRequest">South Pacific Ocean</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NODC SEA AREA NAMES THESAURUS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>oceanography</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>WMO_CategoryCode</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-09-15</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>GHRSST &gt; Group for High Resolution Sea Surface Temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NOAA OneStop Project</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="project">project</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Project Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2017</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.5</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN TEMPERATURE &gt; SEA SURFACE TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Science and Services Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2017</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.5</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>AMSR-E &gt; Advanced Microwave Scanning Radiometer-EOS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>MODIS &gt; Moderate-Resolution Imaging Spectroradiometer</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="instrument">instrument</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Instrument Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2017</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.5</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>AQUA &gt; Earth Observing System, AQUA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Platform Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2017</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.5</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>CONTINENT &gt; NORTH AMERICA &gt; CANADA &gt; GREAT LAKES, CANADA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; GREAT LAKES</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; NORTH ATLANTIC OCEAN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; NORTH ATLANTIC OCEAN &gt; CARIBBEAN SEA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; NORTH ATLANTIC OCEAN &gt; GULF OF MEXICO</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; NORTH ATLANTIC OCEAN &gt; GULF OF ST LAWRENCE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; SOUTH ATLANTIC OCEAN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; NORTH PACIFIC OCEAN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; NORTH PACIFIC OCEAN &gt; GULF OF ALASKA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; SOUTH PACIFIC OCEAN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Location Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2017</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.5</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature &gt; Blended Sea Surface Temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.5</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Atlantic and Pacific</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NASA/GCMD Location Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+              <gmd:edition>
+                <gco:CharacterString>Version 8.5</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Greenbelt</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>MD</gco:CharacterString>
+                          </gmd:administrativeArea>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://gcmd.gsfc.nasa.gov/learn/keywords.html</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>NASA GCMD Keyword Community Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Overview of the NASA GCMD Keywords.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>accessLevel: Public</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints xlink:title="NCEI Data Citation Statement">
+        <gmd:MD_LegalConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Cite as: US NASA; Jet Propulsion Laboratory; Physical Oceanography Distributed Active Archive Center (JPL PO.DAAC) (2010). GHRSST Level 4 RTO Terra MODIS-AMSRE Night North America Regional Blended Sea Surface Temperature Analysis (GDS version 1). National Oceanographic Data Center, NOAA. Dataset. [access date]</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Distribution liability: NOAA and NCEI make no warranty, expressed or implied, regarding these data, nor does the fact of distribution constitute such a warranty. NOAA and NCEI cannot assume liability for any damages caused by any errors or omissions in these data. If appropriate, NCEI can only certify that data it distributes are an authentic copy of the records that were accepted for inclusion in the NCEI archives.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GHRSST Level 4 RTO Terra MODIS-AMSRE Night North America Regional Blended Sea Surface Temperature Analysis</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>GHRSST Level 4 RTO Terra MODIS-AMSRE Night Sea Surface Temperature analysis of North-Central Eastern Pacific and Western Atlantic, oceans around the North and Central America</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>20100924</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Jet Propulsion Laboratory</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource gco:nilReason="missing"/>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Jet Propulsion Laboratory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:city>
+                            <gco:CharacterString>Jet Propulsion Laboratory, CA, USA</gco:CharacterString>
+                          </gmd:city>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="collection">collection</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="userGuide">userGuide</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Portal to the GHRSST Global Data Assembly Center and data access Portal to the GHRSST Global Data Assembly Center and data access</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName gco:nilReason="inapplicable"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://ghrsst.jpl.nasa.gov</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Standard Internet browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>Portal to the GHRSST Global Data Assembly Center and data access</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Portal to the GHRSST Global Data Assembly Center and data access</gco:CharacterString>
+                          </gmd:description>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="collection">collection</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Web Service (Search Granule)</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName gco:nilReason="inapplicable"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GHRTN-4FJ01&amp;apidoc</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Standard Internet browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>Web Service</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>(Search Granule)</gco:CharacterString>
+                          </gmd:description>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="collection">collection</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GHRSST Project homepage GHRSST Project homepage</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName gco:nilReason="inapplicable"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.ghrsst.org</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTP</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Standard Internet browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>GHRSST Project homepage</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>GHRSST Project homepage</gco:CharacterString>
+                          </gmd:description>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="collection">collection</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">eng</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent id="boundingExtent">
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-165</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-30</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-20</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>62</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent id="boundingTemporalExtent">
+              <gmd:extent>
+                <gml:TimePeriod gml:id="boundingTemporalExtentPeriod">
+                  <gml:beginPosition>2010-09-27</gml:beginPosition>
+                  <gml:endPosition>2012-09-20</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation gco:nilReason="missing"/>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <gmi:MI_CoverageDescription id="referenceInformation">
+      <gmd:attributeDescription>
+        <gco:RecordType xlink:href="http://www.ghrsst.org/documents.htm?parent=475"/>
+      </gmd:attributeDescription>
+      <gmd:contentType>
+        <gmd:MD_CoverageContentTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="referenceInformation">referenceInformation</gmd:MD_CoverageContentTypeCode>
+      </gmd:contentType>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>lat</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>lon</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>float</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>time</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>int</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+    </gmi:MI_CoverageDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>301-713-3277</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>301-713-3300</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Federal Building 151 Patton Avenue</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Asheville</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>NC</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>28801-5001</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>NCEI.Info@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Digital data may be downloaded from NCEI at no charge in most cases. For custom orders of digital data or to obtain a copy of analog materials, please contact NCEI Information Services for information about current fees.</gco:CharacterString>
+              </gmd:fees>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>Data may be searched and downloaded using online services provided by NCEI using the online resource URLs in this record. Contact NCEI Information Services for custom orders. When requesting data from NCEI, the desired data set may be referred to by the unique package identification number listed in this metadata record.</gco:CharacterString>
+              </gmd:orderingInstructions>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorFormat>
+            <gmd:MD_Format id="resourceFormat">
+              <gmd:name>
+                <gco:CharacterString>netCDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:version>
+                <gco:CharacterString>netCDF-3</gco:CharacterString>
+              </gmd:version>
+              <gmd:fileDecompressionTechnique>
+                <gco:CharacterString>BZIP2</gco:CharacterString>
+              </gmd:fileDecompressionTechnique>
+            </gmd:MD_Format>
+          </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://data.nodc.noaa.gov/las/getUI.do?dsid=id-1217209d57&amp;varid=analysed_sst-id-1217209d57&amp;auto=true</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>LAS</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Web browser</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>LAS</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Navigate directly to the Live Access Server (LAS) URL for data access and direct download.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.nodc:GHRSST-JPL-L4UHblend-NCAMERICA-RTO_SST_Tn</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTPS</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Web browser</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>Descriptive Information</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Navigate directly to the URL for a descriptive web page with download links.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://www.nodc.noaa.gov/search/granule/rest/find/document?searchText=fileIdentifier%3AGHRSST-JPL-L4UHblend-NCAMERICA-RTO_SST_Tn*%20OR%20fileIdentifier%3AJPL-L4UHblend-NCAMERICA-RTO_SST_Tn*&amp;start=1&amp;max=100&amp;f=searchPage</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTPS</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Web browser</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>Granule Search</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Search for data granules belonging to this collection (a granule is the smallest aggregation of data that can be independently described and retrieved).</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search">search</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://data.nodc.noaa.gov/thredds/catalog/ghrsst/L4/NCAMERICA/JPL/RTO_SST_Tn/</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>THREDDS</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Web browsers can browse THREDDS Data Servers and specialized THREDDS software can enable more sophisticated data access and visualizations.</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>THREDDS</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>These data are available through a variety of services via a THREDDS (Thematic Real-time Environmental Distributed Data Services) Data Server (TDS). Depending on the dataset, the TDS can provide WMS, WCS, DAP, HTTP, and other data access and metadata services as well. For more information on the TDS, see http://www.unidata.ucar.edu/software/thredds/current/tds/.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://data.nodc.noaa.gov/opendap/ghrsst/L4/NCAMERICA/JPL/RTO_SST_Tn/</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>DAP</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Web browsers can browse OPeNDAP servers and specialized OPeNDAP software can enable more sophisticated data access and visualizations.</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>OPeNDAP</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>These data are available through the Data Access Protocol (DAP) via an OPeNDAP Hyrax server. For a listing of OPeNDAP clients which may be used to access OPeNDAP-enabled data sets, please see the OPeNDAP website at http://opendap.org/.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://data.nodc.noaa.gov/ghrsst/L4/NCAMERICA/JPL/RTO_SST_Tn/</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTPS</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Web browser</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>HTTPS</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Navigate directly to the URL for data access and direct download.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>ftp://ftp.nodc.noaa.gov/pub/data.nodc/ghrsst/L4/NCAMERICA/JPL/RTO_SST_Tn/</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>FTP</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Any FTP client</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>FTP</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>These data are available through the File Transfer Protocol (FTP). You may use any FTP client to download these data.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:other>
+                <gco:CharacterString>Data Stewardship</gco:CharacterString>
+              </gmd:other>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_ConceptualConsistency>
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Data Stewardship Maturity Assessment</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:measureIdentification>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>MM-Stew</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:measureIdentification>
+          <gmd:measureDescription>
+            <gco:CharacterString>The Data Stewardship Maturity Matrix (DSMM) is a unified framework that defines criteria for each of nine components based on measurable practices, which can be used to apply a progressive, 6-level rating to an individual dataset, representing stewardship maturity stages rated as Not Assessed or Not Available (Level 0), adHoc (Level 1), minimum (Level 2), intermediate (Level 3), advanced (Level 4), and optimal (Level 5).</gco:CharacterString>
+          </gmd:measureDescription>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>Data Stewardship Maturity Assessment was evaluated by the metadata content editor for the NOAA OneStop project using the Scientific Data Stewardship Maturity Assessment Model Template v4.0.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:evaluationProcedure>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>The Scientific Data Stewardship Maturity Assessment Model Template</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2015-06-23</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>NCDC-CICS-SMM_0001_Rev.1 v4.0 06/23/2015</gco:CharacterString>
+              </gmd:edition>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://doi.org/10.6084/m9.figshare.1211954" xlink:title="DOI link" xlink:actuate="onRequest">doi:10.10.6084/m9.figshare.1211954</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Peng, Ge</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>CICS-NC/NCEI</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName gco:nilReason="inapplicable"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>https://doi.org/10.6084/m9.figshare.1211954</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTPS</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>The Scientific Data Stewardship Maturity Assessment Model Template</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Landing page for quality evaluation procedure.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="inapplicable"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:presentationForm>
+                <gmd:CI_PresentationFormCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
+              </gmd:presentationForm>
+            </gmd:CI_Citation>
+          </gmd:evaluationProcedure>
+          <gmd:dateTime>
+            <gco:DateTime>2017-05-04T00:00:00</gco:DateTime>
+          </gmd:dateTime>
+          <gmd:result>
+            <gmd:DQ_QuantitativeResult>
+              <gmd:valueUnit gco:nilReason="inapplicable"/>
+              <gmd:value>
+                <gco:Record>
+                  <gco:CodeListValue codelist="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#Preservability" codeListValue="optimal">optimal</gco:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gco:CodeListValue codelist="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#Accessibility" codeListValue="optimal">optimal</gco:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gco:CodeListValue codelist="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#Usability" codeListValue="advanced">advanced</gco:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gco:CodeListValue codelist="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#ProductionSustainability" codeListValue="minimal">minimal</gco:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gco:CodeListValue codelist="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#DataQualityAssurance" codeListValue="adHoc">adHoc</gco:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gco:CodeListValue codelist="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#DataQualityControlMonitoring" codeListValue="adHoc">adHoc</gco:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gco:CodeListValue codelist="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#DataQualityAssessment" codeListValue="notAvailable">notAvailable</gco:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gco:CodeListValue codelist="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#TransparencyTraceability" codeListValue="adHoc">adHoc</gco:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+              <gmd:value>
+                <gco:Record>
+                  <gco:CodeListValue codelist="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/MM_StewCodelists.xml#DataIntegrity" codeListValue="intermediate">intermediate</gco:CodeListValue>
+                </gco:Record>
+              </gmd:value>
+            </gmd:DQ_QuantitativeResult>
+          </gmd:result>
+        </gmd:DQ_ConceptualConsistency>
+      </gmd:report>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="repository">repository</gmd:MD_ScopeCode>
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:other>
+                <gco:CharacterString>NOAA National Centers for Environmental Information</gco:CharacterString>
+              </gmd:other>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:processStep>
+            <gmi:LE_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>NOAA created the National Centers for Environmental Information (NCEI) by merging NOAA's National Climatic Data Center (NCDC), National Geophysical Data Center (NGDC), and National Oceanographic Data Center (NODC), including the National Coastal Data Development Center (NCDDC), per the Consolidated and Further Continuing Appropriations Act, 2015, Public Law 113-235. NCEI launched publicly on April 22, 2015.</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2015-04-22T00:00:00</gco:DateTime>
+              </gmd:dateTime>
+            </gmi:LE_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+      <gmd:maintenanceNote>
+        <gco:CharacterString>Combined metadata from JPL and NCEI</gco:CharacterString>
+      </gmd:maintenanceNote>
+      <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:contact>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+  <gmi:acquisitionInformation>
+    <gmi:MI_AcquisitionInformation>
+      <gmi:instrument>
+        <gmi:MI_Instrument>
+          <gmi:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>AMSR-E &gt; Advanced Microwave Scanning Radiometer-EOS</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmi:identifier>
+          <gmi:type>
+            <gco:CharacterString>sensor</gco:CharacterString>
+          </gmi:type>
+          <gmi:description>
+            <gco:CharacterString>The Advanced Microwave Scanning Radiometer for EOS (AMSR-E) is a twelve-channel, six-frequency, total power passive-microwave radiometer system.</gco:CharacterString>
+          </gmi:description>
+        </gmi:MI_Instrument>
+      </gmi:instrument>
+      <gmi:instrument>
+        <gmi:MI_Instrument>
+          <gmi:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>MODIS &gt; Moderate-Resolution Imaging Spectroradiometer</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmi:identifier>
+          <gmi:type>
+            <gco:CharacterString>sensor</gco:CharacterString>
+          </gmi:type>
+          <gmi:description>
+            <gco:CharacterString>The MODIS (Moderate Resolution Imaging Spectroradiometer) instrument provides high radiometric sensitivity (12 bit) in 36 spectral bands ranging in wavelength from 0.4 m to 14.4 m. It is used for observing processes occurring on the land, in the oceans, and in the lower atmosphere.</gco:CharacterString>
+          </gmi:description>
+        </gmi:MI_Instrument>
+      </gmi:instrument>
+      <gmi:platform>
+        <gmi:MI_Platform>
+          <gmi:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>AQUA &gt; Earth Observing System, AQUA</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmi:identifier>
+          <gmi:description>
+            <gco:CharacterString>Aqua is a NASA polar orbiting mission designed to collect information on the Earth's atmospheric, land and ocean systems, including evaporation from the oceans, water vapor in the atmosphere, clouds, precipitation, soil moisture, ice, and ocean sea surface temperature and color.</gco:CharacterString>
+          </gmi:description>
+          <gmi:sponsor>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Jet Propulsion Laboratory</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource gco:nilReason="missing"/>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="sponsor">sponsor</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmi:sponsor>
+          <gmi:sponsor>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>NASA/JPL/PODAAC &gt; Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://podaac.jpl.nasa.gov</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="sponsor">sponsor</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmi:sponsor>
+          <gmi:instrument xlink:href="AQUA"/>
+        </gmi:MI_Platform>
+      </gmi:platform>
+    </gmi:MI_AcquisitionInformation>
+  </gmi:acquisitionInformation>
+</gmi:MI_Metadata>

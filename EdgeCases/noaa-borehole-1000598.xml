@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>noaa-borehole-1000598</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng; USA</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Bauer, Bruce</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>+1 303-497-6280</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>+1 303-497-6513</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>325 Broadway, E/CC23</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Boulder</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>CO</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>80305-3328</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>USA</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>paleo@noaa.gov</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2018-02-01</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>NOAA/WDS Paleoclimatology - Global Database of Borehole Temperatures and Climate Reconstructions - JP-Sakai2</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-10-16</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition gco:nilReason="missing"/>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>noaa-borehole-1000598</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>NCEI DSI 1200_01</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Huang, S.</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Pollack, H.N.</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Shen, P.Y.</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="tableDigital">tableDigital</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>This Paleoclimatology Study is archived at and available from the NOAA National Centers for Environmental Information (NCEI), under the World Data Service (WDS) for Paleoclimatology. The study type is Borehole. The data include parameters of boreholes (physical properties) with a geographic location of Eastern Asia. The time period coverage in calendar years before present is from 450 to -54. See metadata information for parameter and study location details. Cite this study as appropriate when using the data.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>Records of past temperature derived from boreholes drilled into the Earth crust. Parameter keywords describe what was measured in this dataset. Additional summary information can be found in the abstracts of papers listed in the dataset citations. Information on the University of Michigan Borehole Database datasets are found on the Borehole Data Page (http://www.ncdc.noaa.gov/paleo/borehole).</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Bauer, Bruce</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+1 303-497-6280</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>+1 303-497-6513</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>325 Broadway, E/CC23</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Boulder</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>CO</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>80305-3328</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>paleo@noaa.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www.ncdc.noaa.gov/c/images/pc-default-borehole.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Paleoclimatology - Borehole</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>PNG</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Earth Science &gt; Climate Indicators &gt; Paleoclimate Indicators &gt; Land Records &gt; Boreholes</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Earth Science &gt; Climate Indicators &gt; Paleoclimate Indicators &gt; Ocean/Lake Records &gt; Boreholes</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Earth Science &gt; Paleoclimate &gt; Land Records &gt; Boreholes</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Earth Science &gt; Paleoclimate &gt; Ocean/Lake Records &gt; Boreholes</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Science Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2017</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>earth science &gt; paleoclimate &gt; boreholes &gt; physical properties</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD) Science Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2017</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Continent &gt; Asia &gt; Eastern Asia &gt; Japan&gt; JP-Sakai2 &gt; LATITUDE 34.6 &gt; LONGITUDE 135.46</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Cite this dataset when used as a source: Huang, S.; Pollack, H.N.; Shen, P.Y. (2016-10-16): NOAA/WDS Paleoclimatology - Global Database of Borehole Temperatures and Climate Reconstructions - JP-Sakai2. [indicate subset used]. NOAA National Centers for Environmental Information. noaa-borehole-1000598. [access date].</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>NCEI cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NCEI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty. NCEI can only certify that the data it distributes are an authentic copy of the records that were accepted for inclusion in the NCEI archives.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>None</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Please cite original references when using this data.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Temperature trends over the past five centuries reconstructed from borehole temperatures</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2000</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Huang, S., Pollack, H.N., and Shen, P.Y.</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Nature</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName gco:nilReason="missing"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>https://doi.org/10.</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>HTTPS</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:applicationProfile>
+                            <gco:CharacterString>Web Browser</gco:CharacterString>
+                          </gmd:applicationProfile>
+                          <gmd:name>
+                            <gco:CharacterString>Associated Reference published 2000</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Huang, S., Pollack, H.N., and Shen, P.Y., 2000: Temperature trends over the past five centuries reconstructed from borehole temperatures. Nature, 403, 756-758, 10.1038/35001556</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="missing"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="sciencePaper">sciencePaper</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent id="boundingExtent">
+          <gmd:description>
+            <gco:CharacterString>Start_Date: 1500 AD; Stop_Date: 2004 AD; Start_Date: 450 cal yr BP; Stop_Date: -54 cal yr BP; </gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+              <gmd:westBoundLongitude>
+                <gco:Decimal>135.46</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>135.46</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>34.6</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>34.6</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon id="boundingGeographicPolygon">
+              <gmd:polygon>
+                <gml:Point gml:id="stationLocation" srsName="urn:ogc:def:crs:EPSG::4326" uomLabels="deg deg" axisLabels="Latitude Longitude">
+                  <gml:description>Study Coordinates</gml:description>
+                  <gml:pos>34.6 135.46</gml:pos>
+                </gml:Point>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent id="boundingTemporalExtent">
+              <gmd:extent>
+                <gml:TimePeriod gml:id="idm251408">
+                  <gml:beginPosition>1500</gml:beginPosition>
+                  <gml:endPosition>2004</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation>
+        <gco:CharacterString>STUDY NOTES: This project has as its goal the design, assembly, analysis and interpretation of geothermal observations on continents relevant to understanding the nature and causes of climate change over the past five centuries. The project was inititated by the Geothermal Laboratory of the University of Michigan, USA. Important collaborations have been developed with the Geophysical Institute of the Czech Academy of Sciences, and with a working group of the International Heat Flow Commission of IASPEI. Funding for this project has come from the U.S. National Science Foundation, the U.S. National Oceanic and Atmospheric Administration, the International Geological Correlation Program, and the Czech - U.S. Science and Technology Program. The principal components of the database are: (1) Basic geothermal observations from field surveys and laboratory measurements, principally comprising borehole temperature logs and thermophysical properties. This section includes data only from boreholes at least 200 m deep. The data listed are restricted to the range 20-600 meters. Data above 20 m have been omitted because they include annual variability, and data below 600 m have not been included because they contain no information about the past 500 years.Quality control measures have occasionally required the deletion of other data within the 20-600 m range. (2) A five-century ground surface temperature history derived for each site by a standardized inversion procedure operating on the basic observations. The derived history is presented as century-long temperature trends for each of the past five centuries. This representation emphasizes longer term variations of the climate history, and thus is complementary to high resolution proxies such as tree rings, ice cores, corals and lake sediments. (3) The name of the person who can be contacted to learn more about the data and the site. This is either the name of the original investigator who made the observations, or the name of a regional or national data compiler. Some data remain proprietary, and therefore are not accessible directly from this database. Database users desiring access to these data should request the data directly from the person listed as the data contact. A list of investigators engaged in climate studies involving geothermal data can be found at the original web site of this database at the University of Michigan. Updated version of dataset submitted by Huang in October 2016.ABSTRACT SUPPLIED BY ORIGINATOR: For an accurate assessment of the relative roles of natural variability and anthropogenic influence in the Earth's climate, reconstructions of past temperatures from the pre-industrial as well as the industrial period are essential. But instrumental records are typically available for no more than the past 150 years. Therefore reconstructions of pre-industrial climate rely principally on traditional climate proxy records, each with particular strengths and limitations in representing climatic variability. Subsurface temperatures comprise an independent archive of past surface temperature changes that is complementary to both the instrumental record and the climate proxies. Here we use present-day temperatures in 616 boreholes from all continents except Antarctica to reconstruct century-long trends in temperatures over the past 500 years at global, hemispheric and continental scales. The results confirm the unusual warming of the twentieth century revealed by the instrumental record, but suggest that the cumulative change over the past five centuries amounts to about 1 K, exceeding recent estimates from conventional climate proxies. The strength of temperature reconstructions from boreholes lies in the detection of long-term trends, complementary to conventional climate proxies, but to obtain a complete picture of past warming, the differences between the approaches need to be investigated in detail.</gco:CharacterString>
+      </gmd:supplementalInformation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Customer Engagement Branch</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>1-828-271-4800</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>1-828-271-4876</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>151 Patton Avenue</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Veach-Baley Federal Building, Room 468</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Asheville</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>NC</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>28801-5001</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>ncei.orders@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.ncei.noaa.gov</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>HTTPS</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name>
+                        <gco:CharacterString>NOAA National Centers for Environmental Information (NCEI)</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>NCEI home page with information, data access and contact information.</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 - 6:00 Eastern</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>In most cases, electronic downloads of the data are free, however fees may apply for data certifications, copies of analog materials, and data distribution on physical media.</gco:CharacterString>
+              </gmd:fees>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>Native Format(s)</gco:CharacterString>
+              </gmd:name>
+              <gmd:version gco:nilReason="missing"/>
+            </gmd:MD_Format>
+          </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://data.nodc.noaa.gov/cgi-bin/iso?id=noaa-borehole-1000598</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTPS</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Web Browser</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>NCEI landing page for this dataset</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Dataset landing page with general information and links to access the data.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://www.ncdc.noaa.gov/paleo/study/1000598</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTPS</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Web Browser</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>NCEI Study Page</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Study page with dataset access information.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search">search</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/borehole</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTPS</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Web Browser</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>NCEI Borehole Page</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>General information for this data type.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://www.earth.lsa.umich.edu/climate/RECONSTRUCTION/JP-Sakai2.html</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTP</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Information</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>Related Information Page</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Related page with dataset information.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://www1.ncdc.noaa.gov/pub/data/paleo/contributions_by_author/huang2000/huang2016-JP-Sakai2.txt</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>
+                			  HTTP
+                              </gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Download</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>http://www1.ncdc.noaa.gov/pub/data/paleo/contributions_by_author/huang2000/huang2016-JP-Sakai2.txt</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Original Data and Full Metadata</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+      <gmd:maintenanceNote>
+        <gco:CharacterString>This metadata record was translated from DIF using dif-9x-to-iso-19115-2.xsl Version: 5.0</gco:CharacterString>
+      </gmd:maintenanceNote>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+</gmi:MI_Metadata>
