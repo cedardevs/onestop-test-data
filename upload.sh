@@ -2,11 +2,14 @@
 
 usage(){
   echo
-  echo "Usage: $0 [ -d | --directory ] <rootDir> <inventoryManagerBase> [ -m | --manifest ] <manifest> [ -a | --auth ] <AUTH>"
+  echo "Usage: $0 <application> [ -d | --directory ] <rootDir> <baseUrl> [ -m | --manifest ] [ -f | --manifest-file ] <manifestFile> [ -a | --auth ] <username:password>"
   echo
+  echo "  application     OS or IM - to support differences in APIs (i.e. IM API includes type, collection or granule)"
   echo "  rootDir         The base directory to recursively upload xml files from. This script uses the path of each file to determine type (i.e. 'collections' or 'granules' must be in the path)."
-  echo "  inventoryManagerBase The URL of the root of the registry service."
-  echo "                  e.g. for a locally-running API: https://localhost:8080/registry/metadata"
+  echo "  baseUrl         The target host and context path. The endpoint is built according to the needs to of the application, e.g. for a locally-running IM API: https://localhost:8080/registry"
+  echo "  genManifest     Use flag -m to generate the manifest based on the contents of the rooDir."
+  echo "  manifestFile    Relative path of the manifest file to generate and/or use for submissions. Contains a map of UUIDs to filepaths for consistent loading/re-uploading."
+  echo "  username:password  The username and password for basic auth protected endpoints."
   echo
   exit 1
 }
@@ -34,16 +37,22 @@ postItems(){
     if [[ $FILE = *"granule"* ]]; then
       TYPE="granule"
     fi
-    UPLOAD="$API_BASE/metadata/$TYPE"
+    if [[ $APP == 'IM' ]]; then
+      UPLOAD="$API_BASE/metadata/$TYPE/$UUID"
+    else
+      UPLOAD="$API_BASE/metadata"
+    fi
     echo "`date` - Uploading $FILE with $UUID to $UPLOAD"
     if [[ -z $AUTH ]] ; then
-      echo `curl -k -L -sS $UPLOAD/$UUID -H "Content-Type: application/xml" --data-binary "@$FILE"`
+      echo `curl -k -L -sS $UPLOAD -H "Content-Type: application/xml" --data-binary "@$FILE"`
     else
-      echo `curl -k -u $AUTH -L -sS $UPLOAD/$UUID -H "Content-Type: application/xml" --data-binary "@$FILE"`
+      echo `curl -k -u $AUTH -L -sS $UPLOAD -H "Content-Type: application/xml" --data-binary "@$FILE"`
     fi
   done < $MANIFEST
 }
 
+#parse out args passed via option, shift other args as needed
+#must do this first to ensure arg order below
 PARAMS=""
 while (( "$#" )); do
   case "$1" in
@@ -53,7 +62,7 @@ while (( "$#" )); do
       ;;
     -m|--manifest)
       GEN_MANIFEST="true"
-      shift 1
+      shift
       ;;
     -f|--manifest-file)
       MANIFEST="$2"
@@ -85,18 +94,18 @@ done
 eval set -- "$PARAMS"
 
 
-
+#order by arg precedence
 while (( "$#" )); do
+  if [[ -z $APP ]]; then
+    APP=$1
+    shift
+  fi
   if [[ -z $BASEDIR ]]; then
     BASEDIR=$1
     shift
   fi
   if [[ -z $API_BASE ]]; then
     API_BASE=$1
-    shift
-  fi
-  if [[ -z $AUTH ]]; then
-    AUTH=$1
     shift
   fi
   if [[ -z $GEN_MANIFEST ]]; then
@@ -113,26 +122,40 @@ while (( "$#" )); do
     fi
     shift
   fi
+  if [[ -z $AUTH ]]; then
+    AUTH=$1
+    shift
+  fi
   shift
 done
 
+cr=`echo $'\n.'`
+cr=${cr%.}
+
+echo $cr
+echo "Working config - confirm before proceeding."
+echo "APP - $APP"
 echo "BASEDIR - $BASEDIR"
 echo "API_BASE - $API_BASE"
-echo "AUTH - $AUTH"
 echo "GEN_MANIFEST - $GEN_MANIFEST"
 echo "MANIFEST File - $MANIFEST"
+echo "AUTH - $AUTH"
+echo $cr
 
-if [[ $BASEDIR ]]; then
+if [[ $APP ]] && [[ $BASEDIR ]] && [[ $MANIFEST ]]; then
   if [[ $GEN_MANIFEST == "true" ]]; then
-    read  -n 1 -p "Generate manifest? (y/n):" userConfirmation
+    read  -n 1 -p "Generate manifest? (y/n): $cr" userConfirmation
+    echo $cr
     if [[ $userConfirmation == 'yes' ]] || [[ $userConfirmation == 'y' ]] || [[ $userConfirmation == 'Y' ]]; then
         genManifest
+    else echo "exiting..." ; exit 1
     fi
   fi
   if [[ -fe $MANIFEST ]] && [[ $API_BASE ]]; then
-    read  -n 1 -p "Post items? (y/n):" userConfirmation
+    read  -n 1 -p "Post items? (y/n): $cr" userConfirmation
     if [[ $userConfirmation == 'yes' ]] || [[ $userConfirmation == 'y' ]] || [[ $userConfirmation == 'Y' ]]; then
         postItems
+    else echo "exiting..." ; exit 1
     fi
   fi
 else usage
