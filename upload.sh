@@ -65,9 +65,11 @@ postToInventoryManager(){
 
 postToOneStop(){
   UPLOAD="$API_BASE/metadata"
+  UPDATE="$API_BASE/admin/index/search/update"
   while read file; do
     echo "`date` - Uploading $file to $UPLOAD : `curl -L -sS $UPLOAD -H "Content-Type: application/xml" -d "@$file"`"
   done < <(find ${BASEDIR} -type f -name "[^.]*.xml" -print)
+  echo "`date` - Triggering search index update: `curl -L -sS $UPDATE`"
 }
 
 postItems(){
@@ -174,6 +176,7 @@ fi
 echo "AUTH - $AUTH"
 echo $cr
 
+#Step 4 - proceed to generate the manifest and post if indicated.
 #we need at least the  app and the basedir to know what to do
 if [[ $APP ]] && [[ $BASEDIR ]] ; then
   genManifest
