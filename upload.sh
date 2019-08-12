@@ -10,8 +10,8 @@ usage(){
   echo "  application     OS or IM - to support differences in APIs (i.e. IM API includes record type, collection or granule)"
   echo "  rootDir         The base directory to recursively upload xml files from. For IM this script uses the path of each file to determine type (i.e. 'collections' or 'granules' must be in the path)."
   echo "  baseUrl         The target host and context path. The endpoint is built according to the needs to of the application, e.g. for a locally-running IM API: https://localhost:8080/registry"
-  echo "  genManifest     Only pertains to  IM. Use flag [ -m | --gen-manifest ] to generate the manifest based on the contents of the rootDir."
-  echo "  manifestFile    Only pertains to  IM. Relative path of the manifest file to generate and/or use for submissions. Contains a map of UUIDs to filepaths for consistent loading/re-uploading."
+  echo "  genManifest     Only pertains to IM. Use flag [ -m | --gen-manifest ] to generate the manifest based on the contents of the rootDir."
+  echo "  manifestFile    Only pertains to IM. Relative path of the manifest file to generate and/or use for submissions. Contains a map of UUIDs to filepaths for consistent loading/re-uploading."
   echo "  username:password  The username and password for basic auth protected endpoints."
   echo
   exit 1
