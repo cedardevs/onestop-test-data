@@ -18,11 +18,12 @@ usage(){
 }
 
 genManifest(){
-  #generate a new manifest if specified, or if user is trying to upload with non-existent manifest to IM
+  #generate a new manifest if specified
+  # or if user is trying to upload with non-existent manifest to IM
   if [[ $GEN_MANIFEST == "true" ]] || [[ $APP == 'IM' && ! -fe $MANIFEST ]]; then
     read  -n 1 -p "Generate manifest with filename $MANIFEST? (y/n): $cr" userConfirmation
     echo $cr
-    if [[ $userConfirmation == 'yes' ]] || [[ $userConfirmation == 'y' ]] || [[ $userConfirmation == 'Y' ]]; then
+    if [[ $userConfirmation == 'y' ]] ; then
       echo "Generating manifest with filename $MANIFEST"
       if [[ -fe "$MANIFEST" ]]; then
         echo "Deleting old manifest"
@@ -73,7 +74,7 @@ postItems(){
   if [[ $API_BASE ]]; then
     read  -n 1 -p "Post items? (y/n): $cr" userConfirmation
     echo $cr
-    if [[ $userConfirmation == 'yes' ]] || [[ $userConfirmation == 'y' ]] || [[ $userConfirmation == 'Y' ]]; then
+    if [[ $userConfirmation == 'y' ]]; then
       echo "Begin upload..."
       if  [[ $APP == 'IM' ]]; then
         postToInventoryManager
