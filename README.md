@@ -20,29 +20,28 @@ Test data for OneStop and PSI
 [EdgeCases](/EdgeCases) - Various edge cases described by their titles.  
 
 ## Utility scripts
-There are two utility scripts included in this repo, `uploadOneStop.sh` and `uploadInventoryManager.sh`. These scripts provide a simple way to recursively curl the contents of a directory to their respective application's API accepting  ication/xml, namely OneStop and Inventory Manager.
+In this repo there is a utility script, `upload.sh`, that provides a simple way to recursively curl the contents of a directory to the OneStop or Inventory Manager API.
 
 ### Example usage
 Upload to locally running OneStop- 
 ```
-./uploadOneStop.sh . localhost:30098/onestop-admin
+./upload.sh OS . localhost:30098/onestop-admin
 ```
 Upload to OneStop on sciapps- 
 ```
-./uploadOneStop.sh . sciapps.colorado.edu/onestop/api
+./upload.sh OS . sciapps.colorado.edu/onestop/api
 ```
-Upload a specific dataset- 
+Upload a specific dataset to IM's protected endpoint- 
 ```
-./uploadOneStop.sh COOPS sciapps.colorado.edu/onestop/api
+./upload.sh IM COOPS sciapps.colorado.edu/registry -a user:password
 ```
-Upload to locally running Inventory Manager- 
+Upload to locally running Inventory Manager w/o auth- 
 ```
-./uploadInventoryManager.sh COOPS localhost:31060/registry
+./upload.sh COOPS localhost:8080/registry
 ```
 Upload to Inventory Manager sciapps- 
-
 ```
-./uploadInventoryManager.sh . sciapps.colorado.edu/registry
+./upload.sh IM . sciapps.colorado.edu/registry
 ```
 
 
