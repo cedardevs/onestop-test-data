@@ -5,12 +5,12 @@ cr=${cr%.}
 
 usage(){
   echo
-  echo "Usage: $0 <application> [ -d | --directory ] <rootDir> <baseUrl> [ -m | --manifest ] [ -f | --manifest-file ] <manifestFile> [ -a | --auth ] <username:password>"
+  echo "Usage: $0 <application> [ -d | --directory ] <rootDir> <baseUrl> [ -m | --gen-manifest ] [ -f | --manifest-file ] <manifestFile> [ -a | --auth ] <username:password>"
   echo
   echo "  application     OS or IM - to support differences in APIs (i.e. IM API includes record type, collection or granule)"
   echo "  rootDir         The base directory to recursively upload xml files from. For IM this script uses the path of each file to determine type (i.e. 'collections' or 'granules' must be in the path)."
   echo "  baseUrl         The target host and context path. The endpoint is built according to the needs to of the application, e.g. for a locally-running IM API: https://localhost:8080/registry"
-  echo "  genManifest     Only pertains to  IM. Use flag -m to generate the manifest based on the contents of the rooDir."
+  echo "  genManifest     Only pertains to  IM. Use flag [ -m | --gen-manifest ] to generate the manifest based on the contents of the rootDir."
   echo "  manifestFile    Only pertains to  IM. Relative path of the manifest file to generate and/or use for submissions. Contains a map of UUIDs to filepaths for consistent loading/re-uploading."
   echo "  username:password  The username and password for basic auth protected endpoints."
   echo
@@ -88,7 +88,9 @@ postItems(){
   fi
 }
 
-#parse out args passed via option, shift other args as needed
+GEN_MANIFEST="false"
+
+# Step 1- parse out args passed via option, shift other args as needed
 #must do this first to ensure arg order below
 PARAMS=""
 while (( "$#" )); do
@@ -97,7 +99,7 @@ while (( "$#" )); do
       BASEDIR=$2
       shift 2
       ;;
-    -m|--manifest)
+    -m|--gen-manifest)
       GEN_MANIFEST="true"
       shift
       ;;
@@ -130,7 +132,7 @@ done
 # set positional arguments in their proper place
 eval set -- "$PARAMS"
 
-
+#Step 2 - parse args to env vars
 #arg  order
 while (( "$#" )); do
   if [[ -z $APP ]]; then
@@ -143,13 +145,6 @@ while (( "$#" )); do
   fi
   if [[ -z $API_BASE ]]; then
     API_BASE=$1
-    shift
-  fi
-  if [[ $APP == 'IM'  &&  -z $GEN_MANIFEST ]]; then
-    if [[ $1 == 'true' ]] || [[ $1 == 'false' ]]; then
-      GEN_MANIFEST=$1
-    else GEN_MANIFEST='false'
-    fi
     shift
   fi
   if [[ $APP == 'IM' && -z $MANIFEST ]]; then
@@ -166,6 +161,7 @@ while (( "$#" )); do
   shift
 done
 
+#Step 3 - echo working configuration
 echo $cr
 echo "Working config - confirm before proceeding."
 echo "APP - $APP"
@@ -182,5 +178,5 @@ echo $cr
 if [[ $APP ]] && [[ $BASEDIR ]] ; then
   genManifest
   postItems
-else echo "Not enough info to continue. Check working config above." ; usage
+else echo "Not enough info to continue. Check working config above. Must specify at least an application and directory." ; usage
 fi
