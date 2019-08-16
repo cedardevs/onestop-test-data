@@ -36,7 +36,7 @@ genManifest(){
            TYPE="granule"
          fi
          echo "$UUID $file" >> $MANIFEST
-       done < <(find ${BASEDIR} -type f -name "[^.]*.xml" -print)
+       done < <(find  ${BASEDIR} "\( ! -regex '.*/\..*' \)" -type f -name "[^.]*.xml" -print)
        echo "Created manifest $MANIFEST"
     else echo "exiting..." ; exit 1
     fi
@@ -68,7 +68,7 @@ postToOneStop(){
   UPDATE="$API_BASE/admin/index/search/update"
   while read file; do
     echo "`date` - Uploading $file to $UPLOAD : `curl -L -sS $UPLOAD -H "Content-Type: application/xml" -d "@$file"`"
-  done < <(find ${BASEDIR} -type f -name "[^.]*.xml" -print)
+  done < <(find ${BASEDIR} "\( ! -regex '.*/\..*' \)" -type f -name "[^.]*.xml" -print)
   echo "`date` - Triggering search index update: `curl -L -sS $UPDATE`"
 }
 
