@@ -21,9 +21,11 @@ genManifest(){
   #generate a new manifest if specified
   # or if user is trying to upload with non-existent manifest to IM
   if [[ $GEN_MANIFEST == "true" ]] || [[ $APP == 'IM' && ! -fe $MANIFEST ]]; then
-    read  -n 1 -p "Generate manifest with filename $MANIFEST? (y/n): $cr" userConfirmation
-    echo $cr
-    if [[ $userConfirmation == 'y' ]] ; then
+    if [[  -z $FORCE ]] ; then
+      read  -n 1 -p "Generate manifest with filename $MANIFEST? (y/n): $cr" userConfirmation
+      echo $cr
+    fi
+    if [[ $FORCE || $userConfirmation == 'y' ]] ; then
       echo "Generating manifest with filename $MANIFEST"
       if [[ -fe "$MANIFEST" ]]; then
         echo "Deleting old manifest"
@@ -36,7 +38,7 @@ genManifest(){
            TYPE="granule"
          fi
          echo "$UUID $file" >> $MANIFEST
-       done < <(find  ${BASEDIR} "\( ! -regex '.*/\..*' \)" -type f -name "[^.]*.xml" -print)
+       done < <(find  ${BASEDIR} \( \! -regex '.*/\..*' \) -type f -name "[^.]*.xml" -print)
        echo "Created manifest $MANIFEST"
     else echo "exiting..." ; exit 1
     fi
@@ -68,15 +70,17 @@ postToOneStop(){
   UPDATE="$API_BASE/admin/index/search/update"
   while read file; do
     echo "`date` - Uploading $file to $UPLOAD : `curl -L -sS $UPLOAD -H "Content-Type: application/xml" -d "@$file"`"
-  done < <(find ${BASEDIR} "\( ! -regex '.*/\..*' \)" -type f -name "[^.]*.xml" -print)
+  done < <(find ${BASEDIR} \( \! -regex '.*/\..*' \) -type f -name "[^.]*.xml" -print)
   echo "`date` - Triggering search index update: `curl -L -sS $UPDATE`"
 }
 
 postItems(){
   if [[ $API_BASE ]]; then
+    if [[ -z $FORCE ]]; then
     read  -n 1 -p "Post items? (y/n): $cr" userConfirmation
     echo $cr
-    if [[ $userConfirmation == 'y' ]]; then
+    fi
+    if [[ $FORCE || $userConfirmation == 'y' ]]; then
       echo "Begin upload..."
       if  [[ $APP == 'IM' ]]; then
         postToInventoryManager
@@ -116,6 +120,10 @@ while (( "$#" )); do
     -a|--auth)
       AUTH=$2
       shift 2
+      ;;
+    -F |--force)
+      FORCE='true'
+      shift 1
       ;;
     --) # end argument parsing
       shift
