@@ -14,6 +14,7 @@
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
   </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName><gco:CharacterString>Granule</gco:CharacterString></gmd:hierarchyLevelName>
   <gmd:contact xlink:title="&gt;DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce">
     <gmd:CI_ResponsibleParty uuid="C4AB0C2676C403438F1441AF80FC7CF4">
       <gmd:organisationName>

@@ -11,6 +11,7 @@
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
   </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName><gco:CharacterString>Granule</gco:CharacterString></gmd:hierarchyLevelName>
   <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:organisationName>
