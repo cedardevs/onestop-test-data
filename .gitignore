@@ -7,3 +7,5 @@
 
 ### General editor/IDE files
 .vscode/
+
+.DS_Store/
