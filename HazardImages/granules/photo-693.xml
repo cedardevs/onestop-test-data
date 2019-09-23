@@ -11,7 +11,7 @@
   </gmd:hierarchyLevelName>
   <gmd:contact gco:nilReason="inapplicable"/>
   <gmd:dateStamp>
-    <gco:Date>2017-10-13</gco:Date>
+    <gco:Date>2018-05-15</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -45,6 +45,19 @@
       <gmd:abstract>
         <gco:CharacterString>Patio area at the Officer's Club at Clark Air Base as photographed on July 31. Pumice particles as large as 7cm in diameter fell at this location, 25 km east of the crater. Particles roughly 1.5 cm in diameter fell 33 km south-southwest (at Olongapo). Over 150 buildings were totally destroyed. Damage to Clark Air Base was estimated at $600 million. The eruption turned Clark Air Base and Subic Bay Naval Station (twice as far from the volcano) into wastelands buried in 15-30 cm of white ash. Vegetation was stripped and many buildings were merely twisted pieces of metal. Despite the widespread damage, all mission-essential personnel returned to Clark Air Base within 48 hours of the June 15 eruption.</gco:CharacterString>
       </gmd:abstract>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www.ngdc.noaa.gov/hazard/icons/med_res/34/34_693.jpg</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Thumbnail image of photo</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>HTTPS</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
       <gmd:descriptiveKeywords gco:nilReason="inapplicable"/>
       <gmd:language>
         <gco:CharacterString>eng; USA</gco:CharacterString>
@@ -78,11 +91,14 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://www.ngdc.noaa.gov/hazard/icons/med_res/34/34_693.jpg</gmd:URL>
+                <gmd:URL>https://www.ngdc.noaa.gov/hazard/icons/med_res/34/34_693.jpg</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>HTTPS</gco:CharacterString>
               </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Medium resolution image</gco:CharacterString>
+              </gmd:name>
               <gmd:function>
                 <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
@@ -95,11 +111,14 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://www.ngdc.noaa.gov/hazard/img/200_res/34/34_693.tif</gmd:URL>
+                <gmd:URL>https://www.ngdc.noaa.gov/hazard/img/200_res/34/34_693.tif</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>HTTPS</gco:CharacterString>
               </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>High resolution image</gco:CharacterString>
+              </gmd:name>
               <gmd:function>
                 <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>

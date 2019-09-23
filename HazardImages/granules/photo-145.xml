@@ -11,7 +11,7 @@
   </gmd:hierarchyLevelName>
   <gmd:contact gco:nilReason="inapplicable"/>
   <gmd:dateStamp>
-    <gco:Date>2017-10-13</gco:Date>
+    <gco:Date>2018-05-15</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -42,6 +42,19 @@
       <gmd:abstract>
         <gco:CharacterString>The Government Hill Elementary school in Anchorage was torn apart by subsidence of the graben at the head of the Government Hill landslide. The south wing of the school dropped about 30 feet (9 m); the east wind split lengthwise and collapsed. The playground became a chaotic mass of blocks and fissures. Part of this slide became an earthflow that spread 150 feet (45.5 m) across the flats into the Alaska Railroad yards. During the earthquake, the shaking loosened clay beneath Government Hill and the clay began to move toward the flats. On the hill, 400 feet (121.2 m) back from the rim of the bluff, the earth cracked on a front 1,180 feet (357.6 m) wide.</gco:CharacterString>
       </gmd:abstract>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www.ngdc.noaa.gov/hazard/icons/med_res/7/7_145.jpg</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Thumbnail image of photo</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>HTTPS</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
       <gmd:descriptiveKeywords gco:nilReason="inapplicable"/>
       <gmd:language>
         <gco:CharacterString>eng; USA</gco:CharacterString>
@@ -75,11 +88,14 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://www.ngdc.noaa.gov/hazard/icons/med_res/7/7_145.jpg</gmd:URL>
+                <gmd:URL>https://www.ngdc.noaa.gov/hazard/icons/med_res/7/7_145.jpg</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>HTTPS</gco:CharacterString>
               </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Medium resolution image</gco:CharacterString>
+              </gmd:name>
               <gmd:function>
                 <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
@@ -92,11 +108,14 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://www.ngdc.noaa.gov/hazard/img/200_res/7/7_145.tif</gmd:URL>
+                <gmd:URL>https://www.ngdc.noaa.gov/hazard/img/200_res/7/7_145.tif</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>HTTPS</gco:CharacterString>
               </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>High resolution image</gco:CharacterString>
+              </gmd:name>
               <gmd:function>
                 <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>

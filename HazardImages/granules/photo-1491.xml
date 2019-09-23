@@ -11,7 +11,7 @@
   </gmd:hierarchyLevelName>
   <gmd:contact gco:nilReason="inapplicable"/>
   <gmd:dateStamp>
-    <gco:Date>2017-10-13</gco:Date>
+    <gco:Date>2018-05-15</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -45,6 +45,19 @@
       <gmd:abstract>
         <gco:CharacterString>Within the Crater Peak basin, a warm lake, approximately 500 m across, developed some time after the 1953 eruption. On June 11, 1992, the lake had a temperature of 59 degrees C and a pH of 2.5. A darkening of the lake color and upwelling zones, the largest about 5 m across is visible to the right in this view, indicated a possible addition of sulfur and an increased heat flux below the lake. Geysers of superheated water were observed streaming through talus on the north shore of the lake. An increased number of earthquakes had been detected below the volcano since August, 1991. On June 17, scientists from the Alaska Volcano Observatory (AVO) issued a notice about the increased likelihood of eruptive activity.</gco:CharacterString>
       </gmd:abstract>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www.ngdc.noaa.gov/hazard/icons/med_res/35/35_702.jpg</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Thumbnail image of photo</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>HTTPS</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
       <gmd:descriptiveKeywords gco:nilReason="inapplicable"/>
       <gmd:language>
         <gco:CharacterString>eng; USA</gco:CharacterString>
@@ -78,11 +91,14 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://www.ngdc.noaa.gov/hazard/icons/med_res/35/35_702.jpg</gmd:URL>
+                <gmd:URL>https://www.ngdc.noaa.gov/hazard/icons/med_res/35/35_702.jpg</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>HTTPS</gco:CharacterString>
               </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Medium resolution image</gco:CharacterString>
+              </gmd:name>
               <gmd:function>
                 <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
@@ -95,11 +111,14 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://www.ngdc.noaa.gov/hazard/img/200_res/35/35_702.tif</gmd:URL>
+                <gmd:URL>https://www.ngdc.noaa.gov/hazard/img/200_res/35/35_702.tif</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>HTTPS</gco:CharacterString>
               </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>High resolution image</gco:CharacterString>
+              </gmd:name>
               <gmd:function>
                 <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>

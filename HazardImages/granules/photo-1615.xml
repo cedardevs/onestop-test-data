@@ -11,7 +11,7 @@
   </gmd:hierarchyLevelName>
   <gmd:contact gco:nilReason="inapplicable"/>
   <gmd:dateStamp>
-    <gco:Date>2017-10-13</gco:Date>
+    <gco:Date>2018-05-15</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -42,6 +42,19 @@
       <gmd:abstract>
         <gco:CharacterString>Offset of a cement-lined ditch by the left-lateral strike-slip Motagua fault resulting from the earthquake of February 4, 1976, in Guatemala. The Motagua fault is part of the transform fault system between the North American and Caribbean plates and comprises the northern boundary of the Caribbean plate. The North American plate is moving 2.2 cm per year to the west along this boundary. The observed surface rupture along the Motagua fault was 320 km. Displacement across the fault was almost entirely horizontal with the strike-slip component ranging up to 3.4 m and averaging 1.1 m. Vertical displacements were less than 30 percent of the horizontal displacement. Faults caused extensive damage to underground facilities as well as to surface structures.</gco:CharacterString>
       </gmd:abstract>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www.ngdc.noaa.gov/hazard/icons/med_res/10/10_210.jpg</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Thumbnail image of photo</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>HTTPS</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
       <gmd:descriptiveKeywords gco:nilReason="inapplicable"/>
       <gmd:language>
         <gco:CharacterString>eng; USA</gco:CharacterString>
@@ -75,11 +88,14 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://www.ngdc.noaa.gov/hazard/icons/med_res/10/10_210.jpg</gmd:URL>
+                <gmd:URL>https://www.ngdc.noaa.gov/hazard/icons/med_res/10/10_210.jpg</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>HTTPS</gco:CharacterString>
               </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Medium resolution image</gco:CharacterString>
+              </gmd:name>
               <gmd:function>
                 <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
@@ -92,11 +108,14 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://www.ngdc.noaa.gov/hazard/img/200_res/10/10_210.tif</gmd:URL>
+                <gmd:URL>https://www.ngdc.noaa.gov/hazard/img/200_res/10/10_210.tif</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>HTTPS</gco:CharacterString>
               </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>High resolution image</gco:CharacterString>
+              </gmd:name>
               <gmd:function>
                 <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>

@@ -11,7 +11,7 @@
   </gmd:hierarchyLevelName>
   <gmd:contact gco:nilReason="inapplicable"/>
   <gmd:dateStamp>
-    <gco:Date>2017-10-13</gco:Date>
+    <gco:Date>2018-05-15</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -45,6 +45,19 @@
       <gmd:abstract>
         <gco:CharacterString>The remains of the business district in Petrolia, California. Downtown Petrolia (population 100) consisted of a post office, a 100-year-old general store, a gas station, and a volunteer fire station. The post office, gas station, and the general store burned to the ground in an earthquake-related fire. The first large shock jammed the door of the fire station. Several firefighters had to raise the door before the fire equipment could be removed. The fire station was later condemned. One- and two-story, wood-frame houses and commercial buildings were the most common type of construction in Petrolia. A total of five homes were destroyed, 28 sustained major damage, and 25 required minor repairs. Total damage in Petrolia was estimated at $1 million. As in other towns in Humboldt County, services including water, sewer, telephone, gas and electricity were interrupted.</gco:CharacterString>
       </gmd:abstract>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www.ngdc.noaa.gov/hazard/icons/med_res/16/16_326.jpg</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Thumbnail image of photo</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>HTTPS</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
       <gmd:descriptiveKeywords gco:nilReason="inapplicable"/>
       <gmd:language>
         <gco:CharacterString>eng; USA</gco:CharacterString>
@@ -78,11 +91,14 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://www.ngdc.noaa.gov/hazard/icons/med_res/16/16_326.jpg</gmd:URL>
+                <gmd:URL>https://www.ngdc.noaa.gov/hazard/icons/med_res/16/16_326.jpg</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>HTTPS</gco:CharacterString>
               </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Medium resolution image</gco:CharacterString>
+              </gmd:name>
               <gmd:function>
                 <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
@@ -95,11 +111,14 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://www.ngdc.noaa.gov/hazard/img/200_res/16/16_326.tif</gmd:URL>
+                <gmd:URL>https://www.ngdc.noaa.gov/hazard/img/200_res/16/16_326.tif</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>HTTPS</gco:CharacterString>
               </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>High resolution image</gco:CharacterString>
+              </gmd:name>
               <gmd:function>
                 <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
