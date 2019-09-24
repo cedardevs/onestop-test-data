@@ -44,7 +44,7 @@ Upload a specific dataset (DEM) to a locally running OneStop-
 ```
 Upload everything to OneStop on sciapps-
 ```
-./upload.sh OS . sciapps.colorado.edu/onestop/api
+./upload.sh OS . sciapps.colorado.edu/onestop/api username:password
 ```
 Upload edge cases to local IM registry -
 ```
