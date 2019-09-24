@@ -25,20 +25,12 @@ genManifestContent() { # pipe in list of files to generate uuids for
   done
 }
 
-genManifestFile() {
-  while read BASEDIR; do
-    MANIFEST=$BASEDIR/manifest.txt
-    echo $BASEDIR | getXMLFiles | genManifestContent >> $MANIFEST
-    >&2 echo "Created manifest $MANIFEST"
-  done
-}
-
 updateManifest() {
   while read BASEDIR; do
     MANIFEST=$BASEDIR/manifest.txt
     if [[ ! -f "$MANIFEST" ]]; then
-      >&2 echo "No manifest found in $BASEDIR."
-      echo $BASEDIR | genManifestFile
+      echo $BASEDIR | getXMLFiles | genManifestContent >> $MANIFEST
+      >&2 echo "Created manifest $MANIFEST"
     else
       echo $BASEDIR | getXMLFiles | while read FILE; do
         if ! grep -Fq "$FILE" "$MANIFEST"
@@ -48,14 +40,13 @@ updateManifest() {
         fi
       done
     fi
-    echo $BASEDIR | sortManifest
+    echo $MANIFEST | sortManifest
   done
 }
 
 sortManifest() {
-  while read BASEDIR; do
-    MANIFEST=$BASEDIR/manifest.txt
-    TMP=$BASEDIR/tmp.txt
+  while read MANIFEST; do
+    TMP=$MANIFEST.tmp
     cat $MANIFEST | while read uuid file; do
       if [[ -f "$file" ]]; then
         echo $file $uuid
