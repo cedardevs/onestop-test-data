@@ -3,191 +3,74 @@
 cr=`echo $'\n.'`
 cr=${cr%.}
 
-usage(){
-  echo
-  echo "Usage: $0 <application> [ -d | --directory ] <rootDir> <baseUrl> [ -m | --gen-manifest ] [ -f | --manifest-file ] <manifestFile> [ -a | --auth ] <username:password>"
-  echo
-  echo "  application     OS or IM - to support differences in APIs (i.e. IM API includes record type, collection or granule)"
-  echo "  rootDir         The base directory to recursively upload xml files from. For IM this script uses the path of each file to determine type (i.e. 'collections' or 'granules' must be in the path)."
-  echo "  baseUrl         The target host and context path. The endpoint is built according to the needs to of the application, e.g. for a locally-running IM API: https://localhost:8080/registry"
-  echo "  genManifest     Only pertains to IM. Use flag [ -m | --gen-manifest ] to generate the manifest based on the contents of the rootDir."
-  echo "  manifestFile    Only pertains to IM. Relative path of the manifest file to generate and/or use for submissions. Contains a map of UUIDs to filepaths for consistent loading/re-uploading."
-  echo "  username:password  The username and password for basic auth protected endpoints."
-  echo
-  exit 1
-}
+# usage(){
+#   echo
+#   echo "Usage: $0 <application> <rootDir> <baseUrl> <username:password>"
+#   echo
+#   echo "  application     OS or IM - to support differences in APIs (i.e. IM API includes record type, collection or granule)"
+#   echo "  rootDir         The base directory to recursively upload xml files from. For IM this script uses the path of each file to determine type (i.e. 'collections' or 'granules' must be in the path)."
+#   echo "  baseUrl         The target host and context path. The endpoint is built according to the needs to of the application, e.g. for a locally-running IM API: https://localhost:8080/registry"
+#   echo "  username:password  (optional) The username and password for basic auth protected endpoints."
+#   echo
+#   exit 1
+# }
 
-genManifest(){
-  #generate a new manifest if specified
-  # or if user is trying to upload with non-existent manifest to IM
-  if [[ $GEN_MANIFEST == "true" ]] || [[ $APP == 'IM' && ! -f $MANIFEST ]]; then
-    if [[  -z $FORCE ]] ; then
-      read  -n 1 -p "Generate manifest with filename $MANIFEST? (y/n): $cr" userConfirmation
-      echo $cr
-    fi
-    if [[ $FORCE || $userConfirmation == 'y' ]] ; then
-      echo "Generating manifest with filename $MANIFEST"
-      if [[ -f "$MANIFEST" ]]; then
-        echo "Deleting old manifest"
-        rm -f $MANIFEST
-      fi
-      while read file; do
-         TYPE="collection"
-         UUID=$(uuidgen | awk '{print tolower($0)}')
-         if [[ $file = *"granule"* ]]; then
-           TYPE="granule"
-         fi
-         echo "$UUID $file" >> $MANIFEST
-       done < <(find  ${BASEDIR} \( \! -regex '.*/\..*' \) -type f -name "[^.]*.xml" -print)
-       echo "Created manifest $MANIFEST"
-    else echo "exiting..." ; exit 1
-    fi
-  else
-    if [[ $APP == 'IM' ]]; then
-      echo "Using existing manifest $MANIFEST"
-    fi
-  fi
-}
-
-postToInventoryManager(){
-  while IFS=' ' read UUID FILE; do
-    TYPE="collection"
+postToInventoryManager() { # assumes API_BASE, AUTH are defined, UUID and FILE are read on stdin (use pipe to send file input)
+  while read UUID FILE; do
+    local TYPE="collection"
     if [[ $FILE = *"granule"* ]]; then
       TYPE="granule"
     fi
-    UPLOAD="$API_BASE/metadata/$TYPE/$UUID"
+    local UPLOAD="$API_BASE/metadata/$TYPE/$UUID"
     echo "`date` - Uploading $FILE with $UUID to $UPLOAD"
     if [[ -z $AUTH ]] ; then
       echo `curl -k -L -sS $UPLOAD -H "Content-Type: application/xml" --data-binary "@$FILE"`
     else
       echo `curl -k -u $AUTH -L -sS $UPLOAD -H "Content-Type: application/xml" --data-binary "@$FILE"`
     fi
-  done < $MANIFEST
+  done
 }
 
-postToOneStop(){
+postToOneStop() { # assumes API_BASE is defined, reads FILE is read on stdin (use pipe to send file input)
+  while read UUID FILE; do
   UPLOAD="$API_BASE/metadata"
-  UPDATE="$API_BASE/admin/index/search/update"
-  while read file; do
-    echo "`date` - Uploading $file to $UPLOAD : `curl -L -sS $UPLOAD -H "Content-Type: application/xml" -d "@$file"`"
-  done < <(find ${BASEDIR} \( \! -regex '.*/\..*' \) -type f -name "[^.]*.xml" -print)
-  echo "`date` - Triggering search index update: `curl -L -sS $UPDATE`"
+  echo "`date` - Uploading $FILE to $UPLOAD : `curl -L -sS $UPLOAD -H "Content-Type: application/xml" -d "@$FILE"`"
+  done
 }
 
 postItems(){
-  if [[ $API_BASE ]]; then
-    if [[ -z $FORCE ]]; then
-    read  -n 1 -p "Post items? (y/n): $cr" userConfirmation
-    echo $cr
-    fi
-    if [[ $FORCE || $userConfirmation == 'y' ]]; then
+  while read MANIFEST; do
+    if [[ $API_BASE ]]; then
       echo "Begin upload..."
       if  [[ $APP == 'IM' ]]; then
-        postToInventoryManager
+        cat $MANIFEST | postToInventoryManager
       else
-       postToOneStop
+        cat $MANIFEST | postToOneStop
+        UPDATE="$API_BASE/admin/index/search/update"
+        echo "`date` - Triggering search index update: `curl -L -sS $UPDATE`"
       fi
       echo "Upload completed."
-    else echo "exiting..." ; exit 1
+    else echo "No files uploaded. Specify a URL to upload files."
     fi
-  else echo "No files uploaded. Specify a URL to upload files."
-  fi
+  done
 }
 
-GEN_MANIFEST="false"
+#args
+APP=$1
+BASEDIR=$2
+MANIFESTS=$(find $BASEDIR -name "manifest.txt")
+API_BASE=$3
+AUTH=$4
 
-# Step 1- parse out args passed via option, shift other args as needed
-#must do this first to ensure arg order below
-PARAMS=""
-while (( "$#" )); do
-  case "$1" in
-    -d|--directory)
-      BASEDIR=$2
-      shift 2
-      ;;
-    -m|--gen-manifest)
-      GEN_MANIFEST="true"
-      shift
-      ;;
-    -f|--manifest-file)
-      MANIFEST="$2"
-      shift 2
-      ;;
-    -e|--endpoint)
-      API_BASE=$2
-      shift 2
-      ;;
-    -a|--auth)
-      AUTH=$2
-      shift 2
-      ;;
-    -F |--force)
-      FORCE='true'
-      shift 1
-      ;;
-    --) # end argument parsing
-      shift
-      break
-      ;;
-    -*|--*=) # unsupported flags
-      echo "Error: Unsupported flag $1" >&2
-      exit 1
-      ;;
-    *) # preserve positional arguments
-      PARAMS="$PARAMS $1"
-      shift
-      ;;
-  esac
-done
-# set positional arguments in their proper place
-eval set -- "$PARAMS"
-
-#Step 2 - parse args to env vars
-#arg  order
-while (( "$#" )); do
-  if [[ -z $APP ]]; then
-    APP=$1
-    shift
-  fi
-  if [[ -z $BASEDIR ]]; then
-    BASEDIR=$1
-    shift
-  fi
-  if [[ -z $API_BASE ]]; then
-    API_BASE=$1
-    shift
-  fi
-  if [[ $APP == 'IM' && -z $MANIFEST ]]; then
-    if [[ $1 ]]; then
-      MANIFEST=$1
-    else MANIFEST="$BASEDIR/manifest.txt"
-    fi
-    shift
-  fi
-  if [[ -z $AUTH ]]; then
-    AUTH=$1
-    shift
-  fi
-  shift
-done
-
-#Step 3 - echo working configuration
+# display configuration settings
 echo $cr
 echo "Working config - confirm before proceeding."
 echo "APP - $APP"
 echo "BASEDIR - $BASEDIR"
+echo "MANIFEST FILES - $MANIFESTS"
 echo "API_BASE - $API_BASE"
-if [[ $APP == 'IM' ]]; then
-  echo "GEN_MANIFEST - $GEN_MANIFEST"
-  echo "MANIFEST File - $MANIFEST"
-fi
 echo "AUTH - $AUTH"
 echo $cr
 
-#Step 4 - proceed to generate the manifest and post if indicated.
-#we need at least the  app and the basedir to know what to do
-if [[ $APP ]] && [[ $BASEDIR ]] ; then
-  genManifest
-  postItems
-else echo "Not enough info to continue. Check working config above. Must specify at least an application and directory." ; usage
-fi
+# upload
+echo $MANIFESTS | xargs -n 1 | postItems
