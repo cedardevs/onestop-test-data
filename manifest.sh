@@ -1,12 +1,12 @@
 #!/bin/bash
 
-usage() {
-  echo "$0 [directory]"
-  echo "Updates manifest files, while ensuring consistent formating and order."
-  echo "  directory(optional): '.' or one of the immediate sudirectories (COOPS, DEM, etc)"
-  echo "recommended: $0"
-  exit 1
-}
+# usage() {
+#   echo "$0 [directory]"
+#   echo "Updates manifest files, while ensuring consistent formating and order."
+#   echo "  directory(optional): '.' or one of the immediate sudirectories (COOPS, DEM, etc)"
+#   echo "recommended: $0"
+#   exit 1
+# }
 
 getXMLFiles() { # BASEDIR is read on stdin (use pipe to send input)
   while read BASEDIR; do
@@ -29,7 +29,7 @@ genManifestFile() {
   while read BASEDIR; do
     MANIFEST=$BASEDIR/manifest.txt
     echo $BASEDIR | getXMLFiles | genManifestContent >> $MANIFEST
-    echo "Created manifest $MANIFEST"
+    >&2 echo "Created manifest $MANIFEST"
   done
 }
 
@@ -37,13 +37,13 @@ updateManifest() {
   while read BASEDIR; do
     MANIFEST=$BASEDIR/manifest.txt
     if [[ ! -f "$MANIFEST" ]]; then
-      echo "No manifest found in $BASEDIR."
+      >&2 echo "No manifest found in $BASEDIR."
       echo $BASEDIR | genManifestFile
     else
       echo $BASEDIR | getXMLFiles | while read FILE; do
         if ! grep -Fq "$FILE" "$MANIFEST"
         then
-          echo "Adding $FILE to $MANIFEST"
+          >&2 echo "Adding $FILE to $MANIFEST"
           echo $FILE | genManifestContent >> $MANIFEST
         fi
       done
@@ -57,7 +57,11 @@ sortManifest() {
     MANIFEST=$BASEDIR/manifest.txt
     TMP=$BASEDIR/tmp.txt
     cat $MANIFEST | while read uuid file; do
-      echo $file $uuid
+      if [[ -f "$file" ]]; then
+        echo $file $uuid
+      else
+        >&2 echo "Removing $file from $MANIFEST"
+      fi
     done | sort > $TMP
     rm $MANIFEST
     cat $TMP | while read file uuid; do
