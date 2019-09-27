@@ -3,9 +3,11 @@ dd070772-33ce-486b-906b-fced716805f6 EdgeCases/collections/GCMD_Keyword_Disaster
 ac714943-54f5-4b4d-ae4c-f184857ec77a EdgeCases/collections/SUVI_Enhanced.xml
 082024f7-4fe3-478c-8a4f-7577c9f67ef8 EdgeCases/collections/badGCMD.xml
 e587b33e-ac0a-4943-84b0-46c02e406a01 EdgeCases/collections/cleanKeywordLabels.xml
+1787def7-5fac-4098-80a7-fb42c537bfd8 EdgeCases/collections/constructedTestData.xml
 3cc9be77-a48a-443f-96a8-58d3461d236a EdgeCases/collections/correctGCMDFormat.xml
 161fb32d-551a-4597-be4e-7944e1ca1d76 EdgeCases/collections/lineSpatialBoundingCollection.xml
 d61efb2f-1093-4297-800b-f3e493833b06 EdgeCases/collections/noaa-borehole-1000598.xml
 91ed837b-f907-48a0-971f-cc3bd9ed8dd9 EdgeCases/collections/noaa-ocean-19281.xml
 f72668fc-c338-43a6-bdf3-b4e0603da4f4 EdgeCases/collections/pointSpatialBoundingCollection.xml
 8b602af0-aa91-49a9-8ae9-6f3743adc34f EdgeCases/granules/GHRSST_Granule-UnknownProtocol.xml
+30498ad3-2acf-4125-98d4-0f3418677229 EdgeCases/granules/linkProtocols.xml
