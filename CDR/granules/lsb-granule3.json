@@ -1,0 +1,41 @@
+{
+  "trackingId": "edfd88a4-f87a-46af-ab47-2b9283020cfc",
+  "dataStream": "dscovr",
+  "fileInformation": {
+    "name": "Demo granule file three ",
+    "size": 42,
+    "checksums": [
+      {
+        "algorithm": "MD5",
+        "value": "fd297fcceb94fdbec5297938c99cc7f6"
+      }
+    ],
+    "format": "",
+    "headers": null,
+    "optionalAttributes": {
+      "test": "very yes"
+    }
+  },
+  "fileLocations": {
+      "https://granule-access.s3.us-west-1.amazonaws.com/edfd88a4-f87a-46af-ab47-2b9283020cfc": {
+        "uri": "https://granule-access.s3.us-west-1.amazonaws.com/edfd88a4-f87a-46af-ab47-2b9283020cfc",
+        "type": "ACCESS",
+        "deleted": false,
+        "restricted": false,
+        "asynchronous": false,
+        "locality": null,
+        "lastModified": null,
+        "serviceType": {
+          "string": "cloud"
+        },
+        "optionalAttributes": {}
+      }
+    },
+  "relationships": [
+    {
+      "type": "COLLECTION",
+      "id": "11111111-1111-1111-1111-111111111111"
+    }
+  ]
+}
+

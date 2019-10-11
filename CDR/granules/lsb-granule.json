@@ -1,0 +1,40 @@
+{
+  "trackingId": "688e0838-991f-47f9-a76a-da044e068863",
+  "dataStream": "dscovr",
+  "fileInformation": {
+    "name": "Demo granule file one (NOTE: this is not a REAL CDR GRANULE file)",
+    "size": 42,
+    "checksums": [
+      {
+        "algorithm": "MD5",
+        "value": "fd297fcceb94fdbec5297938c99cc7f6"
+      }
+    ],
+    "format": "",
+    "headers": null,
+    "optionalAttributes": {
+      "test": "very yes"
+    }
+  },
+  "fileLocations": {
+      "https://granule-access.s3.us-west-1.amazonaws.com/688e0838-991f-47f9-a76a-da044e068863": {
+        "uri": "https://granule-access.s3.us-west-1.amazonaws.com/688e0838-991f-47f9-a76a-da044e068863",
+        "type": "ACCESS",
+        "deleted": false,
+        "restricted": false,
+        "asynchronous": false,
+        "locality": null,
+        "lastModified": null,
+        "serviceType": {
+          "string": "cloud"
+        },
+        "optionalAttributes": {}
+      }
+    },
+  "relationships": [
+    {
+      "type": "COLLECTION",
+      "id": "11111111-1111-1111-1111-111111111111"
+    }
+  ]
+}
