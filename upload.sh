@@ -18,15 +18,19 @@ usage(){
 postToInventoryManager() { # assumes API_BASE, AUTH are defined, UUID and FILE are read on stdin (use pipe to send file input)
   while read UUID FILE; do
     local TYPE="collection"
+    local MEDIA="xml"
+    if [[ $FILE =~ ".json" ]]; then
+      MEDIA="json"
+    fi
     if [[ $FILE = *"granule"* ]]; then
       TYPE="granule"
     fi
     local UPLOAD="$API_BASE/metadata/$TYPE/$UUID"
-    echo "`date` - Uploading $FILE with $UUID to $UPLOAD"
+    echo "`date` - Uploading $MEDIA $FILE with $UUID to $UPLOAD"
     if [[ -z $AUTH ]] ; then
-      echo `curl -k -L -sS $UPLOAD -H "Content-Type: application/xml" --data-binary "@$FILE"`
+      echo `curl -k -L -sS $UPLOAD -H "Content-Type: application/$MEDIA" --data-binary "@$FILE"`
     else
-      echo `curl -k -u $AUTH -L -sS $UPLOAD -H "Content-Type: application/xml" --data-binary "@$FILE"`
+      echo `curl -k -u $AUTH -L -sS $UPLOAD -H "Content-Type: application/$MEDIA" --data-binary "@$FILE"`
     fi
   done
 }

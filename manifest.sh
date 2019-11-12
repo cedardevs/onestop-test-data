@@ -8,9 +8,9 @@
 #   exit 1
 # }
 
-getXMLFiles() { # BASEDIR is read on stdin (use pipe to send input)
+getFiles() { # BASEDIR is read on stdin (use pipe to send input)
   while read BASEDIR; do
-    find ${BASEDIR} -name "*.xml"
+    find ${BASEDIR} -name "*.xml" -o -name "*.json"
   done
 }
 
@@ -18,7 +18,7 @@ genManifestContent() { # pipe in list of files to generate uuids for
   while read FILE ; do
     TYPE="collection"
     UUID=$(uuidgen | awk '{print tolower($0)}')
-    if [[ $FILE = *"granule"* ]]; then
+    if [[ $FILE = *"granules"* ]]; then
       TYPE="granule"
     fi
     echo "$UUID $FILE"
@@ -29,10 +29,10 @@ updateManifest() {
   while read BASEDIR; do
     MANIFEST=$BASEDIR/manifest.txt
     if [[ ! -f "$MANIFEST" ]]; then
-      echo $BASEDIR | getXMLFiles | genManifestContent >> $MANIFEST
+      echo $BASEDIR | getFiles | genManifestContent >> $MANIFEST
       >&2 echo "Created manifest $MANIFEST"
     else
-      echo $BASEDIR | getXMLFiles | while read FILE; do
+      echo $BASEDIR | getFiles | while read FILE; do
         if ! grep -Fq "$FILE" "$MANIFEST"
         then
           >&2 echo "Adding $FILE to $MANIFEST"
