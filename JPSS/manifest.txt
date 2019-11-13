@@ -1,0 +1,13 @@
+55555555-5555-5555-5555-555555555555 JPSS/collections/C01433.xml
+66666666-6666-6666-6666-666666666666 JPSS/collections/C01434.xml
+77777777-7777-7777-7777-777777777777 JPSS/collections/C01436.xml
+88888888-8888-8888-8888-888888888888 JPSS/collections/C01437.xml
+99999999-9999-9999-9999-999999999999 JPSS/collections/C01438.xml
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa JPSS/collections/C01440.xml
+bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb JPSS/collections/C01441.xml
+cccccccc-cccc-cccc-cccc-cccccccccccc JPSS/collections/C01444.xml
+dddddddd-dddd-dddd-dddd-dddddddddddd JPSS/collections/C01445.xml
+eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee JPSS/collections/C01446.xml
+ffffffff-ffff-ffff-ffff-ffffffffffff JPSS/collections/C01447.xml
+11111111-1111-1111-1111-222222222222 JPSS/collections/C00864.xml
+11111111-1111-1111-1111-333333333333 JPSS/collections/C01432.xml
