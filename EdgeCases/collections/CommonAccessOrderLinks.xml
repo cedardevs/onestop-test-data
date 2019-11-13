@@ -11,7 +11,7 @@
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://data.noaa.gov/resources/iso19139/schema.xsd">
    <gmd:fileIdentifier>
-      <gco:CharacterString>gov.noaa.ncdc:C01501</gco:CharacterString>
+      <gco:CharacterString>edgecase:CommonAccessOrderLinks</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gco:CharacterString>eng; USA</gco:CharacterString>
@@ -1171,7 +1171,7 @@
                         <gco:Decimal>81.3282</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
-               </gmd:geographicElement>            
+               </gmd:geographicElement>
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox-East">
                      <gmd:extentTypeCode>
@@ -2255,7 +2255,7 @@
                                                          codeListValue="search">search</gmd:CI_OnLineFunctionCode>
                            </gmd:function>
                         </gmd:CI_OnlineResource>
-                     </gmd:onLine>                     
+                     </gmd:onLine>
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
@@ -2344,7 +2344,7 @@
                                                          codeListValue="download">download</gmd:CI_OnLineFunctionCode>
                            </gmd:function>
                         </gmd:CI_OnlineResource>
-                     </gmd:onLine>                     
+                     </gmd:onLine>
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
@@ -2390,7 +2390,7 @@
                                                          codeListValue="download">download</gmd:CI_OnLineFunctionCode>
                            </gmd:function>
                         </gmd:CI_OnlineResource>
-                     </gmd:onLine>                     
+                     </gmd:onLine>
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>

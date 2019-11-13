@@ -9,7 +9,7 @@
 	xmlns:gmx="http://www.isotc211.org/2005/gmx"
 	xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
 <gmd:fileIdentifier>
-		<gco:CharacterString>a70be547-c38b-11e0-962b-0800200c9a66</gco:CharacterString>
+		<gco:CharacterString>edgecase:SUVI_Enhanced</gco:CharacterString>
 	</gmd:fileIdentifier>
 	<gmd:language>
 		<gco:CharacterString>eng</gco:CharacterString>
