@@ -240,15 +240,6 @@
                <gmd:identifier>
                   <gmd:MD_Identifier>
                      <gmd:code>
-                        <gmx:Anchor xlink:href="https://doi.org/10.7289/V5BV7DSR"
-                                    xlink:title="DOI"
-                                    xlink:actuate="onRequest">doi:10.7289/V5BV7DSR</gmx:Anchor>
-                     </gmd:code>
-                  </gmd:MD_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:MD_Identifier>
-                     <gmd:code>
                         <gco:CharacterString>gov.noaa.ncdc:C01501:ScdrFilesDemo</gco:CharacterString>
                      </gmd:code>
                   </gmd:MD_Identifier>
