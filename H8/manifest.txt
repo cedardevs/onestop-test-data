@@ -1,0 +1,2 @@
+0fad03df-0805-434a-86a6-7dc42d68480f H8/collections/Himawari8OSE2ETest.xml
+0fad03df-0805-434a-86a6-7dc42d68480e H8/collections/Himawari8OSE2EDerived.xml
