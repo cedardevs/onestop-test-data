@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmi:MI_Metadata xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:srv="http://www.isotc211.org/2005/srv"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:gss="http://www.isotc211.org/2005/gss"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:gmi="http://www.isotc211.org/2005/gmi"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://data.noaa.gov/resources/iso19139/schema.xsd">
+   <gmd:fileIdentifier>
+      <gco:CharacterString>gov.noaa.nmfs.inport:39400</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php"
+                        codeListValue="eng">eng</gmd:LanguageCode>
+   </gmd:language>
+   <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode"
+                               codeListValue="UTF8">UTF8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                        codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>National Centers for Coastal Ocean Science</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice gco:nilReason="missing"/>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>1305 East West Highway, Rm 8110</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Silver Spring</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>MD</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>20910</gco:CharacterString>
+                     </gmd:postalCode>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://coastalscience.noaa.gov/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>Website</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Website for this organization</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode"
+                             codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:positionName>
+            <gco:CharacterString>NCCOS Scientific Data Coordinator</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice gco:nilReason="missing"/>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint gco:nilReason="missing"/>
+                     <gmd:city gco:nilReason="missing"/>
+                     <gmd:administrativeArea gco:nilReason="missing"/>
+                     <gmd:postalCode gco:nilReason="missing"/>
+                     <gmd:country gco:nilReason="missing"/>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>NCCOS.data@noaa.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode"
+                             codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp>
+      <gco:DateTime>2019-10-22T00:00:00</gco:DateTime>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+      <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>National Status and Trends: Mussel Watch Program</gco:CharacterString>
+               </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>mw_project_07072010</gco:CharacterString>
+               </gmd:alternateTitle>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2010-07-30</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"
+                                             codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:identifier>
+                  <gmd:MD_Identifier>
+                     <gmd:authority>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>NOAA/NMFS/EDM</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                     </gmd:authority>
+                     <gmd:code>
+                        <gmx:Anchor xlink:href="https://inport.nmfs.noaa.gov/inport/item/39400"
+                                    xlink:actuate="onRequest"
+                                    xlink:title="InPort Catalog ID">39400</gmx:Anchor>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:identifier>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Piniak, Greg</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice gco:nilReason="missing"/>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint gco:nilReason="missing"/>
+                                 <gmd:city gco:nilReason="missing"/>
+                                 <gmd:administrativeArea gco:nilReason="missing"/>
+                                 <gmd:postalCode gco:nilReason="missing"/>
+                                 <gmd:country gco:nilReason="missing"/>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>greg.piniak@noaa.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode"
+                                         codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName gco:nilReason="inapplicable"/>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>https://products.coastalscience.noaa.gov/collections/ltmonitoring/nsandt/default.aspx</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:protocol>
+                                    <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                 </gmd:protocol>
+                                 <gmd:name>
+                                    <gco:CharacterString>
+                                                                        Citation URL
+                                                                    </gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:description>
+                                    <gco:CharacterString>Online Resource</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                               codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                                 </gmd:function>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role gco:nilReason="inapplicable"/>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:otherCitationDetails>
+                  <gco:CharacterString>PRINCIPAL INVESTIGATORS Gunnar Lauenstein (retired), NOAA/NOS/NCCOS, Dennis Apeti,NOAA/NOS/NCCOS, Edward Johnson, NOAA/NOS/NCCOS, Kimani Kimbrough, NOAA/NOS/NCCOS</gco:CharacterString>
+               </gmd:otherCitationDetails>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>Mussel Watch is the longest running continuous chemical contaminant monitoring program in U.S. coastal and Great Lakes waters and was created in response to concerns over environmental quality of the Nation's coastal and estuarine ecosystems. The Program analyzes chemical and biological contaminant trends in sediment and bivalve tissue collected at over 300 coastal sites from 1986 to present. Parameters monitored include over 150 organic and inorganic contaminants, in sediment and bivalve tissue and bivalve histology; and Clostridium perfringens (pathogen) concentrations. Some of the chemicals regularly quantified include: PAHs, PCBs, chlorinated pesticides including DDT and its metabolites, TBT and its metabolites, major andtrace elements. In addition to the aforementioned legacy contaminants, new contaminants of Emerging Concern (CECs) such as flame retardant polybrominated biphnyl ethers (PBDEs) and pharmaceutics are being analyzed.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>The main objectives of the Mussel Watch Program are to evaluate the chemical and mirobial contamination status of the estuaries and coasts of the US, determine change in environmental quality through time (trends), and support NOAA ecosystem-based management. This work is performed along the conterminous coasts of the U.S., the Great Lakes, Hawaii and Alaska and Puerto Rico. Mussels and oysters, the sentinel species of the Program, are collected and analyzed biennially with contaminants characterized in sediment approximately once every ten years. Mollusks are collected from sites, some of which historically collected by state monitoring programs and other forerunners of the current Project. The Program's data are available back to 1986 but certain parameters can be compared to earlier monitoring of the 1960s and 1970s. These interrelated activities are designed to provide coastal managers with national a context to assess local and regional environmental condition. Outcomes include a status of contaminant concentrations around the U.S. including Alaska, Hawaii, Puerto Rico and the Great Lakes. Monitoring activities are designed to quantify and assess spatial and temporal trends in coastal contamination, and to provide a baseline to assess impacts of anthropogenic and natural events, including chemical spills, tropical storms, and hurricanes. The NSandT Mussel Watch Program sites were historically selected to be representative of their surroundings, and not located in known "hot spots". Recently however, new sites have been established in areas of known chemical and microbial contamination at the request of federal, state and local partners.</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:credit>
+            <gco:CharacterString>This data set was developed by National Oceanographic and Atmospheric Administration (NOAA) Program_Affiliation: Program_Name: National Biological Information Infrastructure Program_Name: National Ocean Service Data Explorer</gco:CharacterString>
+         </gmd:credit>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_ProgressCode"
+                                 codeListValue="completed">completed</gmd:MD_ProgressCode>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:positionName>
+                  <gco:CharacterString>NCCOS Scientific Data Coordinator</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice gco:nilReason="missing"/>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint gco:nilReason="missing"/>
+                           <gmd:city gco:nilReason="missing"/>
+                           <gmd:administrativeArea gco:nilReason="missing"/>
+                           <gmd:postalCode gco:nilReason="missing"/>
+                           <gmd:country gco:nilReason="missing"/>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>NCCOS.data@noaa.gov</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode"
+                                   codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:positionName>
+                  <gco:CharacterString>NCCOS Scientific Data Coordinator</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice gco:nilReason="missing"/>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint gco:nilReason="missing"/>
+                           <gmd:city gco:nilReason="missing"/>
+                           <gmd:administrativeArea gco:nilReason="missing"/>
+                           <gmd:postalCode gco:nilReason="missing"/>
+                           <gmd:country gco:nilReason="missing"/>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>NCCOS.data@noaa.gov</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode"
+                                   codeListValue="custodian">custodian</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#MD_MaintenanceFrequencyCode"
+                                                   codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Environmental Monitoring</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_KeywordTypeCode"
+                                          codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NOS Data Explorer Topic Category</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="missing"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>bivalve mollusk</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>butyltins</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>coastal ecosystem science</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>coastal monitoring</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>contaminant</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>gonadal index</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>histopathology</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>inorganic and organic analytes</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>mercury</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>metal</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>mussel</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Mussel Watch</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Data Type &gt; Field Observation</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Priority &gt; Long-term Monitoring</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Priority &gt; Stressors</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Impacts</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Mitigation</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>and Restoration (SIMR)</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Topic &gt; Bioeffects/Toxicity</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Topic &gt; Chemical Contaminants</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Topic &gt; Monitoring</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>nsandt</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>organochlorine</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>oyster</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PAH</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PBDE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PCB</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>pesticide</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>polybrominated diphenyl ether</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>polychlorinated biphenyl</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>polycyclic aromatic hydrocarbons</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Sediment</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>TBT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>trace element</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_KeywordTypeCode"
+                                          codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Alaska</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>East Coast</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Great Lakes</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Gulf Coast</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Hawaii</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Mussel Watch Place Keywords</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; Geographic Area &gt; Coastal Ocean</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; Region &gt; Alaska</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; Region &gt; East Coast</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; Region &gt; Great Lakes</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; Region &gt; Gulf of Mexico</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; Region &gt; Hawaii</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; Region &gt; International</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; Region &gt; U.S. Caribbean</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; Region &gt; West Coast</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Alabama</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Alaska</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; California</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Connecticut</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Delaware</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Florida</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Georgia</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Hawaii</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Illinois</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Indiana</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Louisiana</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Maine</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Maryland</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Massachusetts</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Michigan</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Minnesota</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Mississippi</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; New Jersey</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; New York</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; North Carolina</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Ohio</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Oregon</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Puerto Rico</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Rhode Island</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; South Carolina</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Texas</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Virginia</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Washington</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCCOS Research Location &gt; U.S. States and Territories &gt; Wisconsin</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Puerto Rico</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>United States</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>West Coast</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_KeywordTypeCode"
+                                          codeListValue="place">place</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>DOC/NOAA/NOS/NCCOS &gt; National Centers for Coastal Ocean Science, National Ocean Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation uuid="9f0de6e6-428b-11df-9879-0800200c9a66">
+                     <gmd:title>
+                        <gco:CharacterString>Global Change Master Directory (GCMD) Data Center Keywords</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2017-04-24</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition>
+                        <gco:CharacterString>8.5</gco:CharacterString>
+                     </gmd:edition>
+                     <gmd:citedResponsibleParty xlink:href="https://www.ngdc.noaa.gov/docucomp/1edb41d0-428a-11df-9879-0800200c9a66"
+                                                xlink:title="GCMD Landing Page"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>NSandT</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="project">project</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>InPort</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="inapplicable"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_Constraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>NOAA provides no warranty, nor accepts any liability occurring from any incomplete, incorrect, or misleading data, or from any incorrect, incomplete, or misleading use of the data. It is the responsibility of the user to determine whether or not the data is suitable for the intended purpose.</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_RestrictionCode"
+                                          codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_RestrictionCode"
+                                          codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Access Constraints: None | Use Constraints: NOAA requests that all individuals who use NOAA data acknowledge the source of these data in any reports, papers, or presentations. If you publish these data, please include a statement similar to: Some or all of the data described in this article were produced by the NOAA's National Ocean Service through its National Status and Trends Mussel Watch Program. | Distribution Liability: These data were prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, make any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. Any views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Although all data have been used by NOAA, no warranty, expressed or implied, is made by NOAA as to the accuracy of the data and/or related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by NOAA in the use of these data or related materials.</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_SecurityConstraints>
+               <gmd:classification>
+                  <gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_ClassificationCode"
+                                             codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+               </gmd:classification>
+               <gmd:classificationSystem gco:nilReason="missing"/>
+               <gmd:handlingDescription gco:nilReason="missing"/>
+            </gmd:MD_SecurityConstraints>
+         </gmd:resourceConstraints>
+         <gmd:language>
+            <gco:CharacterString>eng; US</gco:CharacterString>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-162.7207</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-66.1813</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>17.93917</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>61.13283</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="boundingTemporalExtent-1-1">
+                           <gml:description> | Currentness: Ground Condition</gml:description>
+                           <gml:beginPosition>1985-11-01</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="now"/>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>In the NSandT Data Portal, all Mussel Watch chemistry data are tagged to a chemical group. Group names include: phenols (e.g., Alkylphenols, Alkylphenol ethoxylates, nonylphenols) Butyltins (e.g., Tri, di, and mono butyltin) Carbon (Organic carbon, inorganic carbon) Chlordanes Dichloridiphenyltrichloroethanes (DDTs and metabolites) Dieldrines Endosulfans, Polychlorinated biphenyls (PCBs), Polychlorinated dibenzofurans, Energetics, sediment Grain size, Polycyclic aromatic hydrocarbons (PAHs), Perfluoro coumpounds, Pesticides of current use, Petroleum Hydrocarbons, Polybrominated biphenyls, Polybrominated biphenyl ethers (PBDEs), Sewage markers, Trace Metals. In addition, percent wet and dry weight data are entered into the Ancillary group, and, quantitative and semi-quantitative bivalve histopathology and gonadal index data are entered into a Histopathology group. There are sixteen attributes that describe each group: Study - the name of the program (e.g. Mussel Watch) of the location of the study (e.g. Saint Lucie); NST_Site - a four letter acronym illustrating the specific site where sample was collected (e.g. APCP as Apalachicola Bay Cat Point site); NST_Sample_ID - a unique identifier made up of the program name, site, station matrix (e.g. MW1986APCP1SED as Mussel Watch, 1986, APCP, station 1, sediment); LAT_DD - the Latitude in decimal degrees; Lon_DD - the Longitude in decimal degrees; Fiscal Year the fiscal year (Oct 1 - Sept 30) in which the site visit occurred; Collection Date is the actual date the sample is collected; Matrix - the matrix of the sample (e.g. sediment, tissue); Scientific Name - the scientific name of the bivalve species (e.g. Crasostrea virginica); Method - the analytical method used to measure the parameter shown; Chemical - the parameter being quantified; Result - the numeric value of a measured parameter; Unit - the units associated with "Result" the numeric value of a measured parameter. The QA/QC File is where all of the QA data are stored. This consists of Procedural Blanks, Duplicates, Matrix Spikes, Matrix Spike Duplicates and Reference Materials (e.g., SRMs, CRMs, laboratory reference standards) for each batch. The latitude and longitude is measured using datum NAD83.</gco:CharacterString>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>ASCII (tab delimited)</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="missing"/>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>XML</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="missing"/>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:positionName>
+                        <gco:CharacterString>NCCOS Scientific Data Coordinator</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice gco:nilReason="missing"/>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint gco:nilReason="missing"/>
+                                 <gmd:city gco:nilReason="missing"/>
+                                 <gmd:administrativeArea gco:nilReason="missing"/>
+                                 <gmd:postalCode gco:nilReason="missing"/>
+                                 <gmd:country gco:nilReason="missing"/>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>NCCOS.data@noaa.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode"
+                                         codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://products.coastalscience.noaa.gov/collections/ltmonitoring/nsandt/default.aspx</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>https://products.coastalscience.noaa.gov/collections/ltmonitoring/nsandt/default.aspx</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Other Documents</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://products.coastalscience.noaa.gov/collections/ltmonitoring/nsandt/default.aspx</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>https://products.coastalscience.noaa.gov/collections/ltmonitoring/nsandt/default.aspx</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Other Documents</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_QuantitativeAttributeAccuracy>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Accuracy</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>The measurement quality objectives of Mussel Watch specify accuracy and precision requirements of 30% for organic analytes and 20% for inorganic analytes in sediment and tissue samples. QA procedures include analyzing method blanks, metrix spikes, duplicates and reference materials with each batch of samples. Any batch failing to meet the specifications is reanalyzed or rejected. The QA Criteria may be found in NOAAs Tech Memo 71,Tech Memo 29 Tech Memo 30 and Tech Memo 130.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="missing"/>
+            </gmd:DQ_QuantitativeAttributeAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_CompletenessCommission>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Completeness Report</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>At the current time, the Analyte and Site are complete.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="missing"/>
+            </gmd:DQ_CompletenessCommission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_ConceptualConsistency>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Conceptual Consistency</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>The analytical instruments were calibrated by standard laboratory procedures. In total, approximately 5% of all analyses were QC analyses. Processing quality was considered acceptable if the following criteria were met: blanks were less than three times the minimum detection limit; accuracy, as determined by analysis of reference materials, was within 30% for organic analytes and within 20% for inorganic analytes; and precision, as determined by replicate analyses, was within 30% for organic analytes and within 20% for inorganic analytes. Additional specifications and guidelines are presented in Valente and Strobel (1993).</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="missing"/>
+            </gmd:DQ_ConceptualConsistency>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement gco:nilReason="missing"/>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Data Acquisition: The sample collection methods used by NOAA and NOAA contractor field crews will be described here. Sampling Objective: Bivalve mollusks and sediments are collected for the analysis of trace element and organic chemical constituents. Bivalve Collection Methods summary: The Mussel Watch Program (MWP) collects a number of different species of mussels and oysters depending on the location: the American oyster (Crassostrea virginica, Gmelin, 1791) from Delaware Bay southward and throughout the Gulf of Mexico; the "blue mussel"; (Mytilus galloprovincialis, M. trossulus and M. californianus, Conrad 1837) along the West coast; blue mussel (Mytilus edulis Linnaeus 1758) along the northeastern coast from Maine to Cape May and Cape Halopen, NJ; and zebra mussels (Dreissena polymorpha, Pallas 1771 and D. bugensis) in the Great Lakes. The MWP has also established sites in Alaska, Hawaii and Puerto Rico where M. trossulus/M. californianus, Ostrea sandvicensis, and C. rhizophorae are collected, respectively. Mollusks are collected at marine sites in the months of November-March with each site visited within three weeks  of a prescribed target date. In the Great Lakes, collections are made in late August or early September. Using non-powder nitril glove, bivalves are collected by hand at low tide in intertidal zones,by diving (SCUBA or snorkeling) or dredged at site located in the subtidal zones. The preferred size ranges are 5-8 cm for mussels, 7-10 cm for C. virginica, 2.5-5 cm for O. sandvicensis, and 2-4 cm for D. polymorpha and D. bugensis. Debris are removed and the samples are then packed on ice and shipped to the laboratory. Composite chemistry samples are prepared by homogenizing the soft parts of 30 mussels or 20 oysters. The small size of Dreissena spp. requires that composite samples from the Great Lake sites consisted of up to 100 or more individuals. When the core bivalve sites were first established three collections (stations) and subsequent analyses were performed for each site. From 1986 through 1992 three composites samples were analyzed per site and only one composite per site has been analyzed once a site has been established. Each composite sample is analyzed for organic, trace element, and gonadal index and histopathology. Approximately on a decadal basis sediment samples are collected from corresponding Mussel Watch bivalve sites. Likewise three sediment stations are established for each site. Sediment Collection Methods Summary: Multiple sediment grabs are collected from each site using a suitable grab sampler. The top two to three centimeter of the surface sediment is scooped from the grab sampler and retained for the chemical analyses. Multiple grabs are processed until sufficient sediments are collected. Any large debris encountered are removed, but otherwise the sample included resident organisms. Sediment samples are separated into two fractions for storage until analysis. One fraction is frozen and used in the chemical analysis, and the other is analyzed for the total organic carbon and percent moisture parameters. Sampling Platform: Samples are collected from gasoline powered boats. Sampling Equipment: Any stainless steel grab can be used. A 1/25 m2, stainless steel Young-modified Van Veen grab sampler or a hand held box corer is recommeded to collect sediment. From 1986 through 1992, three composite samples and one composite thereafter from each site are analyzed for organic analyses, trace element analyses, sediment grain size, total organic carbon and total inorganic carbon. Detailed MWP sample collection method, metal analytical methods and organic contamimants analytical methods are provided in Lauenstein and Cantillo (1993), Kimbrough and Lauenstein (2006 and 2007) respectively. Sediment ancillary methods are described in NOAA Tech Memo 28, while histopathology and gonadal index techniques are provided in Kim et al. (2006).</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Data Preparation and Sample Processing: Sample Processing Objective: Sediment and tissue samples are analyzed for metals, butyltins, PAHs, PCBs, PBDEs and organochlorine-pesticides. Methods Summary: All samples from the Gulf of Mexico Coast collected from 1986 to 1999 were analyzed by scientists from the Geochemical and Environmental Research Group or the Department of Oceanography at Texas AandM University (TAMU) in College Station, TX. For 1986-1988, samples from California and Hawaii were analyzed by Scientific Applications International Corporation in LaJolla, CA. For 1986-1994 all other West Coast samples and all East Coast samples were analyzed by scientists from the Battelle Laboratories in Duxbury, MA and Sequim, WA. For 1994-1999 all samples from all coasts were analyzed by the Geochemical and Environmental Research Group of the Department of Oceanography at Texas AandM University in College Station, TX. Since 2000, all samples have been analyzed by TDI-Brooks in College Station, TX. All laboratories, in all years, have used cold vapor atomic absorption for the analysis of Hg. TDI-Brooks International, Inc which has been performing the analyses since 2000 uses a modified version of EPA method 245.6. At Battelle, analyses for As, Cu, Se, and Zn have been made by X-ray fluorescence and those for Cd, Ni, and Pb by graphite furnace atomic absorption (GFAA). Beginning in 1992, inductively-coupled plasma with mass spectroscopy detection (ICP/MS) was used for Cd, Cr, Ni, and Pb. The analytical instruments used by SAIC and TAMU were GFAA for As, Cd, Ni, Pb, and Se; flame atomic absorption (FAA) for Zn; and both GFAA and FAA for Cu, depending on the concentration present. Since 2000 As and Se have been analyzed by atomic fluorescence spectrometry; As has also been analyzed by ICP-optical emission spectrometry (ICP/OEP). ICP/OEP is also used to determine Al,Cu, Ni and Zn while ICP/MS is used for Cd, Ni and Pb. Digestion procedures prior to elemental analysis varied to some extent among laboratories and years. Prior to 1990, Battelle used concentrated nitric and perchloric acids in aTeflon digestion bomb in a conventional oven. Since 1991, samples have been digested in nitric acid only, and heating has been by microwave irradiation. SAIC used conventional ovens and nitric acid. The Texas AandM Laboratory used nitric and perchloric acids with heating in a conventional oven. From 1991 to 1999, only nitric acid was used. The current analytical laboratory sequentially adds nitric acid and hydrogen peroxide to Teflon bombs to achieve sample dissolution of all but Hg samples. Organic chemical extractions were similar among laboratories. After addition of internal standards and anhydrous sodium sulfate, the tissue was extracted three times with dichloromethane using a tissumizer. After concentration by solvent evaporation and exchange of dichloromethane with hexane, the tissue extract was fractionated by alumina:silica chromatography. The aromatic fraction eluted from the column with 1:1 pentane: dichloromethane was further purified by removing lipids through chromatography on a Sephadex column. Since 1988, this purification has been accomplished via an HPLC procedure. Organic sample extraction since 2000 remains similar to that of previous years but Hydromatrix is used to dry tissue samples and dichloromethane is the only solvent used in accelerated solvent extractor cells. Extracts are purified using alumina/silica gel chromatography followed by high performance liquid chromatography. Purified extracts were chromatographed on 30-m DB-5 fused silica capillary columns. Since 2000, a second column (DB-17HT) has also been used for chlorinated hydrocarbon confirmation. (continued)</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>(continued from above) Chlorinated hydrocarbon concentrations were quantified using an electron capture detector (GC-ECD) by all laboratories in all years. For polycyclic aromatic hydrocarbons all analyses by SAIC in 1986-1988 (California and Hawaiian coasts) and those by Battelle in 1986 (East and Northwest Coasts) employed flame ionization detection (GC-FID). Battelle used mass spectrometry detection (GC-MSD) in full-scan mode in 1987. In all other cases the PAH analysis has been by GC-MSD in the selected ion mode (SIM). For butyltin analyses, anhydrous homogenized tissue was extracted with troplone and hexane (East and West Coast samples) or troplone and dichloromethane (Gulf Coast samples). Current methods use either hexane or dichloromethane. The extracts underwent Grignard reactions by addition of hexylmagnesium bromide (Gulf Coast samples) and n-pentyl magnesium bromide (East and West Coast samples). The Gulf Coast method is currently in use for samples from all coasts. Florisil/silica gel or silica alumina column chromatography were used to separate the analytes.Calibration:The analytical instruments were calibrated by standard laboratory procedures including: constructing calibration curves, running blank and spiked quality control samples, and analyzing reference materials.Quality Control:Each batch of sediment and tissue samples was accompanied by QC analyses consisting of method blanks, matrix spikes, matrix spike duplicates, and standard reference materials (SRMs). In total, approximately 5% of all analyses were QC analyses. Processing quality was considered acceptable if the following criteria were met: blanks were less than three times the minimum detection limit; accuracy, as determined by analysis of certified reference materials, was within 30% for organic analytes and within 20% for inorganic analytes; and precision, as determined by replicate analyses, was within 30% for organic analytes and within 20% for inorganic analytes. Additional specifications and guidelines are presented in Cantillo and Lauenstein (1998).All laboratories annually participate in annual intercalibration exercise where common samples are analyzed by them, by other laboratories, and by a lead laboratory for the exercise. The lead laboratory for trace element intercalibrations has been the National Research Council of Canada and that for trace organic analysis has been the National Institute of Standards and Technology. (end continuation)</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Project related references: Apeti, D.A., W.E. Johnson, G.G.Lauenstein and K. Kimbrough. 2009. National Status and Trends, Mussel Watch Program: Sampling Metods.NOAA Technical Memorandum NOS NCCOS Silver Spring, MD. Kimbrough, K.L., G.G. Lauenstein, and W.E. Johnson. 2007. Organic Contaminant Analytical Methods of the National Status and Trends Program: Update 2000-2006, NOAA Technical Memoranda,NOS NCCOS 30. 22 Apr. 2008 http://www.ccma.nos.noaa.gov/publications/organicsmethods.pdf. Kimbrough, K.L., and G.G. Lauenstein. 2007. Major and Trace Element Analytical Methods of the National Status and Trends Program: 2000-2006, NOAA Technical Memorandum, NOS NCCOS 29. 22Apr 2008. http://www.ccma.nos.noaa.gov/publications/nsandtmethods.pdf. McDonald, S. J., D. S. Frank, J. A. Ramirez, B. Wang, and J. M. Brooks. 2006. Ancillary Methods of the National Status and Trends Program: Update 2000-2006, NOAA Technical Memorandum, NOS NCCOS 28. 22Apr. 2008. http://www.ccma.nos.noaa.gov/documents/ancillarymethodsnsandt.pdf.  Kim, Y.; K.A. Ashton-Alcox; E.N. Powell, 2006. Histological Techniques for Marine Bivalve Molluscs: Update. Silver Spring, MD. NOAA Technical Memorandum NOS NCCOS 27. 76 pp. Kimbrough, K.L.; Johnson, W.E., Lauenstein G.G., Christensen, J.D. and Apeti, A.D. 2008. Assessment of Two decades of Contaminant Monitoring in the Nation's Coastal Zone. Silver Spring, MD. NOAA Technical Memorandum NOS NCCOS 74. 105pp. Kimbrough, K.L.; Johnson, W.E., Lauenstein G.G., Christensen, J.D. and Apeti, A.D. 2009. Assessment of Polybrominated Diphenyl Ethers (PBDEs) in Sediment and Bivalves of the U.S. Coastal Zone. Silver Spring, MD. NOAA Technical Memorandum NOS NCCOS 94. 87pp. http://www.ccma.nos.noaa.gov/ Apeti, D.A., G.G. Lauenstein,and G.F. Riedel. 2009. Cadmium Distribution in Coastal Sediments and Molusks of the US. Marine Pollution Bulletin 58:1016-1024 O'Connor, T. P. and G. G. Lauenstein. 2006. Trends in Chemical Concentrations in Mussels and Oysters Collected along the U.S. Coast: Update to 2003. Marine Environmental Research 62:261-285. Kim, Y., K.A. Ashton-Alcox, and E.N. Powell. 2006. Histological Techniques for Marine Bivalve Molluscs: Update, NOAA Technical Memorandum, NOS NCCOS 27. 22 Apr. 2008 http://www.ccma.nos.noaa.gov/publications/histopathtechmemofinal.pdf. Cantillo, A. Y. and G. G. Lauenstein. 1998. Performance-based Quality Assurance - The NOAA National Status and Trends Program Experience. In: U.S. EPA Proceedings of the NWQMC National Conference - Monitoring: Critical Foundations to Protect Our Waters. Washington, DC. pp. III63-III73. Lauenstein, G. G. and A. Y. Cantillo. 1998. Analytical Methods of the National Status and Trends Program Mussel Watch Project: 1993 -1997 Update. NOAA Technical Memorandum NOS ORCA  130, Silver Spring, MD. Lauenstein, G. G. and A. Y. Cantillo. 1997. Analytical evaluation of laboratories wishing to perform environmental characterization studies. Environ. Toxicol. and Chem. 16(7):1345-1350. Lauenstein, G. G., A. Y. Cantillo, S. Kokkinakis, J. Jobling, and R.Fay. 1997. Mussel Watch Project Site Descriptions, through 1997. NOAA Technical Memorandum NOS ORCA 112, Silver Spring, MD. Lauenstein, G.G., A. Y. Cantillo, B. J. Koster, M. M. Schantz, S. F. Stone, R. Zeisler, and S. A. Wise. 1996. National Status and Trends Program Specimen Bank: Sampling protocols, analytical methods, results, and archive samples. NOAA Technical Memorandum NOS ORCA 98. Silver Spring, MD. (continued)</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>(continued from above) Cantillo, A. Y., G. G. Lauenstein. 1995. Use of reference materials in coastal quality assurance. Fresenius J Anal Chem. 352:152-156. Lauenstein, G. G. and A. Y. Cantillo. 1993. Sampling and analytical methods of the National Status and Trends Program National Benthic Surveillance and Mussel Watch Projects 1984-1992: Overview and summary of methods, Volume I NOAA Technical Memorandum NOS ORCA 71, Silver Spring, MD. Lauenstein, G. G. and A. Y. Cantillo (eds.). 1993. Sampling and analytical methods of the National Status and Trends Program National Benthic Surveillance and Mussel Watch Projects 1984-1992: Comprehensive descriptions of complementary measurements, Volume II NOAA Technical Memorandum NOS ORCA 71, Silver Spring, MD. Lauenstein, G. G. and A. Y. Cantillo (eds.). 1993. Sampling and analytical methods of the National Status and Trends Program National Benthic Surveillance and Mussel Watch Projects 1984-1992: Comprehensive descriptions of elemental analytical methods, Volume III NOAA Technical Memorandum NOS ORCA 71, Silver Spring, MD. Lauenstein, G. G. and A. Y. Cantillo (eds.) 1993. Sampling and analytical methods of the National Status and Trends Program National Benthic Surveillance and Mussel Watch Projects 1984-1992: Comprehensive descriptions of trace organic analytical methods, Volume IV NOAA Technical Memorandum NOS ORCA 71, Silver Spring, MD. Cantillo,  A. Y. and G. G. Lauenstein. 1993. Performance based quality assurance of the NOAA National Status and Trends Project. In: Quality Assurance for analytical laboratories (ed. M. Parkany). Royal Society of Chemistry, Cambridge, England. pp. 34-43. Lauenstein, G. G., M. R. Harmon, and B. Gottholm. 1993. National Status and Trends Program for Marine Environmental Quality: Benthic Surveillance and Mussel Watch Projects monitoring sites. NOAA Technical Memorandum NOS ORCA 70, Silver Spring, MD. 353 pp. Cantillo A. Y. and G. G. Lauenstein. 1992. NOAA National Status and Trends Program intercomparison exercise results. Marine Technology Society, pp. 216-222. Lauenstein, G. G., and N. Valette-Silver. 1991. Evolution of the National Status and Trends Program from 1984 to 1991. Sea Technology, August 1991, pp. 47-52. Shigenaka, G. and G. G. Lauenstein. 1988. National Status and Trends Program for Marine Environmental Quality: Benthic Surveillance and Mussel Watch Projects sampling protocols. NOAA Technical Memorandum NOS OMA 40, 30 pp. (end continuation)</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+</gmi:MI_Metadata>
