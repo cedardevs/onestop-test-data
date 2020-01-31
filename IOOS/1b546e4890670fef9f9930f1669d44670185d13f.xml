@@ -1,0 +1,838 @@
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+
+	<gmd:fileIdentifier>
+		<gco:CharacterString>opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_PWS0745</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>eng; USA</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:contact xlink:title="NOAA.NOS.CO-OPS">
+		<gmd:CI_ResponsibleParty>
+	<gmd:organisationName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:organisationName>
+	<gmd:positionName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:positionName>
+	<gmd:contactInfo>
+		<gmd:CI_Contact>
+			<gmd:address>
+				<gmd:CI_Address>
+					<gmd:country>
+						<gco:CharacterString>USA</gco:CharacterString>
+					</gmd:country>
+					<gmd:electronicMailAddress>
+						<gco:CharacterString>COOPS.IOOS@noaa.gov</gco:CharacterString>
+					</gmd:electronicMailAddress>
+				</gmd:CI_Address>
+			</gmd:address>
+			<gmd:onlineResource>
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>https://tidesandcurrents.noaa.gov</gmd:URL>
+					</gmd:linkage>
+				</gmd:CI_OnlineResource>
+			</gmd:onlineResource>
+		</gmd:CI_Contact>
+	</gmd:contactInfo>
+	<gmd:role>
+		<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+	</gmd:role>
+</gmd:CI_ResponsibleParty>
+
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2020-01-30</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>urn:ioos:station:NOAA.NOS.CO-OPS:PWS0745 station, Valdez Narrows</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2020</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:citedResponsibleParty xlink:title="NOAA.NOS.CO-OPS">
+						<gmd:CI_ResponsibleParty>
+	<gmd:organisationName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:organisationName>
+	<gmd:positionName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:positionName>
+	<gmd:contactInfo>
+		<gmd:CI_Contact>
+			<gmd:address>
+				<gmd:CI_Address>
+					<gmd:country>
+						<gco:CharacterString>USA</gco:CharacterString>
+					</gmd:country>
+					<gmd:electronicMailAddress>
+						<gco:CharacterString>COOPS.IOOS@noaa.gov</gco:CharacterString>
+					</gmd:electronicMailAddress>
+				</gmd:CI_Address>
+			</gmd:address>
+			<gmd:onlineResource>
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>https://tidesandcurrents.noaa.gov</gmd:URL>
+					</gmd:linkage>
+				</gmd:CI_OnlineResource>
+			</gmd:onlineResource>
+		</gmd:CI_Contact>
+	</gmd:contactInfo>
+	<gmd:role>
+		<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+	</gmd:role>
+</gmd:CI_ResponsibleParty>
+
+					</gmd:citedResponsibleParty>
+					<gmd:citedResponsibleParty xlink:title="Center for Operational Oceanographic Products and Services">
+						<gmd:CI_ResponsibleParty>
+	<gmd:organisationName>
+		<gco:CharacterString>Center for Operational Oceanographic Products and Services</gco:CharacterString>
+	</gmd:organisationName>
+	<gmd:positionName>
+		<gco:CharacterString>Center for Operational Oceanographic Products and Services</gco:CharacterString>
+	</gmd:positionName>
+	<gmd:contactInfo>
+		<gmd:CI_Contact>
+			<gmd:address>
+				<gmd:CI_Address>
+					<gmd:deliveryPoint>
+						<gco:CharacterString>1305 East-West Highway</gco:CharacterString>
+					</gmd:deliveryPoint>
+					<gmd:city>
+						<gco:CharacterString>Silver Spring</gco:CharacterString>
+					</gmd:city>
+					<gmd:administrativeArea>
+						<gco:CharacterString>MD</gco:CharacterString>
+					</gmd:administrativeArea>
+					<gmd:postalCode>
+						<gco:CharacterString>20910-3281</gco:CharacterString>
+					</gmd:postalCode>
+					<gmd:country>
+						<gco:CharacterString>USA</gco:CharacterString>
+					</gmd:country>
+					<gmd:electronicMailAddress>
+						<gco:CharacterString>COOPS.IOOS@noaa.gov</gco:CharacterString>
+					</gmd:electronicMailAddress>
+				</gmd:CI_Address>
+			</gmd:address>
+			<gmd:onlineResource>
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>https://tidesandcurrents.noaa.gov</gmd:URL>
+					</gmd:linkage>
+				</gmd:CI_OnlineResource>
+			</gmd:onlineResource>
+		</gmd:CI_Contact>
+	</gmd:contactInfo>
+	<gmd:role>
+		<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+	</gmd:role>
+</gmd:CI_ResponsibleParty>
+
+					</gmd:citedResponsibleParty>
+					<gmd:presentationForm>
+						<gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="modelDigital">modelDigital</gmd:CI_PresentationFormCode>
+					</gmd:presentationForm>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>
+NOAA.NOS.CO-OPS Sensor Observation Service (SOS) Server
+
+This station provides the following variables: Direction of sea water velocity, Platform orientation, Platform pitch angle, Platform roll angle, Sea water speed, Sea water temperature				</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+			</gmd:status>
+			<gmd:pointOfContact xlink:title="NOAA.NOS.CO-OPS">
+				<gmd:CI_ResponsibleParty>
+	<gmd:organisationName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:organisationName>
+	<gmd:positionName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:positionName>
+	<gmd:contactInfo>
+		<gmd:CI_Contact>
+			<gmd:address>
+				<gmd:CI_Address>
+					<gmd:country>
+						<gco:CharacterString>USA</gco:CharacterString>
+					</gmd:country>
+					<gmd:electronicMailAddress>
+						<gco:CharacterString>COOPS.IOOS@noaa.gov</gco:CharacterString>
+					</gmd:electronicMailAddress>
+				</gmd:CI_Address>
+			</gmd:address>
+			<gmd:onlineResource>
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>https://tidesandcurrents.noaa.gov</gmd:URL>
+					</gmd:linkage>
+				</gmd:CI_OnlineResource>
+			</gmd:onlineResource>
+		</gmd:CI_Contact>
+	</gmd:contactInfo>
+	<gmd:role>
+		<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+	</gmd:role>
+</gmd:CI_ResponsibleParty>
+
+			</gmd:pointOfContact>
+			<gmd:resourceMaintenance>
+				<gmd:MD_MaintenanceInformation>
+					<gmd:maintenanceAndUpdateFrequency>
+						<gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="continual">continual</gmd:MD_MaintenanceFrequencyCode>
+					</gmd:maintenanceAndUpdateFrequency>
+				</gmd:MD_MaintenanceInformation>
+			</gmd:resourceMaintenance>
+			<gmd:descriptiveKeywords xlink:title="ISO Theme">
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Air Temperature</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Barometric Pressure</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Conductivity</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Currents</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Datum</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Harmonic Constituents</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Rain Fall</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Relative Humidity</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Salinity</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Visibility</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Water Level</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Water Level Predictions</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Water Temperature</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Winds</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>direction_of_sea_water_velocity</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>platform_orientation</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>platform_pitch_angle</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>platform_roll_angle</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>sea_water_speed</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>sea_water_temperature</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:language>
+				<gco:CharacterString>eng; USA</gco:CharacterString>
+			</gmd:language>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:extentTypeCode>
+								<gco:Boolean>1</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-146.66078</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>-146.66076</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>61.06975</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>61.06977</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="timeperiod-dataidentification-">
+									<gml:description/>
+									<gml:beginPosition>2007-08-11T20:41:00+00:00</gml:beginPosition>
+									<gml:endPosition>2007-09-25T18:02:00+00:00</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+
+<gmd:identificationInfo>
+		 <srv:SV_ServiceIdentification id="OGC-SOS">
+				<gmd:citation>
+					 <gmd:CI_Citation>
+							<gmd:title>
+								 <gco:CharacterString>NOAA.NOS.CO-OPS SOS</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								 <gmd:CI_Date>
+										<gmd:date>
+											 <gco:DateTime>2020-01-30T18:13:53</gco:DateTime>
+										</gmd:date>
+										<gmd:dateType>
+											 <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+										</gmd:dateType>
+								 </gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty xlink:title="NOAA.NOS.CO-OPS">
+								<gmd:CI_ResponsibleParty>
+	<gmd:organisationName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:organisationName>
+	<gmd:positionName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:positionName>
+	<gmd:contactInfo>
+		<gmd:CI_Contact>
+			<gmd:address>
+				<gmd:CI_Address>
+					<gmd:country>
+						<gco:CharacterString>USA</gco:CharacterString>
+					</gmd:country>
+					<gmd:electronicMailAddress>
+						<gco:CharacterString>COOPS.IOOS@noaa.gov</gco:CharacterString>
+					</gmd:electronicMailAddress>
+				</gmd:CI_Address>
+			</gmd:address>
+			<gmd:onlineResource>
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>https://tidesandcurrents.noaa.gov</gmd:URL>
+					</gmd:linkage>
+				</gmd:CI_OnlineResource>
+			</gmd:onlineResource>
+		</gmd:CI_Contact>
+	</gmd:contactInfo>
+	<gmd:role>
+		<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+	</gmd:role>
+</gmd:CI_ResponsibleParty>
+
+							</gmd:citedResponsibleParty>
+					 </gmd:CI_Citation>
+				</gmd:citation>
+				<gmd:abstract>
+					<gco:CharacterString>
+NOAA.NOS.CO-OPS Sensor Observation Service (SOS) Server
+
+This station provides the following variables: Direction of sea water velocity, Platform orientation, Platform pitch angle, Platform roll angle, Sea water speed, Sea water temperature					</gco:CharacterString>
+				</gmd:abstract>
+				<srv:serviceType>
+					 <gco:LocalName>OGC:SOS</gco:LocalName>
+				</srv:serviceType>
+				<srv:extent>
+					<gmd:EX_Extent>
+						<gmd:geographicElement>
+						 <gmd:EX_GeographicBoundingBox>
+							 <gmd:extentTypeCode>
+								 <gco:Boolean>1</gco:Boolean>
+							 </gmd:extentTypeCode>
+							 <gmd:westBoundLongitude>
+								 <gco:Decimal>-146.66077</gco:Decimal>
+							 </gmd:westBoundLongitude>
+							 <gmd:eastBoundLongitude>
+								 <gco:Decimal>-146.66077</gco:Decimal>
+							 </gmd:eastBoundLongitude>
+							 <gmd:southBoundLatitude>
+								 <gco:Decimal>61.06976</gco:Decimal>
+							 </gmd:southBoundLatitude>
+							 <gmd:northBoundLatitude>
+								 <gco:Decimal>61.06976</gco:Decimal>
+							 </gmd:northBoundLatitude>
+						 </gmd:EX_GeographicBoundingBox>
+						</gmd:geographicElement>
+						<gmd:temporalElement>
+						 <gmd:EX_TemporalExtent>
+							 <gmd:extent>
+								 <gml:TimePeriod gml:id="timeperiod-serviceidentification-">
+									 <gml:description/>
+									 <gml:beginPosition>2007-08-11T20:41:00+00:00</gml:beginPosition>
+									 <gml:endPosition>2007-09-25T18:02:00+00:00</gml:endPosition>
+								 </gml:TimePeriod>
+							 </gmd:extent>
+						 </gmd:EX_TemporalExtent>
+						</gmd:temporalElement>
+					</gmd:EX_Extent>
+				</srv:extent>
+				<srv:couplingType>
+					 <srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType" codeListValue="tight">tight</srv:SV_CouplingType>
+				</srv:couplingType>
+				<srv:containsOperations>
+					 <srv:SV_OperationMetadata>
+							<srv:operationName>
+								 <gco:CharacterString>SOS GetCapabilities</gco:CharacterString>
+							</srv:operationName>
+							<srv:DCP gco:nilReason="unknown"/>
+							<srv:connectPoint>
+								 <gmd:CI_OnlineResource>
+										<gmd:linkage>
+											 <gmd:URL>http://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/SOS?service=SOS&amp;acceptVersions=1.0.0&amp;request=GetCapabilities</gmd:URL>
+										</gmd:linkage>
+										<gmd:protocol>
+											 <gco:CharacterString>OGC:SOS</gco:CharacterString>
+										</gmd:protocol>
+										<gmd:name>
+											 <gco:CharacterString>NOAA.NOS.CO-OPS SOS</gco:CharacterString>
+										</gmd:name>
+										<gmd:description>
+											 <gco:CharacterString>Open Geospatial Consortium Sensor Observation Service (SOS)</gco:CharacterString>
+										</gmd:description>
+										<gmd:function>
+											 <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+										</gmd:function>
+								 </gmd:CI_OnlineResource>
+							</srv:connectPoint>
+					 </srv:SV_OperationMetadata>
+				</srv:containsOperations>
+				<srv:operatesOn xlink:href="#DataIdentification"/>
+		 </srv:SV_ServiceIdentification>
+	</gmd:identificationInfo>
+
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>text/csv</gco:CharacterString>
+					</gmd:name>
+					<gmd:version gco:nilReason="unknown"/>
+					<gmd:specification>
+						<gco:CharacterString>text/csv</gco:CharacterString>
+					</gmd:specification>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>text/tab-separated-values</gco:CharacterString>
+					</gmd:name>
+					<gmd:version gco:nilReason="unknown"/>
+					<gmd:specification>
+						<gco:CharacterString>text/tab-separated-values</gco:CharacterString>
+					</gmd:specification>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>text/xml;schema="ioos/0.6.1"</gco:CharacterString>
+					</gmd:name>
+					<gmd:version gco:nilReason="unknown"/>
+					<gmd:specification>
+						<gco:CharacterString>text/xml;schema="ioos/0.6.1"</gco:CharacterString>
+					</gmd:specification>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>application/ioos+xml;version=0.6.1</gco:CharacterString>
+					</gmd:name>
+					<gmd:version gco:nilReason="unknown"/>
+					<gmd:specification>
+						<gco:CharacterString>application/ioos+xml;version=0.6.1</gco:CharacterString>
+					</gmd:specification>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>application/vnd.google-earth.kml+xml</gco:CharacterString>
+					</gmd:name>
+					<gmd:version gco:nilReason="unknown"/>
+					<gmd:specification>
+						<gco:CharacterString>application/vnd.google-earth.kml+xml</gco:CharacterString>
+					</gmd:specification>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>text/xml;subtype="om/1.0.0/profiles/ioos_sos/1.0"</gco:CharacterString>
+					</gmd:name>
+					<gmd:version gco:nilReason="unknown"/>
+					<gmd:specification>
+						<gco:CharacterString>text/xml;subtype="om/1.0.0/profiles/ioos_sos/1.0"</gco:CharacterString>
+					</gmd:specification>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact xlink:title="NOAA.NOS.CO-OPS">
+							<gmd:CI_ResponsibleParty>
+	<gmd:organisationName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:organisationName>
+	<gmd:positionName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:positionName>
+	<gmd:contactInfo>
+		<gmd:CI_Contact>
+			<gmd:address>
+				<gmd:CI_Address>
+					<gmd:country>
+						<gco:CharacterString>USA</gco:CharacterString>
+					</gmd:country>
+					<gmd:electronicMailAddress>
+						<gco:CharacterString>COOPS.IOOS@noaa.gov</gco:CharacterString>
+					</gmd:electronicMailAddress>
+				</gmd:CI_Address>
+			</gmd:address>
+			<gmd:onlineResource>
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>https://tidesandcurrents.noaa.gov</gmd:URL>
+					</gmd:linkage>
+				</gmd:CI_OnlineResource>
+			</gmd:onlineResource>
+		</gmd:CI_Contact>
+	</gmd:contactInfo>
+	<gmd:role>
+		<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+	</gmd:role>
+</gmd:CI_ResponsibleParty>
+
+					</gmd:distributorContact>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+			<gmd:transferOptions xlink:title="PWS0745 - DescribeSensor">
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/SOS?version=1.0.0&amp;service=SOS&amp;procedure=urn:ioos:station:NOAA.NOS.CO-OPS:PWS0745&amp;outputFormat=text/xml; subtype="sensorML/1.0.1/profiles/ioos_sos/1.0"&amp;request=DescribeSensor</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>OGC:SOS:DescribeSensor</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gco:CharacterString>DescribeSensor - Station: PWS0745</gco:CharacterString>
+							</gmd:name>
+							<gmd:description>
+								<gco:CharacterString>DescribeSensor URL for station urn:ioos:station:NOAA.NOS.CO-OPS:PWS0745 station, Valdez Narrows</gco:CharacterString>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+			<gmd:transferOptions xlink:title="PWS0745 - Direction of sea water velocity - CSV">
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/SOS?offering=urn:ioos:station:NOAA.NOS.CO-OPS:PWS0745&amp;service=SOS&amp;eventTime=2007-09-25T16:02:00/2007-09-25T18:02:00&amp;request=GetObservation&amp;version=1.0.0&amp;observedProperty=http://mmisw.org/ont/cf/parameter/direction_of_sea_water_velocity&amp;responseFormat=text/csv</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>WWW:LINK - text/csv</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gco:CharacterString>Station: PWS0745 - Direction of sea water velocity - CSV</gco:CharacterString>
+							</gmd:name>
+							<gmd:description>
+								<gco:CharacterString>GetObservation download link for Direction of sea water velocity in CSV</gco:CharacterString>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+			<gmd:transferOptions xlink:title="PWS0745 - Platform orientation - CSV">
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/SOS?offering=urn:ioos:station:NOAA.NOS.CO-OPS:PWS0745&amp;service=SOS&amp;eventTime=2007-09-25T16:02:00/2007-09-25T18:02:00&amp;request=GetObservation&amp;version=1.0.0&amp;observedProperty=http://mmisw.org/ont/cf/parameter/platform_orientation&amp;responseFormat=text/csv</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>WWW:LINK - text/csv</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gco:CharacterString>Station: PWS0745 - Platform orientation - CSV</gco:CharacterString>
+							</gmd:name>
+							<gmd:description>
+								<gco:CharacterString>GetObservation download link for Platform orientation in CSV</gco:CharacterString>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+			<gmd:transferOptions xlink:title="PWS0745 - Platform pitch angle - CSV">
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/SOS?offering=urn:ioos:station:NOAA.NOS.CO-OPS:PWS0745&amp;service=SOS&amp;eventTime=2007-09-25T16:02:00/2007-09-25T18:02:00&amp;request=GetObservation&amp;version=1.0.0&amp;observedProperty=http://mmisw.org/ont/cf/parameter/platform_pitch_angle&amp;responseFormat=text/csv</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>WWW:LINK - text/csv</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gco:CharacterString>Station: PWS0745 - Platform pitch angle - CSV</gco:CharacterString>
+							</gmd:name>
+							<gmd:description>
+								<gco:CharacterString>GetObservation download link for Platform pitch angle in CSV</gco:CharacterString>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+			<gmd:transferOptions xlink:title="PWS0745 - Platform roll angle - CSV">
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/SOS?offering=urn:ioos:station:NOAA.NOS.CO-OPS:PWS0745&amp;service=SOS&amp;eventTime=2007-09-25T16:02:00/2007-09-25T18:02:00&amp;request=GetObservation&amp;version=1.0.0&amp;observedProperty=http://mmisw.org/ont/cf/parameter/platform_roll_angle&amp;responseFormat=text/csv</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>WWW:LINK - text/csv</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gco:CharacterString>Station: PWS0745 - Platform roll angle - CSV</gco:CharacterString>
+							</gmd:name>
+							<gmd:description>
+								<gco:CharacterString>GetObservation download link for Platform roll angle in CSV</gco:CharacterString>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+			<gmd:transferOptions xlink:title="PWS0745 - Sea water speed - CSV">
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/SOS?offering=urn:ioos:station:NOAA.NOS.CO-OPS:PWS0745&amp;service=SOS&amp;eventTime=2007-09-25T16:02:00/2007-09-25T18:02:00&amp;request=GetObservation&amp;version=1.0.0&amp;observedProperty=http://mmisw.org/ont/cf/parameter/sea_water_speed&amp;responseFormat=text/csv</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>WWW:LINK - text/csv</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gco:CharacterString>Station: PWS0745 - Sea water speed - CSV</gco:CharacterString>
+							</gmd:name>
+							<gmd:description>
+								<gco:CharacterString>GetObservation download link for Sea water speed in CSV</gco:CharacterString>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+			<gmd:transferOptions xlink:title="PWS0745 - Sea water temperature - CSV">
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/SOS?offering=urn:ioos:station:NOAA.NOS.CO-OPS:PWS0745&amp;service=SOS&amp;eventTime=2007-09-25T16:02:00/2007-09-25T18:02:00&amp;request=GetObservation&amp;version=1.0.0&amp;observedProperty=http://mmisw.org/ont/cf/parameter/sea_water_temperature&amp;responseFormat=text/csv</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>WWW:LINK - text/csv</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gco:CharacterString>Station: PWS0745 - Sea water temperature - CSV</gco:CharacterString>
+							</gmd:name>
+							<gmd:description>
+								<gco:CharacterString>GetObservation download link for Sea water temperature in CSV</gco:CharacterString>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+			<gmd:transferOptions xlink:title="PWS0745">
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+							<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>https://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/images/current_meter.jpg</gmd:URL>
+		</gmd:linkage>
+		<gmd:protocol>
+			<gco:CharacterString>WWW:LINK</gco:CharacterString>
+		</gmd:protocol>
+		<gmd:description>
+			<gco:CharacterString>Photo or diagram illustrating the system (or a representative instance) described in this SensorML record</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+			<gmd:transferOptions xlink:title="PWS0745">
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+							<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>https://tidesandcurrents.noaa.gov/publications/NOAA_Technical_Report_NOS_CO-OPS_030_QC_requirements_doc(revised)-11102004.pdf</gmd:URL>
+		</gmd:linkage>
+		<gmd:protocol>
+			<gco:CharacterString>WWW:LINK</gco:CharacterString>
+		</gmd:protocol>
+		<gmd:description>
+			<gco:CharacterString>A list of NOAA's Center for Operational Oceanographic Products and Services (CO-OPS) quality control flags</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+			<gmd:transferOptions xlink:title="PWS0745">
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+							<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>https://tidesandcurrents.noaa.gov/cdata/StationInfo?id=PWS0745</gmd:URL>
+		</gmd:linkage>
+		<gmd:protocol>
+			<gco:CharacterString>WWW:LINK</gco:CharacterString>
+		</gmd:protocol>
+		<gmd:description>
+			<gco:CharacterString>Web page about the system described in this SensorML record</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+
+	<gmd:metadataMaintenance>
+		<gmd:MD_MaintenanceInformation>
+			<gmd:maintenanceAndUpdateFrequency>
+				<gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+			</gmd:maintenanceAndUpdateFrequency>
+			<gmd:contact>
+				<gmd:CI_ResponsibleParty>
+	<gmd:organisationName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:organisationName>
+	<gmd:positionName>
+		<gco:CharacterString>NOAA.NOS.CO-OPS</gco:CharacterString>
+	</gmd:positionName>
+	<gmd:contactInfo>
+		<gmd:CI_Contact>
+			<gmd:address>
+				<gmd:CI_Address>
+					<gmd:country>
+						<gco:CharacterString>USA</gco:CharacterString>
+					</gmd:country>
+					<gmd:electronicMailAddress>
+						<gco:CharacterString>COOPS.IOOS@noaa.gov</gco:CharacterString>
+					</gmd:electronicMailAddress>
+				</gmd:CI_Address>
+			</gmd:address>
+			<gmd:onlineResource>
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>https://tidesandcurrents.noaa.gov</gmd:URL>
+					</gmd:linkage>
+				</gmd:CI_OnlineResource>
+			</gmd:onlineResource>
+		</gmd:CI_Contact>
+	</gmd:contactInfo>
+	<gmd:role>
+		<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+	</gmd:role>
+</gmd:CI_ResponsibleParty>
+
+			</gmd:contact>
+		</gmd:MD_MaintenanceInformation>
+	</gmd:metadataMaintenance>
+
+</gmi:MI_Metadata>
