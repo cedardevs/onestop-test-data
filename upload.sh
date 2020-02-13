@@ -16,9 +16,13 @@ usage(){
 }
 
 postToInventoryManager() { # assumes API_BASE, AUTH are defined, UUID and FILE are read on stdin (use pipe to send file input)
+  local COLLECTION_UUID=""
   while read UUID FILE; do
     local TYPE="collection"
     local MEDIA="xml"
+    if [[ $FILE = *"collection"* ]]; then
+      COLLECTION_UUID="$UUID"
+    fi
     if [[ $FILE =~ ".json" ]]; then
       MEDIA="json"
     fi
@@ -29,8 +33,14 @@ postToInventoryManager() { # assumes API_BASE, AUTH are defined, UUID and FILE a
     echo "`date` - Uploading $MEDIA $FILE with $UUID to $UPLOAD"
     if [[ -z $AUTH ]] ; then
       echo `curl -k -L -sS $UPLOAD -H "Content-Type: application/$MEDIA" --data-binary "@$FILE"`
+      if [[ $TYPE == "granule" && $MEDIA == "xml" ]]; then
+        echo `curl --request PATCH -k -L -sS $UPLOAD -H "Content-Type: application/json" -d "{\"relationships\":[{\"id\":\"$COLLECTION_UUID\",\"type\":\"COLLECTION\"}]}"`
+      fi
     else
       echo `curl -k -u $AUTH -L -sS $UPLOAD -H "Content-Type: application/$MEDIA" --data-binary "@$FILE"`
+      if [[ $TYPE == "granule" && $MEDIA == "xml" ]]; then
+        echo `curl --request PATCH -k -u $AUTH -L -sS $UPLOAD -H "Content-Type: application/json" -d "{\"relationships\":[{\"id\":\"$COLLECTION_UUID\",\"type\":\"COLLECTION\"}]}"`
+      fi
     fi
   done
 }
