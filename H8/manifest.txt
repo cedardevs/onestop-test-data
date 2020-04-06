@@ -1,2 +1,13 @@
-0fad03df-0805-434a-86a6-7dc42d68480f H8/collections/Himawari8OSE2ETest.xml
+1736262d-9bb3-4381-a7b6-696cd9579572 H8/collections/AHI_L1B_IMG.xml
+178d46ed-0abc-4ec5-a138-39a8a6ee9848 H8/collections/AHI_L2C_GHRSST_ACSPO_SST.xml
+97dbe034-d544-4f12-95af-38cebef96b5d H8/collections/AHI_L2P_GHRSST_ACSPO_SST.xml
+351cd13c-ba0a-4a36-8c17-7dede9406518 H8/collections/AHI_L2_ACSPO_SST.xml
+fca80472-dc74-45af-b1e5-240dfd56f6ba H8/collections/AHI_L2_CH.xml
+51a1acc3-d304-4e1a-b9c7-6ff9aedf24da H8/collections/AHI_L2_CM.xml
+527c9d2d-0059-4594-81d9-0909da8c9ba2 H8/collections/AHI_L2_CP.xml
+04fa6e98-9c32-491b-93ea-cfde2bd105a9 H8/collections/AHI_L2_DMW.xml
+0f1bf7d1-5c53-446c-b32a-422336d7c5e0 H8/collections/AHI_L2_RR.xml
+741eea48-5736-4b5f-9935-222aad67be65 H8/collections/AHI_L3C_GHRSST_ACSPO_SST.xml
+d578aa02-183d-4cc8-b9e0-56743923723d H8/collections/AHI_L3U_GHRSST_ACSPO_SST.xml
 0fad03df-0805-434a-86a6-7dc42d68480e H8/collections/Himawari8OSE2EDerived.xml
+0fad03df-0805-434a-86a6-7dc42d68480f H8/collections/Himawari8OSE2ETest.xml
