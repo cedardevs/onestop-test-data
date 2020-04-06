@@ -1663,6 +1663,6 @@
     </gmd:MD_MaintenanceInformation>
   </gmd:metadataMaintenance>
   <gmd:parentIdentifier>
-    <gco:CharacterString>doi:10.7289/V5PR7SX5</gco:CharacterString>
+    <gco:CharacterString>gov.noaa.nodc:GHRSST-VIIRS_NPP-OSPO-L2P<gco:CharacterString>
   </gmd:parentIdentifier>
 </gmi:MI_Metadata>
