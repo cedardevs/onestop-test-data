@@ -9,6 +9,8 @@ bfe7a0dc-689d-414a-92c8-75f645d02a80 analysisErrors/granules/date_invalid_end.js
 3313812b-1a92-417b-8bcd-b3a445e02022 analysisErrors/granules/date_invalid_instant.json
 7382f75b-fe80-4179-a829-700926f2db56 analysisErrors/granules/date_valid_begin.json
 bf17ff2e-7491-4cbb-8c3c-f0c712a7e32d analysisErrors/granules/date_valid_end.json
+bb6757f0-7f05-4288-a0f7-3fa036d98291 analysisErrors/granules/geo_invalid_linestring_1_point.json
+b9fdcc71-5adb-4e20-882e-35e2d15cb8b3 analysisErrors/granules/geo_invalid_linestring_2_identical_points.json
 4e1793a2-b808-41fa-b8e6-62065e7ac3e8 analysisErrors/granules/geo_invalid_point_nan.json
 f1620db9-cd1d-453d-9d01-547d36bdbc32 analysisErrors/granules/geo_invalid_point_one_dimension.json
 0a9547ec-c9f9-42f0-bdc0-298100b5c0fb analysisErrors/granules/geo_invalid_point_zero_dimension.json
