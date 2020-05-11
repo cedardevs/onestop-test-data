@@ -1,0 +1,9 @@
+{
+  "relationships": [{
+    "type": "COLLECTION"
+  }],
+  "discovery": {
+    "fileIdentifier": "ae-test-no-parent-id",
+    "description": "test data for indexing errors and analysis"
+  }
+}

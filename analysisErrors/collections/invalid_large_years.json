@@ -1,0 +1,12 @@
+{
+  "discovery": {
+    "fileIdentifier": "ae-test-invalid-years",
+    "title": "collection with invalid years - outside the bounds - contrived, with both start+end AND instant",
+    "description": "test data for indexing errors and analysis",
+    "temporalBounding": {
+      "beginDate": "-100,000,000",
+      "endDate": "-111,111,111",
+      "instant": "-99,999,999"
+    }
+  }
+}

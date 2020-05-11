@@ -1,0 +1,17 @@
+{
+  "relationships": [{
+    "id": "c4394b77-203b-457e-a53c-67cb484d2e47",
+    "type": "COLLECTION"
+  }],
+  "discovery": {
+    "fileIdentifier": "ae-test-valid-point-out-of-bounds",
+    "title": "Granule with point geometry - Y > 90 is technically valid geojson...",
+    "description": "test data for indexing errors and analysis",
+    "spatialBounding": {
+      "type": "Point",
+      "coordinates": [
+        100.0, 100.2
+      ]
+    }
+  }
+}

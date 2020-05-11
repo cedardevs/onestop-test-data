@@ -1,0 +1,14 @@
+{
+  "relationships": [{
+    "id": "c4394b77-203b-457e-a53c-67cb484d2e47",
+    "type": "COLLECTION"
+  }],
+  "discovery": {
+    "fileIdentifier": "ae-test-valid",
+    "title": "Granule with instant date - huge year value (not to be confused with YYYYMMDD)",
+    "description": "test data for indexing errors and analysis",
+    "temporalBounding": {
+      "instant": "20191025"
+    }
+  }
+}
