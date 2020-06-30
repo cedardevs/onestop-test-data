@@ -26,4 +26,4 @@ d0fd781c-e6ad-4cbe-b0dd-e753b5f59ff4 analysisErrors/granules/missing_identifier.
 0032649f-6d7e-4d80-98a6-4133b0d13372 analysisErrors/granules/missing_parent.json
 bf66e959-e05f-4797-a0d0-8bb8a340eb4b analysisErrors/granules/missing_title.json
 4894b67f-e76b-40cb-8cbc-7e55c3ffb68d analysisErrors/granules/valid_basic.json
-00405c0c-3f86-4686-901d-05478155ec5d analysisErrors/granules/date_valid_instant.json
+00405c0c-3f86-4686-901d-05478155ec5d analysisErrors/granules/date_valid_instant_invalid_datestring.json
