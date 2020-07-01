@@ -1,0 +1,12 @@
+{
+  "discovery": {
+    "fileIdentifier": "ae-test-invalid-dates",
+    "title": "collection with invalid date range. Note, all these dates are actually valid, but the range is not because both start and instant, etc isn't allowed.",
+    "description": "test data for indexing errors and analysis",
+    "temporalBounding": {
+      "beginDate": "2019-10-25T23:30:37Z",
+      "endDate": "2019-10-26T23:30",
+      "instant": "2019-10-25T23:30:37.000Z"
+    }
+  }
+}

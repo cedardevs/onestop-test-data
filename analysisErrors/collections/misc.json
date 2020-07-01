@@ -1,0 +1,30 @@
+{
+  "fileInformation": {},
+  "relationships": [{}],
+  "discovery": {
+    "fileIdentifier": "test",
+    "temporalBounding": {
+      "beginDate": "2019-10-25T23:30:37Z"
+    },
+    "links": [{
+      "linkFunction": "information",
+      "linkUrl": "example.com",
+      "linkName": "Detailed information",
+      "linkProtocol": "HTTP"
+    }],
+    "spatialBounding": {
+      "coordinates": [
+        [
+          [-170.0, -75.0],
+          [-30.0, -75.0],
+          [-30.0, 75.0],
+          [-170.0, 75.0],
+          [-170.0, -75.0]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "title": "Valid Parent Collection",
+    "description": "test data for indexing errors and analysis",
+  }
+}

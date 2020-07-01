@@ -1,0 +1,14 @@
+{
+  "relationships": [{
+    "id": "c4394b77-203b-457e-a53c-67cb484d2e47",
+    "type": "COLLECTION"
+  }],
+  "discovery": {
+    "fileIdentifier": "ae-test-invalid-end",
+    "title": "Granule with invalid date format YY-MM-DD",
+    "description": "test data for indexing errors and analysis",
+    "temporalBounding": {
+      "endDate": "19-10-25"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "relationships": [{
+    "id": "c4394b77-203b-457e-a53c-67cb484d2e47",
+    "type": "COLLECTION"
+  }],
+  "discovery": {
+    "fileIdentifier": "ae-test-invalid-linestring-identical-pair",
+    "title": "Granule with linestring geometry",
+    "description": "test data for indexing errors and analysis",
+    "spatialBounding": {
+      "type": "LineString",
+      "coordinates": [
+        [
+            -97.635498,
+            38.873928
+        ],
+        [
+            -97.635498,
+            38.873928
+        ]
+      ]
+    }
+  }
+}

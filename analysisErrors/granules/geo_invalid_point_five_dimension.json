@@ -1,0 +1,17 @@
+{
+  "relationships": [{
+    "id": "c4394b77-203b-457e-a53c-67cb484d2e47",
+    "type": "COLLECTION"
+  }],
+  "discovery": {
+    "fileIdentifier": "ae-test-invalid-point-five-dimension",
+    "title": "Granule with invalid point",
+    "description": "test data for indexing errors and analysis",
+    "spatialBounding": {
+      "type": "Point",
+      "coordinates": [
+        1.0, 2.0, 3.0, 4.0, 5.0
+      ]
+    }
+  }
+}

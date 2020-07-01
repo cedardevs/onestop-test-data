@@ -1,0 +1,7 @@
+{
+  "discovery": {
+    "fileIdentifier": "ae-test-valid-parent",
+    "title": "Valid Parent Collection",
+    "description": "test data for indexing errors and analysis"
+  }
+}
