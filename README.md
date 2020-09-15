@@ -6,6 +6,8 @@ Test data for OneStop and PSI
 
 [COOPS](/COOPS)
 
+[CSB](/CSB)
+
 [DEM](/DEM) - source: https://data.noaa.gov/waf/NOAA/NESDIS/NGDC/MGG/DEM/iso/xml/
 
 [DSCOVR](/DSCOVR)
