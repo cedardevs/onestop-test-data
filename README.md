@@ -40,19 +40,10 @@ For usage info
 ```
 ./upload.sh
 ```
-Upload a specific dataset (DEM) to a locally running OneStop-
 ```
-./upload.sh OS DEM localhost:30098/onestop-admin
+Upload metadata to local IM registry -
 ```
-Upload everything to OneStop on sciapps-
+./upload.sh IM <dirname> localhost/registry
 ```
-./upload.sh OS . sciapps.colorado.edu/onestop/api username:password
-```
-Upload edge cases to local IM registry -
-```
-./upload.sh IM EdgeCases localhost:30997/registry
-```
-Upload everything to IM's protected endpoint on sciapps-
-```
-./upload.sh IM . sciapps.colorado.edu/registry username:password
-```
+See also:
+  https://github.com/cedardevs/onestop/blob/master/docs/developer/quickstart.md#upload-test-data-1
