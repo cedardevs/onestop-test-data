@@ -118,10 +118,10 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Global Ensemble Forecast System (GEFS) [2.5 Deg.]</gco:CharacterString>
+                  <gco:CharacterString>Global Ensemble Forecast System (GEFS)</gco:CharacterString>
                </gmd:title>
                <gmd:alternateTitle>
-                  <gco:CharacterString>GENS [2.5 Deg.]</gco:CharacterString>
+                  <gco:CharacterString>GENS</gco:CharacterString>
                </gmd:alternateTitle>
                <gmd:date>
                   <gmd:CI_Date>
@@ -274,7 +274,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Global Ensemble Forecast System (GEFS) is a weather forecast model made up of 21 separate forecasts, or ensemble members. The National Centers for Environmental Prediction (NCEP) started the GEFS to address the nature of uncertainty in weather observations, which are used to initialize weather forecast models. The proverbial butterfly flapping her wings can have a cascading effect leading to wind gusts thousands of miles away. This extreme example illustrates that tiny, unnoticeable differences between reality and what is actually measured can, over time, lead to noticeable differences between what a weather model forecast predicts and reality itself. The GEFS attempts to quantify the amount of uncertainty in a forecast by generating an ensemble of multiple forecasts, each minutely different, or perturbed, from the original observations. With global coverage, GEFS is produced four times a day with weather forecasts going out to 16 days and a 6 hour temporal resolution. This dataset has 2.5 degree horizontal resolution.</gco:CharacterString>
+            <gco:CharacterString>The Global Ensemble Forecast System (GEFS) is a weather forecast model made up of 21 separate forecasts, or ensemble members. The National Centers for Environmental Prediction (NCEP) started the GEFS to address the nature of uncertainty in weather observations, which are used to initialize weather forecast models. The proverbial butterfly flapping her wings can have a cascading effect leading to wind gusts thousands of miles away. This extreme example illustrates that tiny, unnoticeable differences between reality and what is actually measured can, over time, lead to noticeable differences between what a weather model forecast predicts and reality itself. The GEFS attempts to quantify the amount of uncertainty in a forecast by generating an ensemble of multiple forecasts, each minutely different, or perturbed, from the original observations. With global coverage, GEFS is produced four times a day with weather forecasts going out to 16 days and a 6 hour temporal resolution.</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
             <gco:CharacterString>Quantify the amount of uncertainty in mesoscale guidance by generating an ensemble of multiple forecasts, each minutely different, or perturbed, from the original observations.</gco:CharacterString>
@@ -880,76 +880,6 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>250 km - &lt; 500 km or approximately 2.5 degrees - &lt; 5.0 degrees</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="dataResolution">dataResolution</gmd:MD_KeywordTypeCode>
-               </gmd:type>
-               <gmd:thesaurusName>
-                  <gmd:CI_Citation>
-                     <gmd:title>
-                        <gco:CharacterString>Global Change Master Directory (GCMD) Horizontal Data Resolution Keywords</gco:CharacterString>
-                     </gmd:title>
-                     <gmd:date>
-                        <gmd:CI_Date>
-                           <gmd:date>
-                              <gco:Date>2018</gco:Date>
-                           </gmd:date>
-                           <gmd:dateType>
-                              <gmd:CI_DateTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                                   codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                           </gmd:dateType>
-                        </gmd:CI_Date>
-                     </gmd:date>
-                     <gmd:edition>
-                        <gco:CharacterString>Version 8.6</gco:CharacterString>
-                     </gmd:edition>
-                     <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                           <gmd:organisationName>
-                              <gco:CharacterString>Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA)</gco:CharacterString>
-                           </gmd:organisationName>
-                           <gmd:contactInfo>
-                              <gmd:CI_Contact>
-                                 <gmd:onlineResource>
-                                    <gmd:CI_OnlineResource>
-                                       <gmd:linkage>
-                                          <gmd:URL>https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords</gmd:URL>
-                                       </gmd:linkage>
-                                       <gmd:protocol>
-                                          <gco:CharacterString>HTTPS</gco:CharacterString>
-                                       </gmd:protocol>
-                                       <gmd:applicationProfile>
-                                          <gco:CharacterString>Web Browser</gco:CharacterString>
-                                       </gmd:applicationProfile>
-                                       <gmd:name>
-                                          <gco:CharacterString>Global Change Master Directory (GCMD) Keywords</gco:CharacterString>
-                                       </gmd:name>
-                                       <gmd:description>
-                                          <gco:CharacterString>The information provided on this page seeks to define how the GCMD Keywords are structured, used and accessed. It also provides information on how users can participate in the further development of the keywords.</gco:CharacterString>
-                                       </gmd:description>
-                                       <gmd:function>
-                                          <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                                     codeListValue="information">information</gmd:CI_OnLineFunctionCode>
-                                       </gmd:function>
-                                    </gmd:CI_OnlineResource>
-                                 </gmd:onlineResource>
-                              </gmd:CI_Contact>
-                           </gmd:contactInfo>
-                           <gmd:role>
-                              <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                               codeListValue="publisher">publisher</gmd:CI_RoleCode>
-                           </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                     </gmd:citedResponsibleParty>
-                  </gmd:CI_Citation>
-               </gmd:thesaurusName>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword>
                   <gco:CharacterString>DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
@@ -1191,7 +1121,7 @@
                               <gco:CharacterString>Description</gco:CharacterString>
                            </gmd:applicationProfile>
                            <gmd:name>
-                              <gco:CharacterString>Global Ensemble Forecast System (GEFS) [2.5 Deg.] Landing Page</gco:CharacterString>
+                              <gco:CharacterString>Global Ensemble Forecast System (GEFS) Landing Page</gco:CharacterString>
                            </gmd:name>
                            <gmd:description>
                               <gco:CharacterString>Dataset landing page with general information and access links for the dataset.</gco:CharacterString>
@@ -1325,7 +1255,7 @@
                               <gco:CharacterString>Download</gco:CharacterString>
                            </gmd:applicationProfile>
                            <gmd:name>
-                              <gco:CharacterString>NOMADS HTTP Server for GEFS [2.5 Deg.]</gco:CharacterString>
+                              <gco:CharacterString>NOMADS HTTP Server for GEFS</gco:CharacterString>
                            </gmd:name>
                            <gmd:description>
                               <gco:CharacterString>Dataset files available for download via HTTP.</gco:CharacterString>
@@ -1456,7 +1386,7 @@
                               <gco:CharacterString>Download</gco:CharacterString>
                            </gmd:applicationProfile>
                            <gmd:name>
-                              <gco:CharacterString>NOMADS FTP Server for GEFS [2.5 Deg.]</gco:CharacterString>
+                              <gco:CharacterString>NOMADS FTP Server for GEFS</gco:CharacterString>
                            </gmd:name>
                            <gmd:description>
                               <gco:CharacterString>Dataset files available for download via FTP.</gco:CharacterString>
@@ -1590,7 +1520,7 @@
                               <gco:CharacterString>THREDDS</gco:CharacterString>
                            </gmd:applicationProfile>
                            <gmd:name>
-                              <gco:CharacterString>NOMADS THREDDS Catalog for GEFS [2.5 Deg.]</gco:CharacterString>
+                              <gco:CharacterString>NOMADS THREDDS Catalog for GEFS</gco:CharacterString>
                            </gmd:name>
                            <gmd:description>
                               <gco:CharacterString>Data and metadata access for the dataset using OPeNDAP, WMS, WCS, HTTP, and other data access protocols.</gco:CharacterString>
