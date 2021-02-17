@@ -15,7 +15,7 @@ usage(){
   exit 1
 }
 
-postToInventoryManager() { # assumes API_BASE, AUTH are defined, UUID and FILE are read on stdin (use pipe to send file input)
+postToRegistry() { # assumes API_BASE, AUTH are defined, UUID and FILE are read on stdin (use pipe to send file input)
   local COLLECTION_UUID=""
   while read UUID FILE; do
     local TYPE="collection"
@@ -45,25 +45,12 @@ postToInventoryManager() { # assumes API_BASE, AUTH are defined, UUID and FILE a
   done
 }
 
-postToOneStop() { # assumes API_BASE is defined, reads FILE is read on stdin (use pipe to send file input)
-  while read UUID FILE; do
-  UPLOAD="$API_BASE/metadata"
-  echo "`date` - Uploading $FILE to $UPLOAD : `curl -L -sS $UPLOAD -H "Content-Type: application/xml" -d "@$FILE"`"
-  done
-}
-
 postItems(){
   while read MANIFEST; do
     if [[ $API_BASE ]]; then
       echo "Begin upload..."
-      if  [[ $APP == 'IM' ]]; then
-        cat $MANIFEST | postToInventoryManager
-      else
-        cat $MANIFEST | postToOneStop
-        UPDATE="$API_BASE/admin/index/search/update"
-        echo "`date` - Triggering search index update: `curl -L -sS $UPDATE`"
-      fi
-      echo "Upload completed."
+      cat $MANIFEST | postToRegistry
+      echo "Finished upload."
     else echo "No files uploaded. Specify a URL to upload files."
     fi
   done
