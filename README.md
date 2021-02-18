@@ -22,28 +22,33 @@ Test metadata for OneStop.
 
 [PaleoRecords](/PaleoRecords)  - source : https://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/
 
-## Utility scripts
+## Utility Scripts
 
 - `manifest.sh` updates the manifest files. Run this after adding or removing test data.
 - `upload.sh` recursively curls metadata to the OneStop, via the Registry API.
 
-### Example usage
+### Manifest Script
 To update all manifests
 ```
 ./manifest.sh
 ```
-To update one manifest
+To update the DEM manifest
 ```
 ./manifest.sh DEM
 ```
+
+### Upload Script
 For usage info
 ```
 ./upload.sh
 ```
+Upload metadata to a local OneStop
 ```
-Upload metadata to local OneStop -
+./upload.sh <dirname> localhost/onestop/api/registry
 ```
-./upload.sh <dirname> localhost/registry
+Upload EdgesCases to a local OneStop
+```
+./upload.sh EdgeCases localhost/onestop/api/registry
 ```
 See also:
-  https://github.com/cedardevs/onestop/blob/master/docs/developer/quickstart.md#upload-test-data-1
+  https://cedardevs.github.io/onestop/developer/additional-developer-info
