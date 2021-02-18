@@ -64,13 +64,12 @@ postItems(){
 }
 
 ARGS_COUNT=$#
-if [[ $ARGS_COUNT -eq 3 || $ARGS_COUNT -eq 4 ]]; then
+if [[ $ARGS_COUNT -eq 2 || $ARGS_COUNT -eq 3 ]]; then
   #args
-  APP=$1
-  BASEDIR=$2
+  BASEDIR=$1
   MANIFESTS=$(find $BASEDIR -name "manifest.txt")
-  API_BASE=$3
-  AUTH=$4
+  API_BASE=$2
+  AUTH=$3
 
   # display configuration settings
   echo $cr
