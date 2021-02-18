@@ -17,6 +17,9 @@ usage(){
 
 postToRegistry() { # assumes API_BASE, AUTH are defined, UUID and FILE are read on stdin (use pipe to send file input)
   local COLLECTION_UUID=""
+  local outputDir="output"
+  `mkdir $outputDir`
+
   while read UUID FILE; do
     local TYPE="collection"
     local MEDIA="xml"
@@ -31,17 +34,21 @@ postToRegistry() { # assumes API_BASE, AUTH are defined, UUID and FILE are read 
     fi
     local UPLOAD="$API_BASE/metadata/$TYPE/$UUID"
     echo "`date` - Uploading $MEDIA $FILE with $UUID to $UPLOAD"
+    local outputDir="output"
+    local response=""
+
     if [[ -z $AUTH ]] ; then
-      echo `curl -k -L -sS $UPLOAD -H "Content-Type: application/$MEDIA" --data-binary "@$FILE"`
+      response=`curl -k -L -sS $UPLOAD -H "Content-Type: application/$MEDIA" --data-binary "@$FILE" --create-dirs -o output/$UUID -w "%{http_code}" --silent --output /dev/null`
       if [[ $TYPE == "granule" && $MEDIA == "xml" ]]; then
-        echo `curl --request PATCH -k -L -sS $UPLOAD -H "Content-Type: application/json" -d "{\"relationships\":[{\"id\":\"$COLLECTION_UUID\",\"type\":\"COLLECTION\"}]}"`
+        response=`curl --request PATCH -k -L -sS $UPLOAD -H 'Content-Type: application/json' -d '{'relationships':[{'id':'$COLLECTION_UUID','type':'COLLECTION'}]}' --create-dirs -o output/$UUID -w "%{http_code}" --silent --output /dev/null`
       fi
     else
-      echo `curl -k -u $AUTH -L -sS $UPLOAD -H "Content-Type: application/$MEDIA" --data-binary "@$FILE"`
+      response=`curl -k -u $AUTH -L -sS $UPLOAD -H "Content-Type: application/$MEDIA" --data-binary "@$FILE" --create-dirs -o output/$UUID -w "%{http_code}" --silent --output /dev/null`
       if [[ $TYPE == "granule" && $MEDIA == "xml" ]]; then
-        echo `curl --request PATCH -k -u $AUTH -L -sS $UPLOAD -H "Content-Type: application/json" -d "{\"relationships\":[{\"id\":\"$COLLECTION_UUID\",\"type\":\"COLLECTION\"}]}"`
+        response=`curl --request PATCH -k -u $AUTH -L -sS $UPLOAD -H 'Content-Type: application/json' -d '{'relationships':[{'id':'$COLLECTION_UUID','type':'COLLECTION'}]}' --create-dirs -o output/$UUID -w "%{http_code}" --silent --output /dev/null`
       fi
     fi
+    printf "HTTP Response: %s\n\n" "$response"
   done
 }
 
