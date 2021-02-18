@@ -1,6 +1,6 @@
 # onestop-test-data
 
-Test data for OneStop and PSI
+Test metadata for OneStop.
 
 ## Datasets
 
@@ -25,7 +25,7 @@ Test data for OneStop and PSI
 ## Utility scripts
 
 - `manifest.sh` updates the manifest files. Run this after adding or removing test data.
-- `upload.sh` recursively curls test data to the OneStop or Inventory Manager API.
+- `upload.sh` recursively curls metadata to the OneStop, via the Registry API.
 
 ### Example usage
 To update all manifests
@@ -41,9 +41,9 @@ For usage info
 ./upload.sh
 ```
 ```
-Upload metadata to local IM registry -
+Upload metadata to local OneStop -
 ```
-./upload.sh IM <dirname> localhost/registry
+./upload.sh <dirname> localhost/registry
 ```
 See also:
   https://github.com/cedardevs/onestop/blob/master/docs/developer/quickstart.md#upload-test-data-1
