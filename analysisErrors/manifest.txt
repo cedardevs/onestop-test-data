@@ -1,4 +1,3 @@
-4ad3923c-dc0e-4b5d-b6bc-a99f8c424a91 analysisErrors/collections/invalid_dates.json
 f1a6ec99-c63e-4090-8d0e-b53177d6b25f analysisErrors/collections/invalid_large_years.json
 19321a1d-5339-49e6-85d1-cb440a25cfbe analysisErrors/collections/misc.json
 ba612b1c-d6fe-439e-8237-de75dc75c970 analysisErrors/collections/missing_identifier.json
@@ -27,3 +26,4 @@ d0fd781c-e6ad-4cbe-b0dd-e753b5f59ff4 analysisErrors/granules/missing_identifier.
 bf66e959-e05f-4797-a0d0-8bb8a340eb4b analysisErrors/granules/missing_title.json
 4894b67f-e76b-40cb-8cbc-7e55c3ffb68d analysisErrors/granules/valid_basic.json
 00405c0c-3f86-4686-901d-05478155ec5d analysisErrors/granules/date_valid_instant_invalid_datestring.json
+bff84e1e-7de6-4625-8036-f1b186fb7726 analysisErrors/collections/invalid_date_range.json
