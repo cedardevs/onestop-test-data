@@ -8,7 +8,7 @@ usage(){
   echo "Usage: $0 <rootDir> <baseUrl> <username:password>"
   echo
   echo "  rootDir         The base directory to recursively upload xml files from. This script uses the path of each file to determine the type (i.e. 'collections' or 'granules' must be in the path)."
-  echo "  baseUrl         The target host and context path, e.g. for a locally-running OneStop API: https://localhost:8080/registry"
+  echo "  baseUrl         The target host and context path, e.g. for a locally-running OneStop API: http://localhost/onestop/api/registry"
   echo "  username:password  (optional) The username and password for basic auth protected endpoints."
   echo
   exit 1
