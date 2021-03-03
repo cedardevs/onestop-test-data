@@ -9,7 +9,7 @@ usage(){
   echo
   echo "  application     OS or IM - to support differences in APIs (i.e. IM API includes record type, collection or granule)"
   echo "  rootDir         The base directory to recursively delete xml files from. For IM this script uses the path of each file to determine type (i.e. 'collections' or 'granules' must be in the path)."
-  echo "  baseUrl         The target host and context path. The endpoint is built according to the needs to of the application, e.g. for a locally-running IM API: https://localhost:8080/registry"
+  echo "  baseUrl         The target host and context path. The endpoint is built according to the needs to of the application, e.g. for a locally-running IM API: http://localhost/onestop/api/registry"
   echo "  username:password  (optional) The username and password for basic auth protected endpoints."
   echo
   exit 1
