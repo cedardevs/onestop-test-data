@@ -73,7 +73,6 @@ if [[ $ARGS_COUNT -eq 2 || $ARGS_COUNT -eq 3 ]]; then
   # display configuration settings
   echo $cr
   echo "Working config - confirm before proceeding."
-  echo "APP - $APP"
   echo "BASEDIR - $BASEDIR"
   echo "MANIFEST FILES - $MANIFESTS"
   echo "API_BASE - $API_BASE"
