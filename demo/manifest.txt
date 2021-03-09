@@ -1,0 +1,5 @@
+fdb56230-87f4-49f2-ab83-104cfd073177 demo/collections/csb.xml
+30f539ff-9fa0-4358-bb79-151ee0553b6b demo/collections/urma.xml
+11111111-1111-1111-1111-111111111111 demo/collections/C01501.xml
+0fad03df-0805-434a-86a6-7dc42d68480e demo/collections/Himawari8OSE2EDerived.xml
+98e03b47-069a-4f2c-8071-649e8c4254d6 demo/collections/sab.xml
