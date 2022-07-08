@@ -39,12 +39,14 @@ postToRegistry() { # assumes API_BASE, AUTH are defined, UUID and FILE are read 
     if [[ -z $AUTH ]] ; then
       response=`curl -k -L -sS $UPLOAD -H "Content-Type: application/$MEDIA" --data-binary "@$FILE" --create-dirs -o output/$UUID -w "%{http_code}" --silent --output /dev/null`
       if [[ $TYPE == "granule" && $MEDIA == "xml" ]]; then
-        response=`curl --request PATCH -k -L -sS $UPLOAD -H 'Content-Type: application/json' -d '{'relationships':[{'id':'$COLLECTION_UUID','type':'COLLECTION'}]}' --create-dirs -o output/$UUID -w "%{http_code}" --silent --output /dev/null`
+        echo "`date` - Patching relationship $MEDIA $FILE with $COLLECTION_UUID to $UPLOAD"
+        response=`curl --request PATCH -k -L -sS $UPLOAD -H "Content-Type: application/json" -d "{\"relationships\":[{\"id\":\"$COLLECTION_UUID\",\"type\":\"COLLECTION\"}]}" --create-dirs -o output/$UUID -w "%{http_code}" --silent --output /dev/null`
       fi
     else
       response=`curl -k -u $AUTH -L -sS $UPLOAD -H "Content-Type: application/$MEDIA" --data-binary "@$FILE" --create-dirs -o output/$UUID -w "%{http_code}" --silent --output /dev/null`
       if [[ $TYPE == "granule" && $MEDIA == "xml" ]]; then
-        response=`curl --request PATCH -k -u $AUTH -L -sS $UPLOAD -H 'Content-Type: application/json' -d '{'relationships':[{'id':'$COLLECTION_UUID','type':'COLLECTION'}]}' --create-dirs -o output/$UUID -w "%{http_code}" --silent --output /dev/null`
+        echo "`date` - Patching relationship $MEDIA $FILE with $COLLECTION_UUID to $UPLOAD"
+        response=`curl --request PATCH -k -u $AUTH -L -sS $UPLOAD -H "Content-Type: application/json" -d "{\"relationships\":[{\"id\":\"$COLLECTION_UUID\",\"type\":\"COLLECTION\"}]}" --create-dirs -o output/$UUID -w "%{http_code}" --silent --output /dev/null`
       fi
     fi
     printf "HTTP Response: %s\n\n" "$response"
